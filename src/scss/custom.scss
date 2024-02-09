@@ -1,0 +1,264 @@
+/*
+=======================================
+Modification Template Bootswatch Quartz
+=======================================
+*/
+
+// Change le fond des indications latéral sur les Input Addons
+// Texte en blanc
+// Enleve l'effet de Glass du bg image
+.input-group-text {
+  background-color: lighten($primary, 20%);
+  color: $white;
+  background-image: none;
+}
+
+// Change le fond du bouton de selection de fichier
+// Texte en blanc
+// Enleve l'effet de Glass du bg image
+.form-control::file-selector-button {
+  background-color: $primary;
+  color: $white;
+  background-image: none;
+}
+
+// Change le fond du bouton de selection de fichier
+// Texte en $secondary
+.form-control:hover:not(:disabled):not([readonly])::file-selector-button {
+  background-color: $primary;
+  color: $secondary;
+}
+
+// Texte en $secondary pour hover btn-primary
+.btn-primary {
+  --bs-btn-hover-color: #{$secondary};
+}
+
+// Texte en $secondary pour les checkbox actif
+.btn-check:checked + .btn.btn-primary {
+  color: $secondary;
+}
+
+// Texte en $secondary pour les checkbox en survol
+.btn-check + .btn.btn-primary:hover {
+  color: $secondary;
+}
+
+// Texte en $secpndary pour les bouton radion actif
+.btn-check:checked + .btn.btn-outline-primary {
+  color: $secondary;
+}
+
+// Texte en $secpndary pour les bouton radion en survol
+.btn-check + .btn.btn-outline-primary:hover {
+  color: $secondary;
+}
+
+// Table nom type - couleur
+$colors: (
+  primary: $primary,
+  secondary: $secondary,
+  success: $success,
+  info: $info,
+  warning: $warning,
+  danger: $danger,
+  light: $light,
+  dark: $dark,
+);
+
+// Pour chaque type de bouton
+@each $btn-type, $color in $colors {
+  // Change le fond du menu déroulant selon la type du bouton
+  // Enleve l'effet de Glass du bg image
+  // Enleve les ombres
+  .btn.btn-#{$btn-type} + .dropdown-menu {
+    background-color: $color;
+    background-image: none;
+    box-shadow: none;
+  }
+
+  // Texte en $white pour les elements du menu déroulant
+  .btn.btn-#{$btn-type} + .dropdown-menu a {
+    color: $white;
+  }
+
+  // Texte en $secondary pour les elements du menu déroulant en survol
+  .btn.btn-#{$btn-type} + .dropdown-menu a:hover {
+    color: $primary;
+  }
+}
+
+// Texte en $secondary pour les elements du menu déroulant primary en survol
+.btn.btn-primary + .dropdown-menu a:hover {
+  color: $secondary;
+}
+
+// Change le fond du menu déroulant de la barre de navigation
+// Enleve l'effet de Glass du bg image
+a.nav-link.dropdown-toggle + .dropdown-menu {
+  background-color: $primary;
+  background-image: none;
+}
+
+// Change la couleur du texte en blanc des elements du menu déroulant de la barre de navigation
+a.nav-link.dropdown-toggle + .dropdown-menu a {
+  color: $white;
+}
+
+// Change la couleur du dropdown-header en $secondary
+.dropdown-header {
+  color: $secondary;
+}
+
+// Change la couleur des nav-links en survol en $secondary
+.nav-link:hover,
+.nav-link:focus {
+  color: $secondary;
+}
+
+// Change le fond des nav-item a en $primary
+// texte en blacn
+.nav-tabs .nav-item a {
+  background-color: $primary;
+  color: $white;
+}
+
+// Change le style des nav-item active ( PAS FINI )
+.nav-tabs .nav-item .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  background-color: inherit;
+  background-image: none;
+}
+
+// Change la couleur du texte en $secondary des nav-pills active
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: $secondary;
+}
+
+// Change la couleur du texte en $secondary des nav-pills en survole
+.nav-pills .nav-link:hover,
+.nav-pills .nav-link:focus {
+  color: $secondary;
+  isolation: auto;
+}
+
+// Change la couleur du fond des page-link
+// Texte en blanc
+.page-link {
+  background-color: $primary;
+  color: $white;
+}
+
+// Change le fond des page-link en survol
+// Texte en $secondary
+.page-link:hover {
+  background-color: lighten($primary, 15%);
+  color: $secondary;
+}
+
+.page-item.active .page-link {
+  background-color: $secondary;
+  color: $primary;
+}
+
+// Change la couleur du texte en $secondary des breadcrumb-item a
+.breadcrumb-item a:hover {
+  color: $secondary;
+}
+
+// Change fond list-group en $primary
+.list-group {
+  background-color: $primary;
+  background-image: none;
+}
+
+// Change fond list-group qui on des item-action en $white
+.list-group {
+  &:has(.list-group-item-action) {
+    background-color: $white;
+  }
+}
+
+// Pour chaque type de badge
+@each $bg-type, $color in $colors {
+  // Enleve la transparence sur le fond des badges
+  .badge.bg-#{$bg-type} {
+    --bs-bg-opacity: 1;
+  }
+}
+
+// Change la couleur du texte en $secondary des list-group-item-action en survol
+.list-group-item-action:hover:not(.disabled) {
+  color: $secondary;
+}
+
+// Change les ombres / bordure de la card primary
+
+// Change le fond de la card secondary ( enleve transparence )
+.card {
+  --bs-secondary-rgb: inherit;
+}
+
+// Modifie ombres sur les Cards ( bordur ? )
+
+// Change la couleur du texte en $secondary pour les accordion-header en survol
+.accordion-header:hover btn {
+  color: $secondary;
+}
+
+// Change le fond en blanc du accordion-body
+.accordion-body {
+  background-color: $white;
+}
+
+// Modifie ombres sur les toast-header ( bordur ? )
+
+/*
+=============
+Nouveau Style
+=============
+*/
+.badge-genre {
+  --bs-badge-genre-padding-x: 0.866em;
+  --bs-badge-genre-padding-y: 0.466em;
+  --bs-badge-genre-font-size: 1em;
+  --bs-badge-font-weight: 700;
+  --bs-badge-color: #fff;
+  --bs-badge-border-radius: var(--bs-border-radius);
+  display: inline-block;
+  padding: var(--bs-badge-genre-padding-y) var(--bs-badge-genre-padding-x);
+  font-size: var(--bs-badge-genre-font-size);
+  font-weight: var(--bs-badge-font-weight);
+  line-height: 1;
+  color: var(--bs-badge-color);
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: var(--bs-badge-border-radius);
+  margin-bottom: 0.5em;
+  margin-right: 0.5em;
+}
+
+.container .badge-genre:first-child {
+  margin-top: 0.5em;
+}
+
+@media (max-width: 575px) {
+  .mobile-hidden {
+    display: none;
+  }
+}
+
+main {
+  margin-top: 7em;
+}
+
+.alert {
+  color: $primary !important;
+  border: 1px solid $primary !important;
+}
+
+.alert * {
+  border: 0 !important;
+}
