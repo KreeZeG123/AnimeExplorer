@@ -10,7 +10,6 @@ Modification Template Bootswatch Quartz
 .input-group-text {
   background-color: lighten($primary, 20%);
   color: $white;
-  background-image: none;
 }
 
 // Change le fond du bouton de selection de fichier
@@ -73,7 +72,6 @@ $colors: (
   // Enleve les ombres
   .btn.btn-#{$btn-type} + .dropdown-menu {
     background-color: $color;
-    background-image: none;
     box-shadow: none;
   }
 
@@ -97,7 +95,6 @@ $colors: (
 // Enleve l'effet de Glass du bg image
 a.nav-link.dropdown-toggle + .dropdown-menu {
   background-color: $primary;
-  background-image: none;
 }
 
 // Change la couleur du texte en blanc des elements du menu déroulant de la barre de navigation
@@ -123,11 +120,52 @@ a.nav-link.dropdown-toggle + .dropdown-menu a {
   color: $white;
 }
 
-// Change le style des nav-item active ( PAS FINI )
+.nav-tabs .nav-item .nav-link {
+  color: $white;
+}
+
+// Change le style des nav-item active
 .nav-tabs .nav-item .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  background-color: inherit;
-  background-image: none;
+  background-color: $secondary;
+  color: $white;
+  box-shadow: none;
+}
+
+// Change fond nav-link actibe nav-tabs
+// Texte $primary
+.nav-tabs .nav-item .nav-link.active:hover,
+.nav-tabs .nav-item .nav-link.active:focus,
+.nav-tabs .nav-item.show .nav-link:hover,
+.nav-tabs .nav-item.show .nav-link:focus {
+  background-color: lighten($secondary, 10%);
+  color: $primary;
+}
+
+// Change le fond des nav-item disabled en $primary
+// Texte en $gray-600
+.nav-tabs .nav-item .nav-link,
+.nav-tabs .nav-item .nav-link.disabled {
+  background-color: $primary;
+  color: $gray-600;
+}
+
+// Texte en $gray-600 pour les nav-item disabled en survol
+.nav-tabs .nav-item .nav-link.disabled:hover a {
+  color: $gray-600;
+}
+
+// Text en blanc nav-link nav-tabs
+.nav-tabs .nav-item .nav-link a {
+  color: $white;
+}
+
+// Change background dropdown-item nav-tabs
+// Texte hover
+.nav-tabs .nav-item .dropdown-item:hover,
+.nav-tabs .nav-item .dropdown-item:focus {
+  background-color: var(--bs-dropdown-link-hover-bg);
+  color: var(--bs-dropdown-link-hover-color);
 }
 
 // Change la couleur du texte en $secondary des nav-pills active
@@ -143,23 +181,40 @@ a.nav-link.dropdown-toggle + .dropdown-menu a {
   isolation: auto;
 }
 
-// Change la couleur du fond des page-link
+// Change la couleur du fond des page-link en $primary
 // Texte en blanc
 .page-link {
   background-color: $primary;
   color: $white;
 }
 
-// Change le fond des page-link en survol
+// Change le fond des page-link en survol en $primary
 // Texte en $secondary
 .page-link:hover {
   background-color: lighten($primary, 15%);
   color: $secondary;
 }
 
+// Change le fond des page-link active en $secondary
+// Texte en $secondary
 .page-item.active .page-link {
   background-color: $secondary;
+  color: $white;
+}
+
+// Change le fond des page-link active en survol en $secondary
+// Texte en $primary
+.page-item.active .page-link:hover {
+  background-color: lighten($secondary, 10%);
   color: $primary;
+}
+
+// Change le fond des page-link disabled en $primary
+// Texte en $white
+.page-link.disabled,
+.disabled > .page-link {
+  background-color: $primary;
+  color: $gray-600;
 }
 
 // Change la couleur du texte en $secondary des breadcrumb-item a
@@ -167,18 +222,17 @@ a.nav-link.dropdown-toggle + .dropdown-menu a {
   color: $secondary;
 }
 
-// Change fond list-group en $primary
+// Change fond list-group en $white
 .list-group {
-  background-color: $primary;
-  background-image: none;
+  background-color: $white;
+}
+
+// Text en $primary
+.list-group-item {
+  color: $primary;
 }
 
 // Change fond list-group qui on des item-action en $white
-.list-group {
-  &:has(.list-group-item-action) {
-    background-color: $white;
-  }
-}
 
 // Pour chaque type de badge
 @each $bg-type, $color in $colors {
@@ -193,18 +247,29 @@ a.nav-link.dropdown-toggle + .dropdown-menu a {
   color: $secondary;
 }
 
-// Change les ombres / bordure de la card primary
-
 // Change le fond de la card secondary ( enleve transparence )
 .card {
   --bs-secondary-rgb: inherit;
+
+  box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.6) !important;
 }
 
-// Modifie ombres sur les Cards ( bordur ? )
+// Change la bordure du card-header de card bg-primary en $secondary
+.card.bg-primary .card-header {
+  border-bottom: var(--bs-card-border-width) solid $secondary;
+}
 
-// Change la couleur du texte en $secondary pour les accordion-header en survol
-.accordion-header:hover btn {
-  color: $secondary;
+// Change la bordure du card-header de card bg-dark en blanc
+.card.bg-dark .card-header {
+  border-bottom: var(--bs-card-border-width) solid $white;
+}
+
+// Pour chaque type de card
+@each $border-type, $color in $colors {
+  // Enleve la transparence sur le fond des badges
+  .card.border-#{$border-type} {
+    background-color: $white;
+  }
 }
 
 // Change le fond en blanc du accordion-body
@@ -212,7 +277,106 @@ a.nav-link.dropdown-toggle + .dropdown-menu a {
   background-color: $white;
 }
 
-// Modifie ombres sur les toast-header ( bordur ? )
+// Texte en $secondary accordion-button
+.accordion-button:hover {
+  color: $secondary;
+}
+
+// Texte en blanc pour accordion bouton active
+.accordion-button:not(.collapsed) {
+  color: $white;
+}
+
+// Texte en blanc pour accordion bouton active
+.accordion-button:not(.collapsed):hover {
+  color: $primary;
+}
+
+// Change la couleur du texte en $secondary pour les accordion-header en survol
+.accordion-header:hover btn {
+  color: $secondary;
+}
+
+// Change fond sur les toast
+// Texte en blanc
+.toast {
+  background-color: $primary;
+  color: $white;
+}
+
+// Texte en blanc toast-header
+.toast-header {
+  color: $secondary;
+  border-bottom: var(--bs-toast-border-width) solid $secondary;
+}
+
+// Change le fond en $primary des alert
+// Enleve l'effet de Glass du bg image
+// Texte en $white
+.alert {
+  background-color: $primary;
+  color: $white;
+  box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.6) !important;
+}
+
+// Change le fond en $secondary des alert-heading
+.alert .alert-heading {
+  color: $secondary;
+}
+
+// Change le fond en $secondary des alert-link
+.alert .alert-link {
+  color: $secondary;
+}
+
+// Change le fond en darken($secondary) des alert-link en survol
+.alert .alert-link:hover {
+  color: darken($secondary, 15%);
+}
+
+// Change la couleur en blanc des btn-close
+// Change l'opacité à 1
+.btn-close {
+  color: $white;
+  opacity: 1;
+}
+
+// Change le fond en blancc des alert-primary
+// Texte en $primary
+.alert-primary {
+  background-color: $gray-400;
+  color: $primary;
+}
+
+// Texte en darken($secondary) pour les alert-primary alert-link
+.alert-primary .alert-link {
+  color: darken($secondary, 15%);
+}
+
+// Texte en $secondary pour les alert-primary alert-link en survol
+.alert-primary .alert-link:hover {
+  color: $secondary;
+}
+
+// Texte $primary pour les a
+a {
+  color: $primary;
+}
+
+// Texte $primary pour les a en survol
+a:hover {
+  color: $secondary;
+}
+
+// Reset des box-shadow
+* {
+  box-shadow: none !important;
+}
+
+// Reset des background-image
+*:not(form):not(form *):not([class^="form"]) {
+  background-image: none !important;
+}
 
 /*
 =============
@@ -252,13 +416,4 @@ Nouveau Style
 
 main {
   margin-top: 7em;
-}
-
-.alert {
-  color: $primary !important;
-  border: 1px solid $primary !important;
-}
-
-.alert * {
-  border: 0 !important;
 }
