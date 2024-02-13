@@ -65,6 +65,7 @@ $colors: (
   dark: $dark,
 );
 
+
 // Pour chaque type de bouton
 @each $btn-type, $color in $colors {
   // Change le fond du menu déroulant selon la type du bouton
@@ -443,4 +444,45 @@ Nouveau Style
 
 main {
   margin-top: 7em;
+}
+//changement
+.hammersmith-one-regular {
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+.nav-spacer {
+  margin-right: 150%;
+}
+.nav-gauche{
+  margin-left: 0;
+}
+.nav-droite{
+  margin-right: 0;
+}
+.nav-centre{
+  margin-left: 0;
+  margin-right: 0;
+}
+.center{
+  text-align: center;
+}
+
+/* Centré horizontalement */
+.menu-wrapper {
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+
+/* Annulation des effets causés par mx-auto */
+.menu-wrapper ul {
+  margin: 0;
+}
+
+/* Suppression de la bordure inférieure */
+.menu-wrapper li {
+  border-bottom: none;
 }
