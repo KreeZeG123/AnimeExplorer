@@ -1,13 +1,13 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
-
 # Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+/Front/dist
+/Front/tmp
+/Front/out-tsc
+/Front/bazel-out
+/Back/out
 
 # Node
-/node_modules
+/Front/node_modules
+/Back/node_modules
 npm-debug.log
 yarn-error.log
 
@@ -29,7 +29,7 @@ yarn-error.log
 .history/*
 
 # Miscellaneous
-/.angular/cache
+/Front/.angular/cache
 .sass-cache/
 /connect.lock
 /coverage
