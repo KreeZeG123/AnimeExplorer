@@ -1,13 +1,13 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { NavigationService } from '../navigation.service';
+import { NavigationService } from '../../services/navigation.service';
 
 @Component({
   selector: 'app-main',
   standalone: true,
+  imports: [CommonModule],
   templateUrl: './main.component.html',
   styleUrl: './main.component.scss',
-  imports: [CommonModule],
 })
 export class MainComponent {
   boardId: string = 'boardJeu';

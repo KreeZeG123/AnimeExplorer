@@ -1,34 +1,48 @@
 // Here we define our query as a multi-line string
 // Storing it in a separate .graphql/.gql file is also possible
 var query = `
-query($id: Int) {
-  Media(id: $id) {
-    title {
-      english
-      romaji
+query {
+  Page(page: 1, perPage: 200) {
+    pageInfo {
+      total
+      currentPage
+      lastPage
+      hasNextPage
     }
-    startDate {
-      year
-    }
-    format
-    episodes
-    studios {
-      nodes {
+    media(sort: POPULARITY_DESC) {
+      id
+      title {
+        english
+        romaji
+      }
+      startDate {
+        year
+      }
+      format
+      episodes
+      studios {
+        nodes {
+          name
+        }
+      }
+      genres
+      tags {
         name
       }
-    }
-    genres
-    tags {
-      name
+      coverImage {
+        extraLarge
+        large
+        medium
+        color
+      }
+      popularity
     }
   }
 }
 `;
 
 // Define our query variables and values that will be used in the query request
-var variables = {
-  id: 16498,
-};
+var variables = {};
 
 // Define the config we'll need for our Api request
 var url = "https://graphql.anilist.co",
@@ -70,6 +84,6 @@ function handleData(data) {
 }
 
 function handleError(error) {
-  alert("Error, check console");
+  console.error("Error, check console");
   console.error(error);
 }

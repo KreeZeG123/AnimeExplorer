@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavigationService } from '../navigation.service';
+import { NavigationService } from '../../services/navigation.service';
 
 @Component({
   selector: 'app-nav-bar',
@@ -9,7 +9,7 @@ import { NavigationService } from '../navigation.service';
   styleUrl: './nav-bar.component.scss',
 })
 export class NavBarComponent {
-  activeNavLink: string = 'boardJeu';
+  activeNavLink: string = '';
 
   constructor(private navigationService: NavigationService) {}
 
