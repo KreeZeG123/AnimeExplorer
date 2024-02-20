@@ -19,31 +19,13 @@
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a
-            class="nav-link"
-            [class.active]="activeNavLink === 'boardDecouvrir'"
-            (click)="onNavLinkClick('boardDecouvrir')"
-            href="#"
-            >Decouvrir</a
-          >
+          <a class="nav-link" routerLink="/decouvrir">Decouvrir</a>
         </li>
         <li class="nav-item">
-          <a
-            class="nav-link"
-            [class.active]="activeNavLink === 'boardJeu'"
-            (click)="onNavLinkClick('boardJeu')"
-            href="#"
-            >Jeu
-          </a>
+          <a class="nav-link" routerLink="/jeu">Jeu </a>
         </li>
         <li class="nav-item">
-          <a
-            class="nav-link"
-            [class.active]="activeNavLink === 'boardClassement'"
-            (click)="onNavLinkClick('boardClassement')"
-            href="#"
-            >Classement</a
-          >
+          <a class="nav-link" routerLink="/classement">Classement</a>
         </li>
       </ul>
       <form class="d-flex">

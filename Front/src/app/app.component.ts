@@ -1,12 +1,13 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { BoardJeuComponent } from './pages/board-jeu/board-jeu.component';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
-  imports: [BoardJeuComponent],
+  imports: [CommonModule, RouterOutlet],
 })
 export class AppComponent {
   title = 'AnimeExplorer';
