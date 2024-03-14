@@ -1,8 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
+
 /*
 =======================================
 Modification Template Bootswatch Quartz
 =======================================
 */
+
+:root {
+  --bs-body-font-family: "Hammersmith One", sans-serif;
+}
 
 // Change le fond des indications latéral sur les Input Addons
 // Texte en blanc
@@ -63,6 +69,16 @@ $colors: (
   danger: $danger,
   light: $light,
   dark: $dark,
+  color-blue: $blue,
+  color-indigo: $indigo,
+  color-purple: $purple,
+  color-pink: $pink,
+  color-red: $red,
+  color-orange: $orange,
+  color-yellow: $yellow,
+  color-green: $green,
+  color-teal: $teal,
+  color-cyan: $cyan,
 );
 
 // Pour chaque type de bouton
@@ -396,7 +412,9 @@ a:hover {
 }
 
 // Reset des background-image
-*:not(form):not(form *):not([class^="form"]):not([class^="btn"]) {
+*:not(form):not(form *):not([class^="form"]):not([class^="btn"]):not(
+    :is([class*="icon"])
+  ) {
   background-image: none !important;
 }
 
@@ -405,9 +423,24 @@ a:hover {
   --bs-form-check-bg: white;
 }
 
+// Bg img forme select en $primary
 .form-select {
   --bs-form-select-bg-img: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='%23ff914d' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
 }
+
+// Hover color
+@each $color-type, $color in $colors {
+  a.hover-#{$color-type}:hover {
+    color: $color !important;
+  }
+}
+
+// Icon NavBar Togle couleur en secondary
+[data-bs-theme="dark"] .navbar-toggler-icon,
+.navbar-toggler-icon {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba%28255, 145, 77, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
 /*
 =============
 Nouveau Style
@@ -446,4 +479,7 @@ Nouveau Style
 
 main {
   margin-top: 2em;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -1,21 +1,11 @@
 import { Component } from '@angular/core';
-import { RouterLink, RouterOutlet } from '@angular/router';
-import { NavigationService } from '../../services/navigation.service';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'app-nav-bar',
   standalone: true,
-  imports: [RouterLink, RouterOutlet],
+  imports: [RouterLink, RouterLinkActive],
   templateUrl: './nav-bar.component.html',
   styleUrl: './nav-bar.component.scss',
 })
-export class NavBarComponent {
-  activeNavLink: string = '';
-
-  constructor(private navigationService: NavigationService) {}
-
-  onNavLinkClick(boardId: string) {
-    this.activeNavLink = boardId;
-    this.navigationService.notifyNavLinkClicked(boardId);
-  }
-}
+export class NavBarComponent {}

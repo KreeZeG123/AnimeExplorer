@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-
-<nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+<nav class="navbar sticky-top navbar-expand-lg bg-primary" data-bs-theme="dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" routerLink="">
       <img width="50" src="../../assets/logo.png" />
     </a>
     <button
@@ -17,21 +15,38 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarColor01">
-      <ul class="navbar-nav me-auto">
+      <ul class="navbar-nav mx-auto justify-content-center me-auto">
         <li class="nav-item">
-          <a class="nav-link" routerLink="/decouvrir">Decouvrir</a>
+          <a
+            class="nav-link fs-5 text-center"
+            routerLink="/decouvrir"
+            routerLinkActive="active"
+            >Decouvrir</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/jeu">Jeu </a>
+          <a
+            class="nav-link fs-5 text-center"
+            routerLink="/jeu"
+            routerLinkActive="active"
+            >Jeu
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/classement">Classement</a>
+          <a
+            class="nav-link fs-5 text-center"
+            routerLink="/classement"
+            routerLinkActive="active"
+            >Classement</a
+          >
         </li>
       </ul>
-      <form class="d-flex">
-        <button class="btn btn-secondary my-2 my-sm-0" type="submit">
-          Connexion
-        </button>
+      <form class="d-flex justify-content-center">
+        <a routerLink="/login">
+          <button class="btn btn-secondary my-2 my-sm-0 fs-6" type="submit">
+            Connexion
+          </button>
+        </a>
       </form>
     </div>
   </div>
