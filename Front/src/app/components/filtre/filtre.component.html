@@ -1,0 +1,6 @@
+<div class="form-group">
+    <label for="exampleSelect1" class="form-label mt-4">{{typeFiltre[0]}}</label>
+    <select class="form-select" id="attributs" name="attributs"  [(ngModel)]="selectedAttribut" (change)="onSelect(selectedAttribut)">
+        <option *ngFor="let attribut of attributs" [value]="attribut">{{typeFiltre[1]}}</option>
+    </select>
+</div>

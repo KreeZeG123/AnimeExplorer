@@ -1,0 +1,6196 @@
+{
+  "data": {
+    "Page": {
+      "pageInfo": {
+        "total": 5000,
+        "currentPage": 1,
+        "lastPage": 100,
+        "hasNextPage": true
+      },
+      "media": [
+        {
+          "id": 16498,
+          "title": {
+            "english": "Attack on Titan",
+            "romaji": "Shingeki no Kyojin"
+          },
+          "startDate": {
+            "year": 2013
+          },
+          "format": "TV",
+          "episodes": 25,
+          "studios": {
+            "nodes": [
+              {
+                "name": "Wit Studio"
+              },
+              {
+                "name": "Pony Canyon"
+              },
+              {
+                "name": "Kodansha"
+              },
+              {
+                "name": "Production I.G"
+              },
+              {
+                "name": "Dentsu"
+              },
+              {
+                "name": "Pony Canyon Enterprise"
+              },
+              {
+                "name": "Mainichi Broadcasting System"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Drama",
+            "Fantasy",
+            "Mystery"
+          ],
+          "tags": [
+            {
+              "name": "Survival"
+            },
+            {
+              "name": "Kaiju"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Shapeshifting"
+            },
+            {
+              "name": "Military"
+            },
+            {
+              "name": "Monster Boy"
+            },
+            {
+              "name": "Post-Apocalyptic"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Swordplay"
+            },
+            {
+              "name": "Monster Girl"
+            },
+            {
+              "name": "Gore"
+            },
+            {
+              "name": "Memory Manipulation"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Dystopian"
+            },
+            {
+              "name": "Politics"
+            },
+            {
+              "name": "Religion"
+            },
+            {
+              "name": "Espionage"
+            },
+            {
+              "name": "Cannibalism"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Class Struggle"
+            },
+            {
+              "name": "Time Skip"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Amnesia"
+            },
+            {
+              "name": "Rural"
+            },
+            {
+              "name": "CGI"
+            },
+            {
+              "name": "Yandere"
+            },
+            {
+              "name": "Suicide"
+            },
+            {
+              "name": "Adoption"
+            },
+            {
+              "name": "Primarily Male Cast"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16498-C6FPmWm59CyP.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx16498-C6FPmWm59CyP.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16498-C6FPmWm59CyP.jpg",
+            "color": "#e4a15d"
+          },
+          "popularity": 744850
+        },
+        {
+          "id": 101922,
+          "title": {
+            "english": "Demon Slayer: Kimetsu no Yaiba",
+            "romaji": "Kimetsu no Yaiba"
+          },
+          "startDate": {
+            "year": 2019
+          },
+          "format": "TV",
+          "episodes": 26,
+          "studios": {
+            "nodes": [
+              {
+                "name": "ufotable"
+              },
+              {
+                "name": "Aniplex"
+              },
+              {
+                "name": "Shueisha"
+              },
+              {
+                "name": "Aniplex of America"
+              },
+              {
+                "name": "Madman Entertainment"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Fantasy",
+            "Supernatural"
+          ],
+          "tags": [
+            {
+              "name": "Demons"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Swordplay"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Monster Girl"
+            },
+            {
+              "name": "Revenge"
+            },
+            {
+              "name": "Travel"
+            },
+            {
+              "name": "CGI"
+            },
+            {
+              "name": "Gore"
+            },
+            {
+              "name": "Primarily Male Cast"
+            },
+            {
+              "name": "Orphan"
+            },
+            {
+              "name": "Mythology"
+            },
+            {
+              "name": "Slapstick"
+            },
+            {
+              "name": "Rural"
+            },
+            {
+              "name": "Rotoscoping"
+            },
+            {
+              "name": "Historical"
+            },
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Body Horror"
+            },
+            {
+              "name": "Chibi"
+            },
+            {
+              "name": "Time Skip"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101922-PEn1CTc93blC.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101922-PEn1CTc93blC.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101922-PEn1CTc93blC.jpg",
+            "color": "#4B4A95"
+          },
+          "popularity": 703273
+        },
+        {
+          "id": 1535,
+          "title": {
+            "english": "Death Note",
+            "romaji": "DEATH NOTE"
+          },
+          "startDate": {
+            "year": 2006
+          },
+          "format": "TV",
+          "episodes": 37,
+          "studios": {
+            "nodes": [
+              {
+                "name": "MADHOUSE"
+              },
+              {
+                "name": "VAP"
+              },
+              {
+                "name": "Viz Media"
+              },
+              {
+                "name": "Nippon Television Network"
+              },
+              {
+                "name": "Konami"
+              },
+              {
+                "name": "Ashi Productions"
+              },
+              {
+                "name": "Shueisha"
+              },
+              {
+                "name": "Selecta Visión"
+              }
+            ]
+          },
+          "genres": [
+            "Mystery",
+            "Psychological",
+            "Supernatural",
+            "Thriller"
+          ],
+          "tags": [
+            {
+              "name": "Crime"
+            },
+            {
+              "name": "Detective"
+            },
+            {
+              "name": "Anti-Hero"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Police"
+            },
+            {
+              "name": "Philosophy"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Primarily Adult Cast"
+            },
+            {
+              "name": "Unrequited Love"
+            },
+            {
+              "name": "Gods"
+            },
+            {
+              "name": "Urban Fantasy"
+            },
+            {
+              "name": "Primarily Male Cast"
+            },
+            {
+              "name": "Urban"
+            },
+            {
+              "name": "Memory Manipulation"
+            },
+            {
+              "name": "Espionage"
+            },
+            {
+              "name": "Amnesia"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Suicide"
+            },
+            {
+              "name": "Time Skip"
+            },
+            {
+              "name": "Acting"
+            },
+            {
+              "name": "Assassins"
+            },
+            {
+              "name": "Yandere"
+            },
+            {
+              "name": "Achronological Order"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1535-lawCwhzhi96X.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1535-lawCwhzhi96X.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1535-lawCwhzhi96X.jpg",
+            "color": null
+          },
+          "popularity": 677656
+        },
+        {
+          "id": 21459,
+          "title": {
+            "english": "My Hero Academia",
+            "romaji": "Boku no Hero Academia"
+          },
+          "startDate": {
+            "year": 2016
+          },
+          "format": "TV",
+          "episodes": 13,
+          "studios": {
+            "nodes": [
+              {
+                "name": "bones"
+              },
+              {
+                "name": "Dentsu"
+              },
+              {
+                "name": "Mainichi Broadcasting System"
+              },
+              {
+                "name": "Toho"
+              },
+              {
+                "name": "Movic"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy"
+          ],
+          "tags": [
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Superhero"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "School"
+            },
+            {
+              "name": "Urban Fantasy"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Bullying"
+            },
+            {
+              "name": "Primarily Male Cast"
+            },
+            {
+              "name": "Cultivation"
+            },
+            {
+              "name": "Prison"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21459-DUKLgasrgeNO.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21459-DUKLgasrgeNO.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21459-DUKLgasrgeNO.jpg",
+            "color": "#e4c935"
+          },
+          "popularity": 647375
+        },
+        {
+          "id": 113415,
+          "title": {
+            "english": "JUJUTSU KAISEN",
+            "romaji": "Jujutsu Kaisen"
+          },
+          "startDate": {
+            "year": 2020
+          },
+          "format": "TV",
+          "episodes": 24,
+          "studios": {
+            "nodes": [
+              {
+                "name": "Toho"
+              },
+              {
+                "name": "MAPPA"
+              },
+              {
+                "name": "Shueisha"
+              },
+              {
+                "name": "Sumzap"
+              },
+              {
+                "name": "Mainichi Broadcasting System"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Drama",
+            "Supernatural"
+          ],
+          "tags": [
+            {
+              "name": "Urban Fantasy"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Youkai"
+            },
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "Dissociative Identities"
+            },
+            {
+              "name": "Body Horror"
+            },
+            {
+              "name": "Demons"
+            },
+            {
+              "name": "Magic"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Martial Arts"
+            },
+            {
+              "name": "Gore"
+            },
+            {
+              "name": "Swordplay"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Shapeshifting"
+            },
+            {
+              "name": "School"
+            },
+            {
+              "name": "Rotoscoping"
+            },
+            {
+              "name": "Slapstick"
+            },
+            {
+              "name": "Anthropomorphism"
+            },
+            {
+              "name": "School Club"
+            },
+            {
+              "name": "Surreal Comedy"
+            },
+            {
+              "name": "Mythology"
+            },
+            {
+              "name": "Baseball"
+            },
+            {
+              "name": "Primarily Male Cast"
+            },
+            {
+              "name": "Femboy"
+            },
+            {
+              "name": "Rape"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113415-bbBWj4pEFseh.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113415-bbBWj4pEFseh.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113415-bbBWj4pEFseh.jpg",
+            "color": "#e45d5d"
+          },
+          "popularity": 638494
+        },
+        {
+          "id": 11061,
+          "title": {
+            "english": "Hunter x Hunter (2011)",
+            "romaji": "HUNTER×HUNTER (2011)"
+          },
+          "startDate": {
+            "year": 2011
+          },
+          "format": "TV",
+          "episodes": 148,
+          "studios": {
+            "nodes": [
+              {
+                "name": "MADHOUSE"
+              },
+              {
+                "name": "VAP"
+              },
+              {
+                "name": "Viz Media"
+              },
+              {
+                "name": "Nippon Television Network"
+              },
+              {
+                "name": "Studio Live"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+          ],
+          "tags": [
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Cultivation"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Primarily Male Cast"
+            },
+            {
+              "name": "Travel"
+            },
+            {
+              "name": "Martial Arts"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Revenge"
+            },
+            {
+              "name": "Found Family"
+            },
+            {
+              "name": "Chimera"
+            },
+            {
+              "name": "Philosophy"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "Virtual World"
+            },
+            {
+              "name": "Crime"
+            },
+            {
+              "name": "Assassins"
+            },
+            {
+              "name": "Urban Fantasy"
+            },
+            {
+              "name": "Environmental"
+            },
+            {
+              "name": "Mafia"
+            },
+            {
+              "name": "Anti-Hero"
+            },
+            {
+              "name": "Boys' Love"
+            },
+            {
+              "name": "Gore"
+            },
+            {
+              "name": "Card Battle"
+            },
+            {
+              "name": "Gangs"
+            },
+            {
+              "name": "Board Game"
+            },
+            {
+              "name": "Politics"
+            },
+            {
+              "name": "Shogi"
+            },
+            {
+              "name": "Video Games"
+            },
+            {
+              "name": "Body Horror"
+            },
+            {
+              "name": "Vore"
+            },
+            {
+              "name": "Animals"
+            },
+            {
+              "name": "Gender Bending"
+            },
+            {
+              "name": "Yandere"
+            },
+            {
+              "name": "Anthropomorphism"
+            },
+            {
+              "name": "Masturbation"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11061-sIpBprNRfzCe.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11061-sIpBprNRfzCe.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11061-sIpBprNRfzCe.png",
+            "color": "#f1d65d"
+          },
+          "popularity": 606291
+        },
+        {
+          "id": 21087,
+          "title": {
+            "english": "One-Punch Man",
+            "romaji": "One Punch Man"
+          },
+          "startDate": {
+            "year": 2015
+          },
+          "format": "TV",
+          "episodes": 12,
+          "studios": {
+            "nodes": [
+              {
+                "name": "MADHOUSE"
+              },
+              {
+                "name": "TV Tokyo"
+              },
+              {
+                "name": "Bandai Visual"
+              },
+              {
+                "name": "Viz Media"
+              },
+              {
+                "name": "Lantis"
+              },
+              {
+                "name": "Shueisha"
+              },
+              {
+                "name": "Banpresto"
+              },
+              {
+                "name": "Asatsu DK"
+              },
+              {
+                "name": "Good Smile Company"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Comedy",
+            "Sci-Fi",
+            "Supernatural"
+          ],
+          "tags": [
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Superhero"
+            },
+            {
+              "name": "Parody"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Satire"
+            },
+            {
+              "name": "Urban Fantasy"
+            },
+            {
+              "name": "Surreal Comedy"
+            },
+            {
+              "name": "Urban"
+            },
+            {
+              "name": "Cyborg"
+            },
+            {
+              "name": "Kaiju"
+            },
+            {
+              "name": "Primarily Adult Cast"
+            },
+            {
+              "name": "Seinen"
+            },
+            {
+              "name": "Cultivation"
+            },
+            {
+              "name": "Aliens"
+            },
+            {
+              "name": "Primarily Male Cast"
+            },
+            {
+              "name": "Asexual"
+            },
+            {
+              "name": "Gods"
+            },
+            {
+              "name": "Gore"
+            },
+            {
+              "name": "Demons"
+            },
+            {
+              "name": "Henshin"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21087-UV2tu6exrfXz.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21087-UV2tu6exrfXz.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21087-UV2tu6exrfXz.jpg",
+            "color": "#e4ae5d"
+          },
+          "popularity": 563930
+        },
+        {
+          "id": 20605,
+          "title": {
+            "english": "Tokyo Ghoul",
+            "romaji": "Tokyo Ghoul"
+          },
+          "startDate": {
+            "year": 2014
+          },
+          "format": "TV",
+          "episodes": 12,
+          "studios": {
+            "nodes": [
+              {
+                "name": "Studio Pierrot"
+              },
+              {
+                "name": "Marvelous"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Drama",
+            "Horror",
+            "Mystery",
+            "Psychological",
+            "Supernatural"
+          ],
+          "tags": [
+            {
+              "name": "Gore"
+            },
+            {
+              "name": "Urban Fantasy"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Survival"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Torture"
+            },
+            {
+              "name": "Anti-Hero"
+            },
+            {
+              "name": "Body Horror"
+            },
+            {
+              "name": "Seinen"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Urban"
+            },
+            {
+              "name": "Police"
+            },
+            {
+              "name": "Cannibalism"
+            },
+            {
+              "name": "Detective"
+            },
+            {
+              "name": "Crime"
+            },
+            {
+              "name": "Henshin"
+            },
+            {
+              "name": "Heterosexual"
+            },
+            {
+              "name": "College"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx20605-fmnHdfurM7m6.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx20605-fmnHdfurM7m6.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx20605-fmnHdfurM7m6.jpg",
+            "color": "#35DDFF"
+          },
+          "popularity": 540612
+        },
+        {
+          "id": 20958,
+          "title": {
+            "english": "Attack on Titan Season 2",
+            "romaji": "Shingeki no Kyojin 2"
+          },
+          "startDate": {
+            "year": 2017
+          },
+          "format": "TV",
+          "episodes": 12,
+          "studios": {
+            "nodes": [
+              {
+                "name": "Wit Studio"
+              },
+              {
+                "name": "Pony Canyon"
+              },
+              {
+                "name": "Kodansha"
+              },
+              {
+                "name": "Production I.G"
+              },
+              {
+                "name": "Dentsu"
+              },
+              {
+                "name": "Pony Canyon Enterprise"
+              },
+              {
+                "name": "Mainichi Broadcasting System"
+              },
+              {
+                "name": "Funimation"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Drama",
+            "Fantasy",
+            "Mystery"
+          ],
+          "tags": [
+            {
+              "name": "Survival"
+            },
+            {
+              "name": "Espionage"
+            },
+            {
+              "name": "Shapeshifting"
+            },
+            {
+              "name": "Post-Apocalyptic"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Military"
+            },
+            {
+              "name": "Kaiju"
+            },
+            {
+              "name": "Dystopian"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "Gore"
+            },
+            {
+              "name": "Monster Boy"
+            },
+            {
+              "name": "Class Struggle"
+            },
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Anti-Hero"
+            },
+            {
+              "name": "Kuudere"
+            },
+            {
+              "name": "Dissociative Identities"
+            },
+            {
+              "name": "Cult"
+            },
+            {
+              "name": "Incest"
+            },
+            {
+              "name": "Female Protagonist"
+            },
+            {
+              "name": "Primarily Male Cast"
+            },
+            {
+              "name": "Cannibalism"
+            },
+            {
+              "name": "CGI"
+            },
+            {
+              "name": "Tanned Skin"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Swordplay"
+            },
+            {
+              "name": "Primarily Adult Cast"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20958-HuFJyr54Mmir.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20958-HuFJyr54Mmir.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20958-HuFJyr54Mmir.jpg",
+            "color": "#6AA66F"
+          },
+          "popularity": 533019
+        },
+        {
+          "id": 11757,
+          "title": {
+            "english": "Sword Art Online",
+            "romaji": "Sword Art Online"
+          },
+          "startDate": {
+            "year": 2012
+          },
+          "format": "TV",
+          "episodes": 25,
+          "studios": {
+            "nodes": [
+              {
+                "name": "Aniplex"
+              },
+              {
+                "name": "A-1 Pictures"
+              },
+              {
+                "name": "Genco"
+              },
+              {
+                "name": "DAX Production"
+              },
+              {
+                "name": "Aniplex of America"
+              },
+              {
+                "name": "ASCII Media Works"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy",
+            "Romance"
+          ],
+          "tags": [
+            {
+              "name": "Virtual World"
+            },
+            {
+              "name": "Death Game"
+            },
+            {
+              "name": "Video Games"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Swordplay"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "Prison"
+            },
+            {
+              "name": "Isekai"
+            },
+            {
+              "name": "Female Harem"
+            },
+            {
+              "name": "Fairy"
+            },
+            {
+              "name": "Artificial Intelligence"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Travel"
+            },
+            {
+              "name": "Fishing"
+            },
+            {
+              "name": "Amnesia"
+            },
+            {
+              "name": "Found Family"
+            },
+            {
+              "name": "Incest"
+            },
+            {
+              "name": "Unrequited Love"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx11757-Q9P2zjCPICq5.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx11757-Q9P2zjCPICq5.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx11757-Q9P2zjCPICq5.jpg",
+            "color": "#5DC0E4"
+          },
+          "popularity": 529811
+        },
+        {
+          "id": 5114,
+          "title": {
+            "english": "Fullmetal Alchemist: Brotherhood",
+            "romaji": "Hagane no Renkinjutsushi: FULLMETAL ALCHEMIST"
+          },
+          "startDate": {
+            "year": 2009
+          },
+          "format": "TV",
+          "episodes": 64,
+          "studios": {
+            "nodes": [
+              {
+                "name": "bones"
+              },
+              {
+                "name": "Aniplex"
+              },
+              {
+                "name": "Square Enix"
+              },
+              {
+                "name": "Mainichi Broadcasting System"
+              },
+              {
+                "name": "Aniplex of America"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Fantasy"
+          ],
+          "tags": [
+            {
+              "name": "Alchemy"
+            },
+            {
+              "name": "Conspiracy"
+            },
+            {
+              "name": "Military"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "War"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Politics"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Philosophy"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Necromancy"
+            },
+            {
+              "name": "Fugitive"
+            },
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Foreign"
+            },
+            {
+              "name": "Gods"
+            },
+            {
+              "name": "Cyborg"
+            },
+            {
+              "name": "Steampunk"
+            },
+            {
+              "name": "Dissociative Identities"
+            },
+            {
+              "name": "Lost Civilization"
+            },
+            {
+              "name": "Anachronism"
+            },
+            {
+              "name": "Revenge"
+            },
+            {
+              "name": "Disability"
+            },
+            {
+              "name": "Chimera"
+            },
+            {
+              "name": "Primarily Male Cast"
+            },
+            {
+              "name": "Religion"
+            },
+            {
+              "name": "Travel"
+            },
+            {
+              "name": "Gore"
+            },
+            {
+              "name": "Body Horror"
+            },
+            {
+              "name": "Kuudere"
+            },
+            {
+              "name": "Slapstick"
+            },
+            {
+              "name": "Demons"
+            },
+            {
+              "name": "Anti-Hero"
+            },
+            {
+              "name": "Trains"
+            },
+            {
+              "name": "Adoption"
+            },
+            {
+              "name": "Guns"
+            },
+            {
+              "name": "Chibi"
+            },
+            {
+              "name": "Cannibalism"
+            },
+            {
+              "name": "Swordplay"
+            },
+            {
+              "name": "Tomboy"
+            },
+            {
+              "name": "Tanned Skin"
+            },
+            {
+              "name": "Crossdressing"
+            },
+            {
+              "name": "Heterosexual"
+            },
+            {
+              "name": "Vore"
+            },
+            {
+              "name": "Tsundere"
+            },
+            {
+              "name": "Desert"
+            },
+            {
+              "name": "Shapeshifting"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5114-KJTQz9AIm6Wk.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx5114-KJTQz9AIm6Wk.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5114-KJTQz9AIm6Wk.jpg",
+            "color": "#e4c993"
+          },
+          "popularity": 521629
+        },
+        {
+          "id": 20,
+          "title": {
+            "english": "Naruto",
+            "romaji": "NARUTO"
+          },
+          "startDate": {
+            "year": 2002
+          },
+          "format": "TV",
+          "episodes": 220,
+          "studios": {
+            "nodes": [
+              {
+                "name": "Studio Pierrot"
+              },
+              {
+                "name": "TV Tokyo"
+              },
+              {
+                "name": "Aniplex"
+              },
+              {
+                "name": "Viz Media"
+              },
+              {
+                "name": "Shueisha"
+              },
+              {
+                "name": "KSS"
+              },
+              {
+                "name": "SME Visual Works"
+              },
+              {
+                "name": "Rakuonsha"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Drama",
+            "Fantasy",
+            "Supernatural"
+          ],
+          "tags": [
+            {
+              "name": "Ninja"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Found Family"
+            },
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Cultivation"
+            },
+            {
+              "name": "Martial Arts"
+            },
+            {
+              "name": "Revenge"
+            },
+            {
+              "name": "Anachronism"
+            },
+            {
+              "name": "Heterosexual"
+            },
+            {
+              "name": "Primarily Child Cast"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Bullying"
+            },
+            {
+              "name": "Shapeshifting"
+            },
+            {
+              "name": "Orphan"
+            },
+            {
+              "name": "Kaiju"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Travel"
+            },
+            {
+              "name": "Demons"
+            },
+            {
+              "name": "Femboy"
+            },
+            {
+              "name": "Unrequited Love"
+            },
+            {
+              "name": "Slapstick"
+            },
+            {
+              "name": "Gender Bending"
+            },
+            {
+              "name": "School"
+            },
+            {
+              "name": "Assassins"
+            },
+            {
+              "name": "Nudity"
+            },
+            {
+              "name": "Love Triangle"
+            },
+            {
+              "name": "Estranged Family"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20-YJvLbgJQPCoI.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20-YJvLbgJQPCoI.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20-YJvLbgJQPCoI.jpg",
+            "color": "#e47850"
+          },
+          "popularity": 518151
+        },
+        {
+          "id": 21519,
+          "title": {
+            "english": "Your Name.",
+            "romaji": "Kimi no Na wa."
+          },
+          "startDate": {
+            "year": 2016
+          },
+          "format": "MOVIE",
+          "episodes": 1,
+          "studios": {
+            "nodes": [
+              {
+                "name": "CoMix Wave"
+              },
+              {
+                "name": "Kadokawa Pictures Japan"
+              },
+              {
+                "name": "Funimation"
+              },
+              {
+                "name": "NYAV Post"
+              },
+              {
+                "name": "Toho"
+              },
+              {
+                "name": "Madman Entertainment"
+              },
+              {
+                "name": "Selecta Visión"
+              }
+            ]
+          },
+          "genres": [
+            "Drama",
+            "Romance",
+            "Supernatural"
+          ],
+          "tags": [
+            {
+              "name": "Body Swapping"
+            },
+            {
+              "name": "Time Manipulation"
+            },
+            {
+              "name": "Urban Fantasy"
+            },
+            {
+              "name": "Female Protagonist"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Memory Manipulation"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Urban"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Rural"
+            },
+            {
+              "name": "Gender Bending"
+            },
+            {
+              "name": "Heterosexual"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "Time Skip"
+            },
+            {
+              "name": "Alternate Universe"
+            },
+            {
+              "name": "Trains"
+            },
+            {
+              "name": "School"
+            },
+            {
+              "name": "Shrine Maiden"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21519-XIr3PeczUjjF.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21519-XIr3PeczUjjF.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21519-XIr3PeczUjjF.png",
+            "color": "#0da1e4"
+          },
+          "popularity": 503967
+        },
+        {
+          "id": 21,
+          "title": {
+            "english": "ONE PIECE",
+            "romaji": "ONE PIECE"
+          },
+          "startDate": {
+            "year": 1999
+          },
+          "format": "TV",
+          "episodes": null,
+          "studios": {
+            "nodes": [
+              {
+                "name": "Toei Animation"
+              },
+              {
+                "name": "Funimation"
+              },
+              {
+                "name": "Fuji TV"
+              },
+              {
+                "name": "4Kids Entertainment"
+              },
+              {
+                "name": "TAP"
+              },
+              {
+                "name": "Asatsu DK"
+              },
+              {
+                "name": "Magic Bus"
+              },
+              {
+                "name": "Mushi Production"
+              },
+              {
+                "name": "Studio Guts"
+              },
+              {
+                "name": "Asahi Production"
+              },
+              {
+                "name": "Avex Pictures"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Drama",
+            "Fantasy"
+          ],
+          "tags": [
+            {
+              "name": "Pirates"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Travel"
+            },
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Found Family"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Slapstick"
+            },
+            {
+              "name": "Conspiracy"
+            },
+            {
+              "name": "Ships"
+            },
+            {
+              "name": "Time Skip"
+            },
+            {
+              "name": "Slavery"
+            },
+            {
+              "name": "Fugitive"
+            },
+            {
+              "name": "Politics"
+            },
+            {
+              "name": "War"
+            },
+            {
+              "name": "Crime"
+            },
+            {
+              "name": "Dystopian"
+            },
+            {
+              "name": "Gods"
+            },
+            {
+              "name": "Monster Boy"
+            },
+            {
+              "name": "Lost Civilization"
+            },
+            {
+              "name": "Swordplay"
+            },
+            {
+              "name": "Medicine"
+            },
+            {
+              "name": "Samurai"
+            },
+            {
+              "name": "Prison"
+            },
+            {
+              "name": "Food"
+            },
+            {
+              "name": "Henshin"
+            },
+            {
+              "name": "Shapeshifting"
+            },
+            {
+              "name": "Robots"
+            },
+            {
+              "name": "Desert"
+            },
+            {
+              "name": "Primarily Adult Cast"
+            },
+            {
+              "name": "Cyborg"
+            },
+            {
+              "name": "Artificial Intelligence"
+            },
+            {
+              "name": "Animals"
+            },
+            {
+              "name": "Guns"
+            },
+            {
+              "name": "Anti-Hero"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Trains"
+            },
+            {
+              "name": "Skeleton"
+            },
+            {
+              "name": "Anachronism"
+            },
+            {
+              "name": "Dragons"
+            },
+            {
+              "name": "Monster Girl"
+            },
+            {
+              "name": "Fairy"
+            },
+            {
+              "name": "Marriage"
+            },
+            {
+              "name": "Post-Apocalyptic"
+            },
+            {
+              "name": "Espionage"
+            },
+            {
+              "name": "Drugs"
+            },
+            {
+              "name": "Assassins"
+            },
+            {
+              "name": "Clone"
+            },
+            {
+              "name": "Kuudere"
+            },
+            {
+              "name": "Asexual"
+            },
+            {
+              "name": "Ninja"
+            },
+            {
+              "name": "Adoption"
+            },
+            {
+              "name": "Angels"
+            },
+            {
+              "name": "Mermaid"
+            },
+            {
+              "name": "Female Harem"
+            },
+            {
+              "name": "Gender Bending"
+            },
+            {
+              "name": "Battle Royale"
+            },
+            {
+              "name": "CGI"
+            },
+            {
+              "name": "Time Manipulation"
+            },
+            {
+              "name": "Musical"
+            },
+            {
+              "name": "Body Swapping"
+            },
+            {
+              "name": "Unrequited Love"
+            },
+            {
+              "name": "LGBTQ+ Themes"
+            },
+            {
+              "name": "Zombie"
+            },
+            {
+              "name": "Revenge"
+            },
+            {
+              "name": "Achromatic"
+            },
+            {
+              "name": "Acting"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21-tXMN3Y20PIL9.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21-tXMN3Y20PIL9.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx21-tXMN3Y20PIL9.jpg",
+            "color": "#e4a15d"
+          },
+          "popularity": 499590
+        },
+        {
+          "id": 21856,
+          "title": {
+            "english": "My Hero Academia Season 2",
+            "romaji": "Boku no Hero Academia 2"
+          },
+          "startDate": {
+            "year": 2017
+          },
+          "format": "TV",
+          "episodes": 25,
+          "studios": {
+            "nodes": [
+              {
+                "name": "bones"
+              },
+              {
+                "name": "Yomiuri TV"
+              },
+              {
+                "name": "Dentsu"
+              },
+              {
+                "name": "Movic"
+              },
+              {
+                "name": "Sony Music Entertainment"
+              },
+              {
+                "name": "Toho"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy"
+          ],
+          "tags": [
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Superhero"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "School"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "Cultivation"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Urban Fantasy"
+            },
+            {
+              "name": "Revenge"
+            },
+            {
+              "name": "Primarily Male Cast"
+            },
+            {
+              "name": "Heterosexual"
+            },
+            {
+              "name": "Tomboy"
+            },
+            {
+              "name": "Cheerleading"
+            },
+            {
+              "name": "Bisexual"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21856-gutauxhWAwn6.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21856-gutauxhWAwn6.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21856-gutauxhWAwn6.png",
+            "color": "#e48643"
+          },
+          "popularity": 498112
+        },
+        {
+          "id": 99147,
+          "title": {
+            "english": "Attack on Titan Season 3",
+            "romaji": "Shingeki no Kyojin 3"
+          },
+          "startDate": {
+            "year": 2018
+          },
+          "format": "TV",
+          "episodes": 12,
+          "studios": {
+            "nodes": [
+              {
+                "name": "Wit Studio"
+              },
+              {
+                "name": "Pony Canyon"
+              },
+              {
+                "name": "Kodansha"
+              },
+              {
+                "name": "Production I.G"
+              },
+              {
+                "name": "Dentsu"
+              },
+              {
+                "name": "Pony Canyon Enterprise"
+              },
+              {
+                "name": "Mainichi Broadcasting System"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Drama",
+            "Fantasy",
+            "Mystery"
+          ],
+          "tags": [
+            {
+              "name": "Conspiracy"
+            },
+            {
+              "name": "Military"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Shapeshifting"
+            },
+            {
+              "name": "Politics"
+            },
+            {
+              "name": "Memory Manipulation"
+            },
+            {
+              "name": "Dystopian"
+            },
+            {
+              "name": "Fugitive"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Monster Boy"
+            },
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Kaiju"
+            },
+            {
+              "name": "Crime"
+            },
+            {
+              "name": "Gore"
+            },
+            {
+              "name": "Survival"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Yandere"
+            },
+            {
+              "name": "Guns"
+            },
+            {
+              "name": "Class Struggle"
+            },
+            {
+              "name": "Anti-Hero"
+            },
+            {
+              "name": "Torture"
+            },
+            {
+              "name": "CGI"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Primarily Male Cast"
+            },
+            {
+              "name": "Kuudere"
+            },
+            {
+              "name": "Swordplay"
+            },
+            {
+              "name": "Primarily Adult Cast"
+            },
+            {
+              "name": "Ensemble Cast"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99147-5RXELRvwjFl6.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99147-5RXELRvwjFl6.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99147-5RXELRvwjFl6.jpg",
+            "color": "#4386e4"
+          },
+          "popularity": 494933
+        },
+        {
+          "id": 20954,
+          "title": {
+            "english": "A Silent Voice",
+            "romaji": "Koe no Katachi"
+          },
+          "startDate": {
+            "year": 2016
+          },
+          "format": "MOVIE",
+          "episodes": 1,
+          "studios": {
+            "nodes": [
+              {
+                "name": "Kyoto Animation"
+              },
+              {
+                "name": "ABC Animation"
+              },
+              {
+                "name": "Kodansha"
+              }
+            ]
+          },
+          "genres": [
+            "Drama",
+            "Romance",
+            "Slice of Life"
+          ],
+          "tags": [
+            {
+              "name": "Disability"
+            },
+            {
+              "name": "Bullying"
+            },
+            {
+              "name": "Rehabilitation"
+            },
+            {
+              "name": "Language Barrier"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Suicide"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "School"
+            },
+            {
+              "name": "Time Skip"
+            },
+            {
+              "name": "Heterosexual"
+            },
+            {
+              "name": "Urban"
+            },
+            {
+              "name": "Shounen"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20954-UMb6Kl7ZL8Ke.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20954-UMb6Kl7ZL8Ke.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20954-UMb6Kl7ZL8Ke.jpg",
+            "color": "#5dbbe4"
+          },
+          "popularity": 491317
+        },
+        {
+          "id": 101759,
+          "title": {
+            "english": "The Promised Neverland",
+            "romaji": "Yakusoku no Neverland"
+          },
+          "startDate": {
+            "year": 2019
+          },
+          "format": "TV",
+          "episodes": 12,
+          "studios": {
+            "nodes": [
+              {
+                "name": "CloverWorks"
+              },
+              {
+                "name": "Aniplex"
+              },
+              {
+                "name": "Dentsu"
+              },
+              {
+                "name": "Fuji TV"
+              },
+              {
+                "name": "Shueisha"
+              },
+              {
+                "name": "Aniplex of America"
+              }
+            ]
+          },
+          "genres": [
+            "Drama",
+            "Fantasy",
+            "Horror",
+            "Mystery",
+            "Psychological",
+            "Thriller"
+          ],
+          "tags": [
+            {
+              "name": "Dystopian"
+            },
+            {
+              "name": "Survival"
+            },
+            {
+              "name": "Primarily Child Cast"
+            },
+            {
+              "name": "Orphan"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Found Family"
+            },
+            {
+              "name": "Demons"
+            },
+            {
+              "name": "Female Protagonist"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Tanned Skin"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101759-NhSwxv7HY9y9.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101759-NhSwxv7HY9y9.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101759-NhSwxv7HY9y9.jpg",
+            "color": "#e4ae50"
+          },
+          "popularity": 483399
+        },
+        {
+          "id": 20755,
+          "title": {
+            "english": "Assassination Classroom",
+            "romaji": "Ansatsu Kyoushitsu"
+          },
+          "startDate": {
+            "year": 2015
+          },
+          "format": "TV",
+          "episodes": 22,
+          "studios": {
+            "nodes": [
+              {
+                "name": "Lerche"
+              },
+              {
+                "name": "Funimation"
+              },
+              {
+                "name": "Kansai TV"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Comedy",
+            "Drama",
+            "Supernatural"
+          ],
+          "tags": [
+            {
+              "name": "Assassins"
+            },
+            {
+              "name": "School"
+            },
+            {
+              "name": "Teacher"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Episodic"
+            },
+            {
+              "name": "Anti-Hero"
+            },
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Guns"
+            },
+            {
+              "name": "Crime"
+            },
+            {
+              "name": "Bullying"
+            },
+            {
+              "name": "Artificial Intelligence"
+            },
+            {
+              "name": "Found Family"
+            },
+            {
+              "name": "Crossdressing"
+            },
+            {
+              "name": "Baseball"
+            },
+            {
+              "name": "Femboy"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "School Club"
+            },
+            {
+              "name": "Suicide"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20755-q0b3Ok1cAbPd.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20755-q0b3Ok1cAbPd.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20755-q0b3Ok1cAbPd.jpg",
+            "color": "#e4d650"
+          },
+          "popularity": 464607
+        },
+        {
+          "id": 110277,
+          "title": {
+            "english": "Attack on Titan Final Season",
+            "romaji": "Shingeki no Kyojin: The Final Season"
+          },
+          "startDate": {
+            "year": 2020
+          },
+          "format": "TV",
+          "episodes": 16,
+          "studios": {
+            "nodes": [
+              {
+                "name": "MAPPA"
+              },
+              {
+                "name": "Pony Canyon"
+              },
+              {
+                "name": "Kodansha"
+              },
+              {
+                "name": "Production I.G"
+              },
+              {
+                "name": "Dentsu"
+              },
+              {
+                "name": "Mainichi Broadcasting System"
+              },
+              {
+                "name": "Pony Canyon Enterprise"
+              },
+              {
+                "name": "MAPPA"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Drama",
+            "Fantasy",
+            "Mystery"
+          ],
+          "tags": [
+            {
+              "name": "War"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Military"
+            },
+            {
+              "name": "Kaiju"
+            },
+            {
+              "name": "Anti-Hero"
+            },
+            {
+              "name": "Revenge"
+            },
+            {
+              "name": "Politics"
+            },
+            {
+              "name": "Philosophy"
+            },
+            {
+              "name": "Dystopian"
+            },
+            {
+              "name": "Survival"
+            },
+            {
+              "name": "Time Skip"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Shapeshifting"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Monster Boy"
+            },
+            {
+              "name": "Class Struggle"
+            },
+            {
+              "name": "Primarily Adult Cast"
+            },
+            {
+              "name": "Conspiracy"
+            },
+            {
+              "name": "Terrorism"
+            },
+            {
+              "name": "Espionage"
+            },
+            {
+              "name": "Gore"
+            },
+            {
+              "name": "CGI"
+            },
+            {
+              "name": "Body Horror"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Memory Manipulation"
+            },
+            {
+              "name": "Foreign"
+            },
+            {
+              "name": "Guns"
+            },
+            {
+              "name": "Rotoscoping"
+            },
+            {
+              "name": "Dissociative Identities"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Baseball"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110277-qDRIhu50PXzz.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx110277-qDRIhu50PXzz.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx110277-qDRIhu50PXzz.jpg",
+            "color": "#ae5d1a"
+          },
+          "popularity": 459119
+        },
+        {
+          "id": 100166,
+          "title": {
+            "english": "My Hero Academia Season 3",
+            "romaji": "Boku no Hero Academia 3"
+          },
+          "startDate": {
+            "year": 2018
+          },
+          "format": "TV",
+          "episodes": 25,
+          "studios": {
+            "nodes": [
+              {
+                "name": "bones"
+              },
+              {
+                "name": "Toho"
+              },
+              {
+                "name": "Shueisha"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Drama"
+          ],
+          "tags": [
+            {
+              "name": "Superhero"
+            },
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "Cultivation"
+            },
+            {
+              "name": "Urban Fantasy"
+            },
+            {
+              "name": "School"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Police"
+            },
+            {
+              "name": "Revenge"
+            },
+            {
+              "name": "Primarily Male Cast"
+            },
+            {
+              "name": "Battle Royale"
+            },
+            {
+              "name": "Heterosexual"
+            },
+            {
+              "name": "Body Horror"
+            },
+            {
+              "name": "Tomboy"
+            },
+            {
+              "name": "CGI"
+            },
+            {
+              "name": "Nudity"
+            },
+            {
+              "name": "Bisexual"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100166-jUCZYbzn2XLw.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx100166-jUCZYbzn2XLw.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100166-jUCZYbzn2XLw.jpg",
+            "color": "#e4935d"
+          },
+          "popularity": 455825
+        },
+        {
+          "id": 20665,
+          "title": {
+            "english": "Your lie in April",
+            "romaji": "Shigatsu wa Kimi no Uso"
+          },
+          "startDate": {
+            "year": 2014
+          },
+          "format": "TV",
+          "episodes": 22,
+          "studios": {
+            "nodes": [
+              {
+                "name": "A-1 Pictures"
+              },
+              {
+                "name": "Aniplex"
+              },
+              {
+                "name": "Dentsu"
+              },
+              {
+                "name": "Fuji TV"
+              },
+              {
+                "name": "Kodansha"
+              },
+              {
+                "name": "Aniplex of America"
+              },
+              {
+                "name": "Kansai TV"
+              },
+              {
+                "name": "KYORAKU"
+              }
+            ]
+          },
+          "genres": [
+            "Drama",
+            "Music",
+            "Romance",
+            "Slice of Life"
+          ],
+          "tags": [
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Disability"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "Rehabilitation"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Female Protagonist"
+            },
+            {
+              "name": "Love Triangle"
+            },
+            {
+              "name": "Heterosexual"
+            },
+            {
+              "name": "School"
+            },
+            {
+              "name": "Suicide"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Slapstick"
+            },
+            {
+              "name": "Tomboy"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20665-CnzR2zVpdxtR.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20665-CnzR2zVpdxtR.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20665-CnzR2zVpdxtR.png",
+            "color": "#e4bb50"
+          },
+          "popularity": 446418
+        },
+        {
+          "id": 21234,
+          "title": {
+            "english": "ERASED",
+            "romaji": "Boku dake ga Inai Machi"
+          },
+          "startDate": {
+            "year": 2016
+          },
+          "format": "TV",
+          "episodes": 12,
+          "studios": {
+            "nodes": [
+              {
+                "name": "A-1 Pictures"
+              },
+              {
+                "name": "Kansai TV"
+              },
+              {
+                "name": "Aniplex of America"
+              },
+              {
+                "name": "Madman Entertainment"
+              }
+            ]
+          },
+          "genres": [
+            "Drama",
+            "Mystery",
+            "Psychological",
+            "Supernatural",
+            "Thriller"
+          ],
+          "tags": [
+            {
+              "name": "Age Regression"
+            },
+            {
+              "name": "Time Manipulation"
+            },
+            {
+              "name": "Crime"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Time Skip"
+            },
+            {
+              "name": "Primarily Child Cast"
+            },
+            {
+              "name": "Detective"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Alternate Universe"
+            },
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Snowscape"
+            },
+            {
+              "name": "Seinen"
+            },
+            {
+              "name": "School"
+            },
+            {
+              "name": "Fugitive"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Revenge"
+            },
+            {
+              "name": "Teacher"
+            },
+            {
+              "name": "Heterosexual"
+            },
+            {
+              "name": "Rehabilitation"
+            },
+            {
+              "name": "Amnesia"
+            },
+            {
+              "name": "Bullying"
+            },
+            {
+              "name": "Kuudere"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21234-v2NMgPyoVRoM.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21234-v2NMgPyoVRoM.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx21234-v2NMgPyoVRoM.jpg",
+            "color": "#e4a150"
+          },
+          "popularity": 446322
+        },
+        {
+          "id": 21507,
+          "title": {
+            "english": "Mob Psycho 100",
+            "romaji": "Mob Psycho 100"
+          },
+          "startDate": {
+            "year": 2016
+          },
+          "format": "TV",
+          "episodes": 12,
+          "studios": {
+            "nodes": [
+              {
+                "name": "bones"
+              },
+              {
+                "name": "BS Fuji"
+              },
+              {
+                "name": "Shogakukan-Shueisha Productions"
+              },
+              {
+                "name": "Warner Bros. Japan"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Comedy",
+            "Drama",
+            "Psychological",
+            "Slice of Life",
+            "Supernatural"
+          ],
+          "tags": [
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Urban Fantasy"
+            },
+            {
+              "name": "Ghost"
+            },
+            {
+              "name": "Philosophy"
+            },
+            {
+              "name": "Satire"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "Urban"
+            },
+            {
+              "name": "Parody"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Surreal Comedy"
+            },
+            {
+              "name": "Primarily Male Cast"
+            },
+            {
+              "name": "Disability"
+            },
+            {
+              "name": "School"
+            },
+            {
+              "name": "Demons"
+            },
+            {
+              "name": "Slapstick"
+            },
+            {
+              "name": "Conspiracy"
+            },
+            {
+              "name": "Bullying"
+            },
+            {
+              "name": "Delinquents"
+            },
+            {
+              "name": "School Club"
+            },
+            {
+              "name": "Fitness"
+            },
+            {
+              "name": "Gangs"
+            },
+            {
+              "name": "Cult"
+            },
+            {
+              "name": "Family Life"
+            },
+            {
+              "name": "Dissociative Identities"
+            },
+            {
+              "name": "Unrequited Love"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21507-BICFCVZY3xQb.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21507-BICFCVZY3xQb.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21507-BICFCVZY3xQb.jpg",
+            "color": "#d65d1a"
+          },
+          "popularity": 443838
+        },
+        {
+          "id": 1735,
+          "title": {
+            "english": "Naruto: Shippuden",
+            "romaji": "NARUTO: Shippuuden"
+          },
+          "startDate": {
+            "year": 2007
+          },
+          "format": "TV",
+          "episodes": 500,
+          "studios": {
+            "nodes": [
+              {
+                "name": "Studio Pierrot"
+              },
+              {
+                "name": "TV Tokyo"
+              },
+              {
+                "name": "Aniplex"
+              },
+              {
+                "name": "KSS"
+              },
+              {
+                "name": "Viz Media"
+              },
+              {
+                "name": "Rakuonsha"
+              },
+              {
+                "name": "TV Tokyo Music"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Drama",
+            "Fantasy",
+            "Supernatural"
+          ],
+          "tags": [
+            {
+              "name": "Ninja"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Superhero"
+            },
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "War"
+            },
+            {
+              "name": "Revenge"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Martial Arts"
+            },
+            {
+              "name": "Orphan"
+            },
+            {
+              "name": "Conspiracy"
+            },
+            {
+              "name": "Cultivation"
+            },
+            {
+              "name": "Anti-Hero"
+            },
+            {
+              "name": "Philosophy"
+            },
+            {
+              "name": "Necromancy"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Time Skip"
+            },
+            {
+              "name": "Politics"
+            },
+            {
+              "name": "Gods"
+            },
+            {
+              "name": "Swordplay"
+            },
+            {
+              "name": "Fugitive"
+            },
+            {
+              "name": "Terrorism"
+            },
+            {
+              "name": "Military"
+            },
+            {
+              "name": "Anachronism"
+            },
+            {
+              "name": "Travel"
+            },
+            {
+              "name": "Aliens"
+            },
+            {
+              "name": "Kaiju"
+            },
+            {
+              "name": "Shapeshifting"
+            },
+            {
+              "name": "Nudity"
+            },
+            {
+              "name": "Large Breasts"
+            },
+            {
+              "name": "Gender Bending"
+            },
+            {
+              "name": "Slapstick"
+            },
+            {
+              "name": "Estranged Family"
+            },
+            {
+              "name": "Iyashikei"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1735-Az5gbEdWeotG.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1735-Az5gbEdWeotG.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1735-Az5gbEdWeotG.png",
+            "color": "#e4865d"
+          },
+          "popularity": 441621
+        },
+        {
+          "id": 104578,
+          "title": {
+            "english": "Attack on Titan Season 3 Part 2",
+            "romaji": "Shingeki no Kyojin 3 Part 2"
+          },
+          "startDate": {
+            "year": 2019
+          },
+          "format": "TV",
+          "episodes": 10,
+          "studios": {
+            "nodes": [
+              {
+                "name": "Wit Studio"
+              },
+              {
+                "name": "Pony Canyon"
+              },
+              {
+                "name": "Kodansha"
+              },
+              {
+                "name": "Production I.G"
+              },
+              {
+                "name": "Dentsu"
+              },
+              {
+                "name": "Pony Canyon Enterprise"
+              },
+              {
+                "name": "Mainichi Broadcasting System"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Drama",
+            "Fantasy",
+            "Mystery"
+          ],
+          "tags": [
+            {
+              "name": "Kaiju"
+            },
+            {
+              "name": "Dystopian"
+            },
+            {
+              "name": "Military"
+            },
+            {
+              "name": "Conspiracy"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Survival"
+            },
+            {
+              "name": "Memory Manipulation"
+            },
+            {
+              "name": "Shapeshifting"
+            },
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "War"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Espionage"
+            },
+            {
+              "name": "Monster Boy"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Gore"
+            },
+            {
+              "name": "Philosophy"
+            },
+            {
+              "name": "Mythology"
+            },
+            {
+              "name": "Primarily Adult Cast"
+            },
+            {
+              "name": "Class Struggle"
+            },
+            {
+              "name": "Anti-Hero"
+            },
+            {
+              "name": "Primarily Male Cast"
+            },
+            {
+              "name": "CGI"
+            },
+            {
+              "name": "Swordplay"
+            },
+            {
+              "name": "Drugs"
+            },
+            {
+              "name": "Kuudere"
+            },
+            {
+              "name": "Dissociative Identities"
+            },
+            {
+              "name": "Baseball"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104578-LaZYFkmhinfB.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104578-LaZYFkmhinfB.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104578-LaZYFkmhinfB.jpg",
+            "color": "#fea150"
+          },
+          "popularity": 437511
+        },
+        {
+          "id": 20464,
+          "title": {
+            "english": "HAIKYU!!",
+            "romaji": "Haikyuu!!"
+          },
+          "startDate": {
+            "year": 2014
+          },
+          "format": "TV",
+          "episodes": 25,
+          "studios": {
+            "nodes": [
+              {
+                "name": "Production I.G"
+              },
+              {
+                "name": "Sentai Filmworks"
+              }
+            ]
+          },
+          "genres": [
+            "Comedy",
+            "Drama",
+            "Sports"
+          ],
+          "tags": [
+            {
+              "name": "Volleyball"
+            },
+            {
+              "name": "School Club"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Primarily Male Cast"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "School"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Cute Boys Doing Cute Things"
+            },
+            {
+              "name": "Kuudere"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20464-eW7ZDBOcn74a.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20464-eW7ZDBOcn74a.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20464-eW7ZDBOcn74a.png",
+            "color": "#e48635"
+          },
+          "popularity": 435532
+        },
+        {
+          "id": 9253,
+          "title": {
+            "english": "Steins;Gate",
+            "romaji": "Steins;Gate"
+          },
+          "startDate": {
+            "year": 2011
+          },
+          "format": "TV",
+          "episodes": 24,
+          "studios": {
+            "nodes": [
+              {
+                "name": "Frontier Works"
+              },
+              {
+                "name": "Funimation"
+              },
+              {
+                "name": "Media Factory"
+              },
+              {
+                "name": "Movic"
+              },
+              {
+                "name": "AT-X"
+              },
+              {
+                "name": "White Fox"
+              },
+              {
+                "name": "Kadokawa Pictures Japan"
+              },
+              {
+                "name": "Nitroplus"
+              }
+            ]
+          },
+          "genres": [
+            "Drama",
+            "Psychological",
+            "Sci-Fi",
+            "Thriller"
+          ],
+          "tags": [
+            {
+              "name": "Time Manipulation"
+            },
+            {
+              "name": "Alternate Universe"
+            },
+            {
+              "name": "Conspiracy"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Dissociative Identities"
+            },
+            {
+              "name": "Memory Manipulation"
+            },
+            {
+              "name": "Denpa"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Time Loop"
+            },
+            {
+              "name": "Dystopian"
+            },
+            {
+              "name": "Urban"
+            },
+            {
+              "name": "Primarily Adult Cast"
+            },
+            {
+              "name": "Philosophy"
+            },
+            {
+              "name": "Chuunibyou"
+            },
+            {
+              "name": "Tsundere"
+            },
+            {
+              "name": "Otaku Culture"
+            },
+            {
+              "name": "Kuudere"
+            },
+            {
+              "name": "Heterosexual"
+            },
+            {
+              "name": "Suicide"
+            },
+            {
+              "name": "Transgender"
+            },
+            {
+              "name": "Amnesia"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "War"
+            },
+            {
+              "name": "LGBTQ+ Themes"
+            },
+            {
+              "name": "Post-Apocalyptic"
+            },
+            {
+              "name": "Gender Bending"
+            },
+            {
+              "name": "Trains"
+            },
+            {
+              "name": "Maids"
+            },
+            {
+              "name": "Shrine Maiden"
+            },
+            {
+              "name": "Cosplay"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9253-7pdcVzQSkKxT.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9253-7pdcVzQSkKxT.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9253-7pdcVzQSkKxT.jpg",
+            "color": "#e4a15d"
+          },
+          "popularity": 431987
+        },
+        {
+          "id": 21355,
+          "title": {
+            "english": "Re:ZERO -Starting Life in Another World-",
+            "romaji": "Re:Zero kara Hajimeru Isekai Seikatsu"
+          },
+          "startDate": {
+            "year": 2016
+          },
+          "format": "TV",
+          "episodes": 25,
+          "studios": {
+            "nodes": [
+              {
+                "name": "White Fox"
+              },
+              {
+                "name": "Funimation"
+              },
+              {
+                "name": "Kadokawa Shoten"
+              },
+              {
+                "name": "Media Factory"
+              },
+              {
+                "name": "AT-X"
+              },
+              {
+                "name": "TV Tokyo"
+              },
+              {
+                "name": "Magic Capsule"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Fantasy",
+            "Psychological",
+            "Romance",
+            "Thriller"
+          ],
+          "tags": [
+            {
+              "name": "Isekai"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Alternate Universe"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Time Manipulation"
+            },
+            {
+              "name": "Witch"
+            },
+            {
+              "name": "Magic"
+            },
+            {
+              "name": "Gore"
+            },
+            {
+              "name": "Cult"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Body Horror"
+            },
+            {
+              "name": "Suicide"
+            },
+            {
+              "name": "Love Triangle"
+            },
+            {
+              "name": "Maids"
+            },
+            {
+              "name": "Heterosexual"
+            },
+            {
+              "name": "Primarily Female Cast"
+            },
+            {
+              "name": "Time Loop"
+            },
+            {
+              "name": "Elf"
+            },
+            {
+              "name": "Demons"
+            },
+            {
+              "name": "Yandere"
+            },
+            {
+              "name": "Hikikomori"
+            },
+            {
+              "name": "Politics"
+            },
+            {
+              "name": "Femboy"
+            },
+            {
+              "name": "Butler"
+            },
+            {
+              "name": "Assassins"
+            },
+            {
+              "name": "Twins"
+            },
+            {
+              "name": "Meta"
+            },
+            {
+              "name": "Kuudere"
+            },
+            {
+              "name": "CGI"
+            },
+            {
+              "name": "Tomboy"
+            },
+            {
+              "name": "Travel"
+            },
+            {
+              "name": "Unrequited Love"
+            },
+            {
+              "name": "Nekomimi"
+            },
+            {
+              "name": "Body Swapping"
+            },
+            {
+              "name": "Crossdressing"
+            },
+            {
+              "name": "Kemonomimi"
+            },
+            {
+              "name": "Tsundere"
+            },
+            {
+              "name": "Foreign"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21355-IHaS50pvLYd0.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21355-IHaS50pvLYd0.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21355-IHaS50pvLYd0.jpg",
+            "color": "#f150ae"
+          },
+          "popularity": 423614
+        },
+        {
+          "id": 20447,
+          "title": {
+            "english": "Noragami",
+            "romaji": "Noragami"
+          },
+          "startDate": {
+            "year": 2014
+          },
+          "format": "TV",
+          "episodes": 12,
+          "studios": {
+            "nodes": [
+              {
+                "name": "bones"
+              },
+              {
+                "name": "Avex Entertainment"
+              },
+              {
+                "name": "Dentsu"
+              },
+              {
+                "name": "Shouchiku"
+              },
+              {
+                "name": "Kodansha"
+              },
+              {
+                "name": "Movic"
+              },
+              {
+                "name": "Lawson Entertainment"
+              },
+              {
+                "name": "A-Sketch"
+              },
+              {
+                "name": "Ai Addiction"
+              },
+              {
+                "name": "Funimation"
+              },
+              {
+                "name": "Madman Entertainment"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Supernatural"
+          ],
+          "tags": [
+            {
+              "name": "Gods"
+            },
+            {
+              "name": "Youkai"
+            },
+            {
+              "name": "Female Protagonist"
+            },
+            {
+              "name": "Urban Fantasy"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Mythology"
+            },
+            {
+              "name": "Anti-Hero"
+            },
+            {
+              "name": "Shapeshifting"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Swordplay"
+            },
+            {
+              "name": "Memory Manipulation"
+            },
+            {
+              "name": "Found Family"
+            },
+            {
+              "name": "Nekomimi"
+            },
+            {
+              "name": "Shrine Maiden"
+            },
+            {
+              "name": "Revenge"
+            },
+            {
+              "name": "Outdoor"
+            },
+            {
+              "name": "Bullying"
+            },
+            {
+              "name": "Environmental"
+            },
+            {
+              "name": "Age Gap"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20447-EoQXeygHaVCK.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20447-EoQXeygHaVCK.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20447-EoQXeygHaVCK.jpg",
+            "color": "#bbe4f1"
+          },
+          "popularity": 415612
+        },
+        {
+          "id": 19815,
+          "title": {
+            "english": "No Game, No Life",
+            "romaji": "No Game No Life"
+          },
+          "startDate": {
+            "year": 2014
+          },
+          "format": "TV",
+          "episodes": 12,
+          "studios": {
+            "nodes": [
+              {
+                "name": "MADHOUSE"
+              },
+              {
+                "name": "Media Factory"
+              },
+              {
+                "name": "Movic"
+              },
+              {
+                "name": "Frontier Works"
+              },
+              {
+                "name": "AT-X"
+              },
+              {
+                "name": "Sentai Filmworks"
+              }
+            ]
+          },
+          "genres": [
+            "Adventure",
+            "Comedy",
+            "Ecchi",
+            "Fantasy"
+          ],
+          "tags": [
+            {
+              "name": "Isekai"
+            },
+            {
+              "name": "Gambling"
+            },
+            {
+              "name": "Alternate Universe"
+            },
+            {
+              "name": "Video Games"
+            },
+            {
+              "name": "Hikikomori"
+            },
+            {
+              "name": "Magic"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Primarily Female Cast"
+            },
+            {
+              "name": "Female Protagonist"
+            },
+            {
+              "name": "Politics"
+            },
+            {
+              "name": "Parody"
+            },
+            {
+              "name": "Gods"
+            },
+            {
+              "name": "Travel"
+            },
+            {
+              "name": "Kuudere"
+            },
+            {
+              "name": "Memory Manipulation"
+            },
+            {
+              "name": "Kemonomimi"
+            },
+            {
+              "name": "Class Struggle"
+            },
+            {
+              "name": "Kingdom Management"
+            },
+            {
+              "name": "Meta"
+            },
+            {
+              "name": "Female Harem"
+            },
+            {
+              "name": "Nekomimi"
+            },
+            {
+              "name": "Elf"
+            },
+            {
+              "name": "Nudity"
+            },
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Judo"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx19815-bIo51RMWWhLv.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx19815-bIo51RMWWhLv.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx19815-bIo51RMWWhLv.jpg",
+            "color": "#EB7CED"
+          },
+          "popularity": 413899
+        },
+        {
+          "id": 101291,
+          "title": {
+            "english": "Rascal Does Not Dream of Bunny Girl Senpai",
+            "romaji": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai"
+          },
+          "startDate": {
+            "year": 2018
+          },
+          "format": "TV",
+          "episodes": 13,
+          "studios": {
+            "nodes": [
+              {
+                "name": "CloverWorks"
+              },
+              {
+                "name": "Aniplex"
+              },
+              {
+                "name": "ABC Animation"
+              },
+              {
+                "name": "KADOKAWA"
+              },
+              {
+                "name": "TOKYO MX"
+              },
+              {
+                "name": "Hakuhodo DY Music & Pictures"
+              },
+              {
+                "name": "BS11"
+              }
+            ]
+          },
+          "genres": [
+            "Comedy",
+            "Drama",
+            "Mystery",
+            "Psychological",
+            "Romance",
+            "Supernatural"
+          ],
+          "tags": [
+            {
+              "name": "Urban Fantasy"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "Heterosexual"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Primarily Female Cast"
+            },
+            {
+              "name": "Memory Manipulation"
+            },
+            {
+              "name": "Rehabilitation"
+            },
+            {
+              "name": "Dissociative Identities"
+            },
+            {
+              "name": "Bullying"
+            },
+            {
+              "name": "School"
+            },
+            {
+              "name": "Amnesia"
+            },
+            {
+              "name": "Time Manipulation"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Hikikomori"
+            },
+            {
+              "name": "Urban"
+            },
+            {
+              "name": "Body Swapping"
+            },
+            {
+              "name": "Love Triangle"
+            },
+            {
+              "name": "Tsundere"
+            },
+            {
+              "name": "Acting"
+            },
+            {
+              "name": "Idol"
+            },
+            {
+              "name": "Female Harem"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101291-L71WpAkZPtgm.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101291-L71WpAkZPtgm.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101291-L71WpAkZPtgm.jpg",
+            "color": "#5078e4"
+          },
+          "popularity": 408649
+        },
+        {
+          "id": 4224,
+          "title": {
+            "english": "Toradora!",
+            "romaji": "Toradora!"
+          },
+          "startDate": {
+            "year": 2008
+          },
+          "format": "TV",
+          "episodes": 25,
+          "studios": {
+            "nodes": [
+              {
+                "name": "Genco"
+              },
+              {
+                "name": "Starchild Records"
+              },
+              {
+                "name": "Magic Capsule"
+              },
+              {
+                "name": "NIS America Inc."
+              },
+              {
+                "name": "Yomiuri Advertising"
+              },
+              {
+                "name": "TV Tokyo Music"
+              },
+              {
+                "name": "J.C. Staff"
+              },
+              {
+                "name": "Hanabee Entertainment"
+              }
+            ]
+          },
+          "genres": [
+            "Comedy",
+            "Drama",
+            "Romance",
+            "Slice of Life"
+          ],
+          "tags": [
+            {
+              "name": "Love Triangle"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Tsundere"
+            },
+            {
+              "name": "School"
+            },
+            {
+              "name": "Heterosexual"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "Female Protagonist"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Slapstick"
+            },
+            {
+              "name": "Tragedy"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4224-3Bh0rm99N6Vl.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx4224-3Bh0rm99N6Vl.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4224-3Bh0rm99N6Vl.jpg",
+            "color": "#f14393"
+          },
+          "popularity": 406567
+        },
+        {
+          "id": 101921,
+          "title": {
+            "english": "Kaguya-sama: Love is War",
+            "romaji": "Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen"
+          },
+          "startDate": {
+            "year": 2019
+          },
+          "format": "TV",
+          "episodes": 12,
+          "studios": {
+            "nodes": [
+              {
+                "name": "A-1 Pictures"
+              },
+              {
+                "name": "Aniplex"
+              },
+              {
+                "name": "Shueisha"
+              },
+              {
+                "name": "JR Higashi Nihon Kikaku"
+              },
+              {
+                "name": "Mainichi Broadcasting System"
+              }
+            ]
+          },
+          "genres": [
+            "Comedy",
+            "Psychological",
+            "Romance",
+            "Slice of Life"
+          ],
+          "tags": [
+            {
+              "name": "Heterosexual"
+            },
+            {
+              "name": "School"
+            },
+            {
+              "name": "Tsundere"
+            },
+            {
+              "name": "School Club"
+            },
+            {
+              "name": "Ojou-sama"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "Episodic"
+            },
+            {
+              "name": "Parody"
+            },
+            {
+              "name": "Slapstick"
+            },
+            {
+              "name": "Female Protagonist"
+            },
+            {
+              "name": "Seinen"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Meta"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Philosophy"
+            },
+            {
+              "name": "Rotoscoping"
+            },
+            {
+              "name": "Nekomimi"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101921-VvdGQy1ZySYf.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101921-VvdGQy1ZySYf.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101921-VvdGQy1ZySYf.jpg",
+            "color": "#e45086"
+          },
+          "popularity": 402816
+        },
+        {
+          "id": 97940,
+          "title": {
+            "english": "Black Clover",
+            "romaji": "Black Clover"
+          },
+          "startDate": {
+            "year": 2017
+          },
+          "format": "TV",
+          "episodes": 170,
+          "studios": {
+            "nodes": [
+              {
+                "name": "Studio Pierrot"
+              },
+              {
+                "name": "Funimation"
+              },
+              {
+                "name": "TV Tokyo"
+              },
+              {
+                "name": "Crunchyroll"
+              },
+              {
+                "name": "Shueisha"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Fantasy"
+          ],
+          "tags": [
+            {
+              "name": "Magic"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Found Family"
+            },
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Orphan"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Revenge"
+            },
+            {
+              "name": "Demons"
+            },
+            {
+              "name": "Elf"
+            },
+            {
+              "name": "Class Struggle"
+            },
+            {
+              "name": "Dissociative Identities"
+            },
+            {
+              "name": "Reincarnation"
+            },
+            {
+              "name": "Conspiracy"
+            },
+            {
+              "name": "Adoption"
+            },
+            {
+              "name": "Cult"
+            },
+            {
+              "name": "Swordplay"
+            },
+            {
+              "name": "Heterosexual"
+            },
+            {
+              "name": "Lost Civilization"
+            },
+            {
+              "name": "Bullying"
+            },
+            {
+              "name": "Time Skip"
+            },
+            {
+              "name": "Cultivation"
+            },
+            {
+              "name": "Kuudere"
+            },
+            {
+              "name": "Nun"
+            },
+            {
+              "name": "Tsundere"
+            },
+            {
+              "name": "Love Triangle"
+            },
+            {
+              "name": "Disability"
+            },
+            {
+              "name": "Food"
+            },
+            {
+              "name": "Espionage"
+            },
+            {
+              "name": "Travel"
+            },
+            {
+              "name": "Tomboy"
+            },
+            {
+              "name": "Age Regression"
+            },
+            {
+              "name": "Dungeon"
+            },
+            {
+              "name": "Suicide"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97940-O2LWFOG8bK1u.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx97940-O2LWFOG8bK1u.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx97940-O2LWFOG8bK1u.jpg",
+            "color": "#aea135"
+          },
+          "popularity": 400305
+        },
+        {
+          "id": 104276,
+          "title": {
+            "english": "My Hero Academia Season 4",
+            "romaji": "Boku no Hero Academia 4"
+          },
+          "startDate": {
+            "year": 2019
+          },
+          "format": "TV",
+          "episodes": 25,
+          "studios": {
+            "nodes": [
+              {
+                "name": "bones"
+              },
+              {
+                "name": "Toho"
+              },
+              {
+                "name": "Shueisha"
+              },
+              {
+                "name": "Yomiuri TV"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Drama",
+            "Sci-Fi"
+          ],
+          "tags": [
+            {
+              "name": "Superhero"
+            },
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "School"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Crime"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "Gangs"
+            },
+            {
+              "name": "Urban Fantasy"
+            },
+            {
+              "name": "Yakuza"
+            },
+            {
+              "name": "Terrorism"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Cultivation"
+            },
+            {
+              "name": "Drugs"
+            },
+            {
+              "name": "Police"
+            },
+            {
+              "name": "Espionage"
+            },
+            {
+              "name": "Delinquents"
+            },
+            {
+              "name": "Primarily Male Cast"
+            },
+            {
+              "name": "Band"
+            },
+            {
+              "name": "Heterosexual"
+            },
+            {
+              "name": "Female Protagonist"
+            },
+            {
+              "name": "Nudity"
+            },
+            {
+              "name": "Gore"
+            },
+            {
+              "name": "Tomboy"
+            },
+            {
+              "name": "Philosophy"
+            },
+            {
+              "name": "Bar"
+            },
+            {
+              "name": "Bisexual"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104276-SnEowMvesWIE.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104276-SnEowMvesWIE.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104276-SnEowMvesWIE.png",
+            "color": "#fec950"
+          },
+          "popularity": 398381
+        },
+        {
+          "id": 20789,
+          "title": {
+            "english": "The Seven Deadly Sins",
+            "romaji": "Nanatsu no Taizai"
+          },
+          "startDate": {
+            "year": 2014
+          },
+          "format": "TV",
+          "episodes": 24,
+          "studios": {
+            "nodes": [
+              {
+                "name": "A-1 Pictures"
+              },
+              {
+                "name": "Funimation"
+              },
+              {
+                "name": "Aniplex"
+              },
+              {
+                "name": "Movic"
+              },
+              {
+                "name": "Dentsu"
+              },
+              {
+                "name": "Mainichi Broadcasting System"
+              },
+              {
+                "name": "Kodansha"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Ecchi",
+            "Fantasy",
+            "Supernatural"
+          ],
+          "tags": [
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Magic"
+            },
+            {
+              "name": "Demons"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Age Gap"
+            },
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Swordplay"
+            },
+            {
+              "name": "Anti-Hero"
+            },
+            {
+              "name": "Dissociative Identities"
+            },
+            {
+              "name": "Reincarnation"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Revenge"
+            },
+            {
+              "name": "Animals"
+            },
+            {
+              "name": "Bar"
+            },
+            {
+              "name": "Fairy"
+            },
+            {
+              "name": "Nudity"
+            },
+            {
+              "name": "Love Triangle"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20789-SsAI4pvvI9EU.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20789-SsAI4pvvI9EU.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20789-SsAI4pvvI9EU.jpg",
+            "color": "#e46b0d"
+          },
+          "popularity": 398246
+        },
+        {
+          "id": 20613,
+          "title": {
+            "english": "Akame ga Kill!",
+            "romaji": "Akame ga Kill!"
+          },
+          "startDate": {
+            "year": 2014
+          },
+          "format": "TV",
+          "episodes": 24,
+          "studios": {
+            "nodes": [
+              {
+                "name": "White Fox"
+              },
+              {
+                "name": "Sentai Filmworks"
+              },
+              {
+                "name": "Toho"
+              },
+              {
+                "name": "Square Enix"
+              },
+              {
+                "name": "Hanabee Entertainment"
+              },
+              {
+                "name": "Animatsu Entertainment"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Fantasy",
+            "Horror",
+            "Psychological",
+            "Thriller"
+          ],
+          "tags": [
+            {
+              "name": "Assassins"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Politics"
+            },
+            {
+              "name": "Gore"
+            },
+            {
+              "name": "Crime"
+            },
+            {
+              "name": "Swordplay"
+            },
+            {
+              "name": "Revenge"
+            },
+            {
+              "name": "Anti-Hero"
+            },
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Female Protagonist"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Female Harem"
+            },
+            {
+              "name": "Kuudere"
+            },
+            {
+              "name": "Kaiju"
+            },
+            {
+              "name": "Yandere"
+            },
+            {
+              "name": "Tomboy"
+            },
+            {
+              "name": "LGBTQ+ Themes"
+            },
+            {
+              "name": "Shapeshifting"
+            },
+            {
+              "name": "Heterosexual"
+            },
+            {
+              "name": "Nekomimi"
+            },
+            {
+              "name": "Demons"
+            },
+            {
+              "name": "Time Manipulation"
+            },
+            {
+              "name": "Love Triangle"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20613-4VGGPacciJBL.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20613-4VGGPacciJBL.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20613-4VGGPacciJBL.jpg",
+            "color": "#e45d43"
+          },
+          "popularity": 395862
+        },
+        {
+          "id": 21827,
+          "title": {
+            "english": "Violet Evergarden",
+            "romaji": "Violet Evergarden"
+          },
+          "startDate": {
+            "year": 2018
+          },
+          "format": "TV",
+          "episodes": 13,
+          "studios": {
+            "nodes": [
+              {
+                "name": "Kyoto Animation"
+              },
+              {
+                "name": "Lantis"
+              },
+              {
+                "name": "Pony Canyon"
+              },
+              {
+                "name": "Rakuonsha"
+              },
+              {
+                "name": "Madman Entertainment"
+              },
+              {
+                "name": "ABC Animation"
+              }
+            ]
+          },
+          "genres": [
+            "Drama",
+            "Fantasy",
+            "Slice of Life"
+          ],
+          "tags": [
+            {
+              "name": "Rehabilitation"
+            },
+            {
+              "name": "Writing"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Female Protagonist"
+            },
+            {
+              "name": "Kuudere"
+            },
+            {
+              "name": "War"
+            },
+            {
+              "name": "Work"
+            },
+            {
+              "name": "Disability"
+            },
+            {
+              "name": "Military"
+            },
+            {
+              "name": "Episodic"
+            },
+            {
+              "name": "Historical"
+            },
+            {
+              "name": "Travel"
+            },
+            {
+              "name": "Steampunk"
+            },
+            {
+              "name": "Primarily Adult Cast"
+            },
+            {
+              "name": "Philosophy"
+            },
+            {
+              "name": "Heterosexual"
+            },
+            {
+              "name": "Age Gap"
+            },
+            {
+              "name": "Foreign"
+            },
+            {
+              "name": "Guns"
+            },
+            {
+              "name": "Assassins"
+            },
+            {
+              "name": "Trains"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21827-10F6m50H4GJK.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21827-10F6m50H4GJK.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx21827-10F6m50H4GJK.png",
+            "color": "#3586e4"
+          },
+          "popularity": 393535
+        },
+        {
+          "id": 105333,
+          "title": {
+            "english": "Dr. STONE",
+            "romaji": "Dr. STONE"
+          },
+          "startDate": {
+            "year": 2019
+          },
+          "format": "TV",
+          "episodes": 24,
+          "studios": {
+            "nodes": [
+              {
+                "name": "TMS Entertainment"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Sci-Fi"
+          ],
+          "tags": [
+            {
+              "name": "Post-Apocalyptic"
+            },
+            {
+              "name": "Survival"
+            },
+            {
+              "name": "Lost Civilization"
+            },
+            {
+              "name": "Educational"
+            },
+            {
+              "name": "Time Skip"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Environmental"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "Primarily Male Cast"
+            },
+            {
+              "name": "Spearplay"
+            },
+            {
+              "name": "Espionage"
+            },
+            {
+              "name": "Asexual"
+            },
+            {
+              "name": "Found Family"
+            },
+            {
+              "name": "Tomboy"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105333-BBxkPhen07Zj.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105333-BBxkPhen07Zj.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105333-BBxkPhen07Zj.jpg",
+            "color": "#d6e486"
+          },
+          "popularity": 392813
+        },
+        {
+          "id": 21202,
+          "title": {
+            "english": "KONOSUBA -God's blessing on this wonderful world!",
+            "romaji": "Kono Subarashii Sekai ni Shukufuku wo!"
+          },
+          "startDate": {
+            "year": 2016
+          },
+          "format": "TV",
+          "episodes": 10,
+          "studios": {
+            "nodes": [
+              {
+                "name": "Studio DEEN"
+              },
+              {
+                "name": "Nippon Columbia"
+              },
+              {
+                "name": "Half H.P Studio"
+              }
+            ]
+          },
+          "genres": [
+            "Adventure",
+            "Comedy",
+            "Ecchi",
+            "Fantasy"
+          ],
+          "tags": [
+            {
+              "name": "Isekai"
+            },
+            {
+              "name": "Satire"
+            },
+            {
+              "name": "Parody"
+            },
+            {
+              "name": "Primarily Female Cast"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Magic"
+            },
+            {
+              "name": "Afterlife"
+            },
+            {
+              "name": "Masochism"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Gods"
+            },
+            {
+              "name": "Anti-Hero"
+            },
+            {
+              "name": "Slapstick"
+            },
+            {
+              "name": "Meta"
+            },
+            {
+              "name": "Chuunibyou"
+            },
+            {
+              "name": "Reincarnation"
+            },
+            {
+              "name": "Nudity"
+            },
+            {
+              "name": "Alternate Universe"
+            },
+            {
+              "name": "Swordplay"
+            },
+            {
+              "name": "Dungeon"
+            },
+            {
+              "name": "Succubus"
+            },
+            {
+              "name": "Dullahan"
+            },
+            {
+              "name": "Pregnant"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21202-TfzXuWQf2oLQ.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21202-TfzXuWQf2oLQ.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21202-TfzXuWQf2oLQ.png",
+            "color": "#5dbbf1"
+          },
+          "popularity": 373169
+        },
+        {
+          "id": 20623,
+          "title": {
+            "english": "Parasyte -the maxim-",
+            "romaji": "Kiseijuu: Sei no Kakuritsu"
+          },
+          "startDate": {
+            "year": 2014
+          },
+          "format": "TV",
+          "episodes": 24,
+          "studios": {
+            "nodes": [
+              {
+                "name": "MADHOUSE"
+              },
+              {
+                "name": "VAP"
+              },
+              {
+                "name": "Kodansha"
+              },
+              {
+                "name": "Nippon Television Network"
+              },
+              {
+                "name": "Forecast Communications"
+              },
+              {
+                "name": "Sentai Filmworks"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Drama",
+            "Horror",
+            "Psychological",
+            "Sci-Fi"
+          ],
+          "tags": [
+            {
+              "name": "Body Horror"
+            },
+            {
+              "name": "Seinen"
+            },
+            {
+              "name": "Shapeshifting"
+            },
+            {
+              "name": "Survival"
+            },
+            {
+              "name": "Aliens"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Philosophy"
+            },
+            {
+              "name": "Anti-Hero"
+            },
+            {
+              "name": "Gore"
+            },
+            {
+              "name": "Revenge"
+            },
+            {
+              "name": "Cannibalism"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Heterosexual"
+            },
+            {
+              "name": "Environmental"
+            },
+            {
+              "name": "Crime"
+            },
+            {
+              "name": "School"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "Villainess"
+            },
+            {
+              "name": "Love Triangle"
+            },
+            {
+              "name": "Bullying"
+            },
+            {
+              "name": "Primarily Male Cast"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20623-rVoHgF3Apo7P.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20623-rVoHgF3Apo7P.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20623-rVoHgF3Apo7P.jpg",
+            "color": "#355da1"
+          },
+          "popularity": 368877
+        },
+        {
+          "id": 99423,
+          "title": {
+            "english": "DARLING in the FRANXX",
+            "romaji": "Darling in the Franxx"
+          },
+          "startDate": {
+            "year": 2018
+          },
+          "format": "TV",
+          "episodes": 24,
+          "studios": {
+            "nodes": [
+              {
+                "name": "Trigger"
+              },
+              {
+                "name": "Aniplex"
+              },
+              {
+                "name": "CloverWorks"
+              },
+              {
+                "name": "A-1 Pictures"
+              },
+              {
+                "name": "Movic"
+              },
+              {
+                "name": "Ultra Super Pictures"
+              },
+              {
+                "name": "Crunchyroll"
+              },
+              {
+                "name": "Funimation"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Drama",
+            "Mecha",
+            "Psychological",
+            "Romance",
+            "Sci-Fi"
+          ],
+          "tags": [
+            {
+              "name": "Super Robot"
+            },
+            {
+              "name": "Post-Apocalyptic"
+            },
+            {
+              "name": "Dystopian"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Robots"
+            },
+            {
+              "name": "Heterosexual"
+            },
+            {
+              "name": "Orphan"
+            },
+            {
+              "name": "Conspiracy"
+            },
+            {
+              "name": "Found Family"
+            },
+            {
+              "name": "Unrequited Love"
+            },
+            {
+              "name": "Kaiju"
+            },
+            {
+              "name": "Monster Girl"
+            },
+            {
+              "name": "Lost Civilization"
+            },
+            {
+              "name": "Memory Manipulation"
+            },
+            {
+              "name": "Aliens"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Female Protagonist"
+            },
+            {
+              "name": "Love Triangle"
+            },
+            {
+              "name": "Military"
+            },
+            {
+              "name": "Clone"
+            },
+            {
+              "name": "Monster Boy"
+            },
+            {
+              "name": "Tsundere"
+            },
+            {
+              "name": "Survival"
+            },
+            {
+              "name": "Family Life"
+            },
+            {
+              "name": "Netorare"
+            },
+            {
+              "name": "Space"
+            },
+            {
+              "name": "Body Horror"
+            },
+            {
+              "name": "Nudity"
+            },
+            {
+              "name": "Yandere"
+            },
+            {
+              "name": "Time Skip"
+            },
+            {
+              "name": "Demons"
+            },
+            {
+              "name": "Environmental"
+            },
+            {
+              "name": "Marriage"
+            },
+            {
+              "name": "Politics"
+            },
+            {
+              "name": "Travel"
+            },
+            {
+              "name": "Aviation"
+            },
+            {
+              "name": "Agriculture"
+            },
+            {
+              "name": "Virginity"
+            },
+            {
+              "name": "Football"
+            },
+            {
+              "name": "LGBTQ+ Themes"
+            },
+            {
+              "name": "Agender"
+            },
+            {
+              "name": "Large Breasts"
+            },
+            {
+              "name": "Drawing"
+            },
+            {
+              "name": "Fishing"
+            },
+            {
+              "name": "Medicine"
+            },
+            {
+              "name": "Pandemic"
+            },
+            {
+              "name": "Reincarnation"
+            },
+            {
+              "name": "Gore"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99423-8MBxtwCeHf8B.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx99423-8MBxtwCeHf8B.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx99423-8MBxtwCeHf8B.png",
+            "color": "#EB142A"
+          },
+          "popularity": 366705
+        },
+        {
+          "id": 127230,
+          "title": {
+            "english": "Chainsaw Man",
+            "romaji": "Chainsaw Man"
+          },
+          "startDate": {
+            "year": 2022
+          },
+          "format": "TV",
+          "episodes": 12,
+          "studios": {
+            "nodes": [
+              {
+                "name": "MAPPA"
+              },
+              {
+                "name": "Shueisha"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Drama",
+            "Horror",
+            "Supernatural"
+          ],
+          "tags": [
+            {
+              "name": "Demons"
+            },
+            {
+              "name": "Monster Boy"
+            },
+            {
+              "name": "Urban Fantasy"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Gore"
+            },
+            {
+              "name": "Body Horror"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Urban"
+            },
+            {
+              "name": "Henshin"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Found Family"
+            },
+            {
+              "name": "Monster Girl"
+            },
+            {
+              "name": "Surreal Comedy"
+            },
+            {
+              "name": "Primarily Adult Cast"
+            },
+            {
+              "name": "Anthropomorphism"
+            },
+            {
+              "name": "Heterosexual"
+            },
+            {
+              "name": "Assassins"
+            },
+            {
+              "name": "Guns"
+            },
+            {
+              "name": "Age Gap"
+            },
+            {
+              "name": "Cannibalism"
+            },
+            {
+              "name": "CGI"
+            },
+            {
+              "name": "Tomboy"
+            },
+            {
+              "name": "Yandere"
+            },
+            {
+              "name": "Nudity"
+            },
+            {
+              "name": "POV"
+            },
+            {
+              "name": "Police"
+            },
+            {
+              "name": "Homeless"
+            },
+            {
+              "name": "Amnesia"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Zombie"
+            },
+            {
+              "name": "Angels"
+            },
+            {
+              "name": "Revenge"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127230-FlochcFsyoF4.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx127230-FlochcFsyoF4.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127230-FlochcFsyoF4.png",
+            "color": "#6b1a1a"
+          },
+          "popularity": 356356
+        },
+        {
+          "id": 140960,
+          "title": {
+            "english": "SPY x FAMILY",
+            "romaji": "SPY×FAMILY"
+          },
+          "startDate": {
+            "year": 2022
+          },
+          "format": "TV",
+          "episodes": 12,
+          "studios": {
+            "nodes": [
+              {
+                "name": "CloverWorks"
+              },
+              {
+                "name": "Wit Studio"
+              },
+              {
+                "name": "Toho"
+              },
+              {
+                "name": "Shueisha"
+              },
+              {
+                "name": "TV Tokyo"
+              },
+              {
+                "name": "Shogakukan-Shueisha Productions"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Comedy",
+            "Slice of Life",
+            "Supernatural"
+          ],
+          "tags": [
+            {
+              "name": "Espionage"
+            },
+            {
+              "name": "Family Life"
+            },
+            {
+              "name": "Found Family"
+            },
+            {
+              "name": "Assassins"
+            },
+            {
+              "name": "Conspiracy"
+            },
+            {
+              "name": "Adoption"
+            },
+            {
+              "name": "Slapstick"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Female Protagonist"
+            },
+            {
+              "name": "Crime"
+            },
+            {
+              "name": "Foreign"
+            },
+            {
+              "name": "Urban"
+            },
+            {
+              "name": "School"
+            },
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Surreal Comedy"
+            },
+            {
+              "name": "Heterosexual"
+            },
+            {
+              "name": "Parody"
+            },
+            {
+              "name": "Episodic"
+            },
+            {
+              "name": "Guns"
+            },
+            {
+              "name": "Politics"
+            },
+            {
+              "name": "Orphan"
+            },
+            {
+              "name": "Bullying"
+            },
+            {
+              "name": "Martial Arts"
+            },
+            {
+              "name": "Primarily Adult Cast"
+            },
+            {
+              "name": "Urban Fantasy"
+            },
+            {
+              "name": "Tsundere"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140960-vN39AmOWrVB5.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx140960-vN39AmOWrVB5.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx140960-vN39AmOWrVB5.jpg",
+            "color": "#c9f1f1"
+          },
+          "popularity": 355680
+        },
+        {
+          "id": 112151,
+          "title": {
+            "english": "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
+            "romaji": "Kimetsu no Yaiba: Mugen Ressha-hen"
+          },
+          "startDate": {
+            "year": 2020
+          },
+          "format": "MOVIE",
+          "episodes": 1,
+          "studios": {
+            "nodes": [
+              {
+                "name": "ufotable"
+              },
+              {
+                "name": "Aniplex"
+              },
+              {
+                "name": "Shueisha"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Fantasy",
+            "Mystery",
+            "Supernatural"
+          ],
+          "tags": [
+            {
+              "name": "Demons"
+            },
+            {
+              "name": "Swordplay"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Trains"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Body Horror"
+            },
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Monster Girl"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "Gore"
+            },
+            {
+              "name": "CGI"
+            },
+            {
+              "name": "Primarily Male Cast"
+            },
+            {
+              "name": "Orphan"
+            },
+            {
+              "name": "Travel"
+            },
+            {
+              "name": "Suicide"
+            },
+            {
+              "name": "Shapeshifting"
+            },
+            {
+              "name": "Historical"
+            },
+            {
+              "name": "Crime"
+            },
+            {
+              "name": "Family Life"
+            },
+            {
+              "name": "Rural"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112151-1qlQwPB1RrJe.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx112151-1qlQwPB1RrJe.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx112151-1qlQwPB1RrJe.png",
+            "color": "#5dc9f1"
+          },
+          "popularity": 355581
+        },
+        {
+          "id": 9919,
+          "title": {
+            "english": "Blue Exorcist",
+            "romaji": "Ao no Exorcist"
+          },
+          "startDate": {
+            "year": 2011
+          },
+          "format": "TV",
+          "episodes": 25,
+          "studios": {
+            "nodes": [
+              {
+                "name": "Aniplex"
+              },
+              {
+                "name": "Dentsu"
+              },
+              {
+                "name": "A-1 Pictures"
+              },
+              {
+                "name": "Mainichi Broadcasting System"
+              },
+              {
+                "name": "Movic"
+              },
+              {
+                "name": "Aniplex of America"
+              },
+              {
+                "name": "Sakura Create"
+              },
+              {
+                "name": "Shueisha"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Fantasy",
+            "Supernatural"
+          ],
+          "tags": [
+            {
+              "name": "Demons"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Youkai"
+            },
+            {
+              "name": "Twins"
+            },
+            {
+              "name": "Religion"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "School"
+            },
+            {
+              "name": "Urban Fantasy"
+            },
+            {
+              "name": "Adoption"
+            },
+            {
+              "name": "Swordplay"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Body Horror"
+            },
+            {
+              "name": "Wuxia"
+            },
+            {
+              "name": "School Club"
+            },
+            {
+              "name": "Guns"
+            },
+            {
+              "name": "CGI"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9919-nXS7JOZrWHfS.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9919-nXS7JOZrWHfS.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9919-nXS7JOZrWHfS.jpg",
+            "color": "#aed6f1"
+          },
+          "popularity": 355129
+        },
+        {
+          "id": 20931,
+          "title": {
+            "english": "Death Parade",
+            "romaji": "Death Parade"
+          },
+          "startDate": {
+            "year": 2015
+          },
+          "format": "TV",
+          "episodes": 12,
+          "studios": {
+            "nodes": [
+              {
+                "name": "MADHOUSE"
+              },
+              {
+                "name": "VAP"
+              },
+              {
+                "name": "DAX Production"
+              },
+              {
+                "name": "Nippon Television Network"
+              }
+            ]
+          },
+          "genres": [
+            "Drama",
+            "Mystery",
+            "Psychological",
+            "Supernatural",
+            "Thriller"
+          ],
+          "tags": [
+            {
+              "name": "Death Game"
+            },
+            {
+              "name": "Afterlife"
+            },
+            {
+              "name": "Philosophy"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Amnesia"
+            },
+            {
+              "name": "Memory Manipulation"
+            },
+            {
+              "name": "Reincarnation"
+            },
+            {
+              "name": "Bar"
+            },
+            {
+              "name": "Primarily Adult Cast"
+            },
+            {
+              "name": "Episodic"
+            },
+            {
+              "name": "Suicide"
+            },
+            {
+              "name": "Gambling"
+            },
+            {
+              "name": "Female Protagonist"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Mythology"
+            },
+            {
+              "name": "Kuudere"
+            },
+            {
+              "name": "Ice Skating"
+            },
+            {
+              "name": "Revenge"
+            },
+            {
+              "name": "Tanned Skin"
+            },
+            {
+              "name": "Gyaru"
+            },
+            {
+              "name": "CGI"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx20931-bktYqOcxPERi.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx20931-bktYqOcxPERi.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx20931-bktYqOcxPERi.jpg",
+            "color": "#35a1f1"
+          },
+          "popularity": 353625
+        },
+        {
+          "id": 124080,
+          "title": {
+            "english": "Horimiya",
+            "romaji": "Horimiya"
+          },
+          "startDate": {
+            "year": 2021
+          },
+          "format": "TV",
+          "episodes": 13,
+          "studios": {
+            "nodes": [
+              {
+                "name": "CloverWorks"
+              },
+              {
+                "name": "Aniplex"
+              },
+              {
+                "name": "Mainichi Broadcasting System"
+              },
+              {
+                "name": "Square Enix"
+              },
+              {
+                "name": "Movic"
+              },
+              {
+                "name": "My Theater D.D."
+              },
+              {
+                "name": "Global Solutions"
+              },
+              {
+                "name": "Mirai Koujou"
+              },
+              {
+                "name": "Kanetsuu Investment"
+              }
+            ]
+          },
+          "genres": [
+            "Comedy",
+            "Romance",
+            "Slice of Life"
+          ],
+          "tags": [
+            {
+              "name": "School"
+            },
+            {
+              "name": "Family Life"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Female Protagonist"
+            },
+            {
+              "name": "Heterosexual"
+            },
+            {
+              "name": "Coming of Age"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "Tsundere"
+            },
+            {
+              "name": "Slapstick"
+            },
+            {
+              "name": "Shounen"
+            },
+            {
+              "name": "Love Triangle"
+            },
+            {
+              "name": "Bullying"
+            },
+            {
+              "name": "Masochism"
+            },
+            {
+              "name": "Sadism"
+            },
+            {
+              "name": "LGBTQ+ Themes"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124080-h8EPH92nyRfS.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx124080-h8EPH92nyRfS.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx124080-h8EPH92nyRfS.jpg",
+            "color": "#5dc9f1"
+          },
+          "popularity": 350459
+        },
+        {
+          "id": 1575,
+          "title": {
+            "english": "Code Geass: Lelouch of the Rebellion",
+            "romaji": "Code Geass: Hangyaku no Lelouch"
+          },
+          "startDate": {
+            "year": 2006
+          },
+          "format": "TV",
+          "episodes": 25,
+          "studios": {
+            "nodes": [
+              {
+                "name": "Sunrise"
+              },
+              {
+                "name": "Mainichi Broadcasting System"
+              },
+              {
+                "name": "Bandai Entertainment"
+              },
+              {
+                "name": "Sony Music Entertainment"
+              },
+              {
+                "name": "Funimation"
+              }
+            ]
+          },
+          "genres": [
+            "Action",
+            "Drama",
+            "Mecha",
+            "Sci-Fi",
+            "Thriller"
+          ],
+          "tags": [
+            {
+              "name": "Anti-Hero"
+            },
+            {
+              "name": "War"
+            },
+            {
+              "name": "Military"
+            },
+            {
+              "name": "Revenge"
+            },
+            {
+              "name": "Super Power"
+            },
+            {
+              "name": "Politics"
+            },
+            {
+              "name": "Philosophy"
+            },
+            {
+              "name": "Male Protagonist"
+            },
+            {
+              "name": "Terrorism"
+            },
+            {
+              "name": "Tragedy"
+            },
+            {
+              "name": "Real Robot"
+            },
+            {
+              "name": "Class Struggle"
+            },
+            {
+              "name": "Dystopian"
+            },
+            {
+              "name": "Super Robot"
+            },
+            {
+              "name": "Primarily Teen Cast"
+            },
+            {
+              "name": "Memory Manipulation"
+            },
+            {
+              "name": "Ensemble Cast"
+            },
+            {
+              "name": "Foreign"
+            },
+            {
+              "name": "Amnesia"
+            },
+            {
+              "name": "Urban Fantasy"
+            },
+            {
+              "name": "Nudity"
+            },
+            {
+              "name": "Disability"
+            },
+            {
+              "name": "Kuudere"
+            },
+            {
+              "name": "Heterosexual"
+            },
+            {
+              "name": "Female Harem"
+            },
+            {
+              "name": "School Club"
+            },
+            {
+              "name": "Gore"
+            },
+            {
+              "name": "Masturbation"
+            },
+            {
+              "name": "Tanned Skin"
+            },
+            {
+              "name": "Age Gap"
+            },
+            {
+              "name": "Swordplay"
+            },
+            {
+              "name": "CGI"
+            }
+          ],
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1575-ZJYlg8yjvMKI.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1575-ZJYlg8yjvMKI.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1575-ZJYlg8yjvMKI.jpg",
+            "color": "#7A18D0"
+          },
+          "popularity": 347274
+        }
+      ]
+    }
+  }
+}
