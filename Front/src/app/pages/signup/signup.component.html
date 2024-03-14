@@ -14,6 +14,12 @@
             id="InputUsername"
             aria-describedby="usernameHelp"
             placeholder="Entrer votre nom d'utilisateur"
+            [(ngModel)]="username"
+            (input)="checkUsernameValid()"
+            [ngClass]="{
+              'is-valid': usernameValid === true,
+              'is-invalid': usernameValid === false
+            }"
           />
         </div>
         <div class="form-group my-3">
@@ -23,6 +29,12 @@
             id="InputEmail"
             aria-describedby="emailHelp"
             placeholder="Entrer votre adresse e-mail"
+            [(ngModel)]="email"
+            (input)="checkEmailValid()"
+            [ngClass]="{
+              'is-valid': emailValid === true,
+              'is-invalid': emailValid === false
+            }"
           />
           <small id="emailHelp" class="card-text form-text text-light">
             Votre adresse e-mail ne sera jamais communiquée à qui que ce soit.
@@ -31,29 +43,81 @@
         <div>
           <div class="form-group mt-3 mb-1">
             <input
-              for="inco"
               type="password"
               class="form-control"
-              id="InputPassword1"
+              id="InputPasswordMain"
               placeholder="Mot de passe"
               autocomplete="off"
+              [(ngModel)]="passwordMain"
+              (input)="checkPasswordValid()"
+              [ngClass]="{
+                'is-valid': passwordValid === true,
+                'is-invalid': passwordValid === false
+              }"
             />
+            <div
+              class="card pwdRequierments mb-2 px-2"
+              [ngClass]="{ show: passwordValid !== null }"
+            >
+              <small
+                id="labelPwdGT8"
+                class="card-text form-text"
+                [ngClass]="{
+                  'text-success': passwordGreaterThanEight === true,
+                  'text-danger': passwordGreaterThanEight === false
+                }"
+              >
+                Plus de 8 caractères
+                <br />
+              </small>
+              <small
+                id="labelPwdMaj"
+                class="card-text form-text"
+                [ngClass]="{
+                  'text-success': passwordWithMaj === true,
+                  'text-danger': passwordWithMaj === false
+                }"
+              >
+                Au moins une majuscule
+                <br />
+              </small>
+              <small
+                id="labelPwdNum"
+                class="card-text form-text"
+                [ngClass]="{
+                  'text-success': passwordWithNumber === true,
+                  'text-danger': passwordWithNumber === false
+                }"
+              >
+                Au moins un chiffre
+                <br />
+              </small>
+            </div>
           </div>
           <div class="form-group mb-3">
             <input
-              for="inco"
               type="password"
               class="form-control"
-              id="InputPassword2"
+              id="InputPasswordSecondary"
               placeholder="Confirmer votre mot de passe"
               autocomplete="off"
+              [(ngModel)]="passwordSecondary"
+              (input)="checkPasswordMatch()"
+              [ngClass]="{
+                'is-valid': passwordMatched === true,
+                'is-invalid': passwordMatched === false
+              }"
             />
           </div>
         </div>
         <div
           class="container d-flex align-items-center justify-content-center my-3"
         >
-          <button type="button" class="btn btn-secondary">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            (click)="validateSignup()"
+          >
             Valider l'inscription
           </button>
         </div>
