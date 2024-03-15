@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+  
+  <app-nav-bar></app-nav-bar>
+  <main>
+    <div id="score" class="d-flex align-items-center flex-column mx-auto justify-content-center">
+      <h2>Meilleur score personnel</h2><br>
+      <h2 class="rouge">411</h2>
+    </div>
+    
+    <div id="maindiv" class="d-flex align-items-center mx-auto justify-content-center">
+      <div id="header">
+        <h1>Ranking</h1>
+        <button class="share" onclick="doCapture();">
+          <i class="material-symbols-outlined">share</i>
+        </button>
+      </div>
+      <div id="leaderboard">
+        <div class="ribbon"></div>
+        <table>
+          <tr>
+            <td class="number">1</td>
+            <td class="name">Theard Cody</td>
+            <td class="points">
+              258.244 <img class="gold-medal" src="https://github.com/malunaridev/Challenges-iCodeThis/blob/master/4-leaderboard/assets/gold-medal.png?raw=true" alt="gold medal"/>
+            </td>
+          </tr>
+          <tr>
+            <td class="number">2</td>
+            <td class="name">MARCCCCCCCCCCCCC</td>
+            <td class="points">258.242</td>
+          </tr>
+          <tr>
+            <td class="number">3</td>
+            <td class="name">Jean</td>
+            <td class="points">258.223</td>
+          </tr>
+          <tr>
+            <td class="number">4</td>
+            <td class="name">Nathan La grosse touf</td>
+            <td class="points">258.212</td>
+          </tr>
+          <tr>
+            <td class="number">5</td>
+            <td class="name">Yamis MANFALOOOOOOOOOOOOOTI</td>
+            <td class="points">258.208</td>
+          </tr>
+        </table>
+        
+      </div>
+      <script src="https://unpkg.com/@phosphor-icons/web"></script>
+      <script>src="Front/src/assets/html2canvas.js"</script>
+      <script>
+        function doCapture() {
+          window.scrollTo(0, 0);
+ 
+          html2canvas(document.getElementById("capture")).then(function (canvas) {
+ 
+          // Create an AJAX object
+          var ajax = new XMLHttpRequest();
+  
+          // Setting method, server file name, and asynchronous
+          ajax.open("POST", "save-capture.php", true);
+  
+          // Setting headers for POST method
+          ajax.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+  
+          // Sending image data to server
+          ajax.send("image=" + canvas.toDataURL("image/jpeg", 0.9));
+  
+          // Receiving response from server
+          // This function will be called multiple times
+          ajax.onreadystatechange = function () {
+            // Check when the requested is completed
+            if (this.readyState == 4 && this.status == 200) {
+ 
+                // Displaying response from server
+                console.log(this.responseText);
+            }
+        };
+    });
+}
+      </script>
+    </div>
+  </main>
