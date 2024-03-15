@@ -8,4 +8,6 @@ import { NavBarComponent } from '../../components/nav-bar/nav-bar.component';
   templateUrl: './board-jeu.component.html',
   styleUrl: './board-jeu.component.scss',
 })
-export class BoardJeuComponent {}
+export class BoardJeuComponent {
+
+}

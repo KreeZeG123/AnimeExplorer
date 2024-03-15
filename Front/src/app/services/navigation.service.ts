@@ -5,11 +5,9 @@ import { Subject } from 'rxjs';
   providedIn: 'root',
 })
 export class NavigationService {
-  private navLinkClicked = new Subject<string>();
+  constructor(private http: HttpClient) {}
 
-  navLinkClicked$ = this.navLinkClicked.asObservable();
-
-  notifyNavLinkClicked(boardId: string) {
-    this.navLinkClicked.next(boardId);
+  getImages(): Subject<string[]> {
+    return this.http.get<string[]>('filtre.js');
   }
 }

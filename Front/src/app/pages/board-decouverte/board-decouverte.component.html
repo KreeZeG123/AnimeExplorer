@@ -3,7 +3,20 @@
 <app-nav-bar></app-nav-bar>
 <main>
   <p>Board Decouvrir</p>
-  <app-search></app-search>
-  <app-filtre [typeFiltre]=filtreAnnee></app-filtre>
-  <app-filtre [typeFiltre]=filtreGenre></app-filtre>
+  
+  <div class="d-flex justify-content-center align-items-center" >
+    <app-search></app-search>
+    <app-filtre [typeFiltre]=filtreAnnee></app-filtre>
+    <app-filtre [typeFiltre]=filtreGenre></app-filtre>
+    <app-filtre [typeFiltre]=filtreFormat></app-filtre>
+    <script src="../services/filtre.js">
+      let images=displayAnime();
+    </script>
+    <div *ngFor="let image of images">
+      <img [src]="image" alt="Image">
+    </div>
+  
+
+
+  </div>
 </main>
