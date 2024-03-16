@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import { NavBarComponent } from '../../components/nav-bar/nav-bar.component';
+import { BackEndService } from '../../services/back-end/back-end.service';
 
 @Component({
   selector: 'app-login',
@@ -18,42 +19,34 @@ export class LoginComponent {
   password: string = '';
   passwordValid: boolean | null = null;
 
-  emailIsValid(): void {
-    // TODO Requete a BDD -> recherche si email exist
-    // cherche username, recupère usernam + mdp crypté
-    if (this.email === '') {
-      this.emailValid = null;
-    } else if (!/\S+@\S+\.\S+/.test(this.email)) {
-      this.emailValid = false;
-    } else if (this.email.length >= 5) {
-      // Temporaire
-      this.emailValid = true;
-    } else {
-      this.emailValid = false;
-    }
-  }
+  private expectedPassword: string = '';
 
-  passwordIsValid(): void {
-    // TODO Requete a BDD -> verifie si le password est correct
-    // crypte le mdp donnée, compare avec le mdp crypté correspondant a l'email
-    if (this.password === '') {
-      this.passwordValid = null;
-    } else if (this.password.length >= 8) {
-      // Temporaire
-      this.passwordValid = true;
-    } else {
-      this.passwordValid = false;
-    }
-  }
+  constructor(private backEndService: BackEndService) {}
 
   validateLogin(): void {
-    this.emailIsValid();
-    this.passwordIsValid();
-
-    if (this.emailValid && this.passwordValid) {
-      alert('Connexion avec succès');
-    } else {
-      alert('Veillez a bien remplir les champs correctement');
-    }
+    this.backEndService
+      .login(this.email, this.password)
+      .then((result) => {
+        switch (result) {
+          case 'success':
+            this.passwordValid = true;
+            this.emailValid = true;
+            break;
+          case 'wrongEmail':
+            this.passwordValid = false;
+            this.emailValid = false;
+            break;
+          case 'wrongPassword':
+            this.passwordValid = false;
+            this.emailValid = true;
+            break;
+          default:
+            alert('Erreur ');
+        }
+      })
+      .catch((error) => {
+        console.error('Erreur lors de la connexion : ', error);
+        // Gérer les erreurs ici
+      });
   }
 }

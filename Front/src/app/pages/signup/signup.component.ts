@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms'; // Importez FormsModule
 import { RouterLink } from '@angular/router';
 import { NavBarComponent } from '../../components/nav-bar/nav-bar.component';
+import { BackEndService } from '../../services/back-end/back-end.service'; // Importez le service BackEndService
 
 @Component({
   selector: 'app-signup',
@@ -26,6 +27,8 @@ export class SignupComponent {
 
   passwordSecondary: string = '';
   passwordMatched: boolean | null = null;
+
+  constructor(private backEndService: BackEndService) {}
 
   checkUsernameValid(): void {
     this.usernameValid = this.username.length >= 3;
