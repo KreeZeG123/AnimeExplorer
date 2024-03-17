@@ -1,13 +1,18 @@
 import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
+import { Observable } from 'rxjs';
+// @ts-ignore
+import { displayAnime } from './filtre.js';
 
 @Injectable({
   providedIn: 'root',
 })
 export class NavigationService {
-  constructor(private http: HttpClient) {}
 
-  getImages(): Subject<string[]> {
-    return this.http.get<string[]>('filtre.js');
+  constructor(){}
+
+  displayAnime(): string[] {
+    return displayAnime();
   }
+
 }

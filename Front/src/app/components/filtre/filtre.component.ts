@@ -1,4 +1,4 @@
-import { NgFor } from '@angular/common';
+
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 @Component({
@@ -14,8 +14,6 @@ export class FiltreComponent {
   nom: string = "";
   value: string[]=[];
   idx: number=-1;
-
-  constructor() {}
 
   ngOnInit() {
     if (this.typeFiltre && this.typeFiltre.length >= 3) {

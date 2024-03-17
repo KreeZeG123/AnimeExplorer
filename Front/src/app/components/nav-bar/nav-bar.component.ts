@@ -10,12 +10,5 @@ import { NavigationService } from '../../services/navigation.service';
   styleUrl: './nav-bar.component.scss',
 })
 export class NavBarComponent {
-  activeNavLink: string = '';
 
-  constructor(private navigationService: NavigationService) {}
-
-  onNavLinkClick(boardId: string) {
-    this.activeNavLink = boardId;
-    this.navigationService.notifyNavLinkClicked(boardId);
-  }
 }
