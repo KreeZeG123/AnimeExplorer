@@ -1,9 +1,11 @@
 <main id="filtre">
     <div class="form-group">
         <label for="exampleSelect1" class="form-label">{{nom}}</label>
-        <select class="form-select" id="exampleSelect1">
-            <option>Any</option>
+        <select class="form-select" id="exampleSelect1" [(ngModel)]="optionSelectionne" (change)="onOptionSelectionneeChange()">
+            <option value="" selected>Any</option>
             <option *ngFor="let val of value" [value]="val">{{val}}</option>
         </select>
     </div>
+    
 </main>
+
