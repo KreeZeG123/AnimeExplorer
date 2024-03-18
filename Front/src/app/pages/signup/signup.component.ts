@@ -28,6 +28,8 @@ export class SignupComponent {
   passwordSecondary: string = '';
   passwordMatched: boolean | null = null;
 
+  alertMessage: string = '';
+
   constructor(private backEndService: BackEndService) {}
 
   checkUsernameValid(): void {
@@ -35,7 +37,13 @@ export class SignupComponent {
   }
 
   checkEmailValid(): void {
-    this.emailValid = /\S+@\S+\.\S+/.test(this.email);
+    if (this.email === '') {
+      this.emailValid = null;
+    } else if (/\S+@\S+\.\S+/.test(this.email)) {
+      this.emailValid = true;
+    } else {
+      this.emailValid = false;
+    }
   }
 
   checkPasswordValid(): void {
@@ -49,6 +57,8 @@ export class SignupComponent {
         : this.passwordGreaterThanEight &&
           this.passwordWithNumber &&
           this.passwordWithMaj;
+
+    this.checkPasswordMatch();
   }
 
   checkPasswordMatch(): void {
@@ -64,18 +74,56 @@ export class SignupComponent {
     }
   }
 
-  validateSignup(): void {
+  async checkEmailDisponible(): Promise<void> {
+    await this.backEndService
+      .emailDisponible(this.email)
+      .then((result) => {
+        const res = result == true;
+        if (result == true) {
+          this.emailValid = true;
+        } else {
+          this.emailValid = false;
+          this.alertMessage += 'Email déjà utilisé\n';
+        }
+      })
+      .catch((error) => {
+        console.error("Erreur lors de la vérification de l'email : ", error);
+      });
+    alert(1);
+  }
+
+  async validateSignup(): Promise<void> {
+    this.alertMessage = '';
+    await this.checkEmailDisponible();
+    alert('2');
     if (
       this.usernameValid &&
       this.emailValid &&
       this.passwordValid &&
       this.passwordMatched
     ) {
-      // Requete a BDD -> inscription nouveau utilisateur
-      // TODO
-      alert('Inscription validée');
+      alert('3');
+      await this.backEndService
+        .signup(this.username, this.email, this.passwordMain)
+        .then((result) => {
+          if (result) {
+            this.alertMessage += 'Inscription validée';
+            alert('4');
+            if (this.backEndService.userIsConnected()) {
+              alert('Bienvenue ' + this.backEndService.getUsername());
+            }
+          } else {
+            console.error('Erreur lors de linscription');
+          }
+        })
+        .catch((error) => {
+          console.error('Erreur lors de linscription : ', error);
+        });
     } else {
-      alert('Veillez a completer le formulaire correctement');
+      alert('3 bis');
+      this.alertMessage += 'Veillez a completer le formulaire correctement';
     }
+
+    alert(this.alertMessage);
   }
 }

@@ -23,8 +23,8 @@ export class LoginComponent {
 
   constructor(private backEndService: BackEndService) {}
 
-  validateLogin(): void {
-    this.backEndService
+  async validateLogin(): Promise<void> {
+    await this.backEndService
       .login(this.email, this.password)
       .then((result) => {
         switch (result) {
@@ -46,7 +46,6 @@ export class LoginComponent {
       })
       .catch((error) => {
         console.error('Erreur lors de la connexion : ', error);
-        // Gérer les erreurs ici
       });
   }
 }
