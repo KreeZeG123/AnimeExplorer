@@ -4,12 +4,12 @@
   <main>
     <h1 id="titre_decouverte">Découvrir</h1>
     
-    <div class="d-flex justify-content-center align-items-center" >
+    <div class="d-flex justify-content-center align-items-center stylesheet" >
       <app-search></app-search>
       <app-filtre [typeFiltre]="filtreAnnee" (optionSelectionneeChange)="recupererOptionSelectionnee($event, 'FiltreAnnee')"></app-filtre>
       <app-filtre [typeFiltre]="filtreGenre" (optionSelectionneeChange)="recupererOptionSelectionnee($event, 'FiltreGenre')" ></app-filtre>
       <app-filtre [typeFiltre]="filtreFormat" (optionSelectionneeChange)="recupererOptionSelectionnee($event, 'FiltreFormat')"></app-filtre>
-      <button (click)="appliquerFiltres()">Appliquer</button>
+      <button class="search_button" (click)="appliquerFiltres()"> <i class="material-symbols-outlined">search</i></button>
     </div>
     <div>
     </div>

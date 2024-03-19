@@ -45,10 +45,8 @@ export class BoardDecouverteComponent{
     let listeAnime = [];
     let lenData = animeData.data.Page.media.length;
     for (let i = 0; i < lenData; i++) {
-      if(animeData.data.Page.media[i].startDate.year==annee && animeData.data.Page.media[i].format==format){
-        let lenGenre=animeData.data.Page.media[i].genres.length
-        for(let j=0;j<lenGenre;j++){
-          if(animeData.data.Page.media[i].genres[j]==genre){
+      if(((annee==="" || annee==="Any" )|| animeData.data.Page.media[i].startDate.year==annee) && ((format==="" || format==="Any" ) ||  animeData.data.Page.media[i].format==format)){
+        if((genre==="" || genre==="Any") || animeData.data.Page.media[i].genres.includes(genre)){
             let anime = [
               animeData.data.Page.media[i].title.english,
               animeData.data.Page.media[i].coverImage.large
@@ -57,15 +55,18 @@ export class BoardDecouverteComponent{
           }
         }
           
-          }
       }
       return listeAnime;
     }
+
+    
     
 
   optionGenre: string=""
   optionAnnee: string=""
   optionFormat: string=""
+
+
 
   recupererOptionSelectionnee(optionSelectionnee: string, typeFiltre: string): void {
     if (typeFiltre === "FiltreGenre") {
