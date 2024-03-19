@@ -83,7 +83,7 @@ export class BackEndService {
       );
 
       if (response && response.message === 'success') {
-        alert('Signup success');
+        alert('Inscription réussie !\nVous êtes connecté!');
         this.userID = response.userID;
         this.username = response.username;
         this.email = response.email;
@@ -110,7 +110,7 @@ export class BackEndService {
 
       if (response) {
         if (response.message === 'success') {
-          alert('Login success');
+          alert('Connexion réussie !');
           this.userID = response.userID;
           this.username = response.username;
           this.email = response.email;

@@ -89,25 +89,28 @@ export class SignupComponent {
       .catch((error) => {
         console.error("Erreur lors de la vérification de l'email : ", error);
       });
-    alert(1);
   }
 
   async validateSignup(): Promise<void> {
+    if (this.email === '') {
+      return;
+    }
+
     this.alertMessage = '';
     await this.checkEmailDisponible();
-    alert('2');
+
     if (
       this.usernameValid &&
       this.emailValid &&
       this.passwordValid &&
       this.passwordMatched
     ) {
-      alert('3');
-      await this.backEndService
+      this.backEndService
         .signup(this.username, this.email, this.passwordMain)
         .then((result) => {
           if (result) {
             this.alertMessage += 'Inscription validée';
+            alert(this.alertMessage);
             alert('4');
             if (this.backEndService.userIsConnected()) {
               alert('Bienvenue ' + this.backEndService.getUsername());
@@ -120,10 +123,8 @@ export class SignupComponent {
           console.error('Erreur lors de linscription : ', error);
         });
     } else {
-      alert('3 bis');
+      alert(this.alertMessage);
       this.alertMessage += 'Veillez a completer le formulaire correctement';
     }
-
-    alert(this.alertMessage);
   }
 }
