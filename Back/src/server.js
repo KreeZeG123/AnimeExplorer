@@ -1,3 +1,7 @@
+// =======================================================
+//             Configuration du server Back-End
+// =======================================================
+
 // Import des modules nécessaires
 const express = require("express");
 const cors = require("cors");
@@ -16,6 +20,12 @@ const uri =
   "@cluster0.ht6tsjo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const client = new MongoClient(uri);
 
+// Configuration du system de recherche ( Fuzzy Search )
+const Fuse = require("fuse.js");
+
+// =======================================================
+//               Gestion de la base de données
+// =======================================================
 let Utilisateurs; // Déclaration de la collection utilisateurs
 let Animes; // Déclaration de la collection animes
 
@@ -36,7 +46,11 @@ async function connectDatabase() {
 }
 
 // Appel de la fonction de connexion à la base de données au démarrage du serveur
-connectDatabase().catch(console.error);
+// connectDatabase().catch(console.error);
+
+// =======================================================
+//            Requêtes Gestions des utilisateurs
+// =======================================================
 
 // Route pour gerer la demande de verification de l'email
 app.post("/emailDisponible", async (req, res) => {
@@ -154,7 +168,81 @@ app.post("/login", async (req, res) => {
   }
 });
 
-// Démarrage du serveur
+// =======================================================
+//            Requêtes Gestions des animes
+// =======================================================
+
+// Temp
+const animeData = require("../tempStorage/animes.json");
+
+// Configuration des options pour Fuse.js
+const options = {
+  keys: ["title.english", "title.romaji"], // Propriétés à rechercher
+  threshold: 0.4, // Seuil de correspondance (ajustez selon vos besoins)
+};
+
+// Créez une instance de Fuse avec vos données et options
+const fuse = new Fuse(animeData, options);
+
+// Méthode chercherByName
+function chercherByName(name) {
+  const results = fuse.search(name);
+  return results.map((result) => result.item);
+}
+
+function formatAnimeInfo(anime) {
+  return {
+    id: anime.id,
+    title: [anime.title.english, anime.title.romaji],
+    episodes: anime.episodes,
+    studio: anime.studio,
+    genres: anime.genres,
+    tags: anime.tags,
+    startDate: anime.startDate.year,
+    season: anime.season,
+    format: anime.format,
+    image: anime.image,
+    poupularity: anime.poupularity,
+    score: anime.score,
+    description: anime.description,
+  };
+}
+
+function formatAnimesList(animes) {
+  return animes.map((anime) => formatAnimeInfo(anime));
+}
+
+// Route pour gérer les demande de rechercher d'animes par nom avec Fuze.js
+app.post("/searchAnimeByName", async (req, res) => {
+  let rechercheName = req.body.name;
+  console.log(
+    "==============================================================="
+  );
+  console.log("Recherche d'anime par nom : " + rechercheName);
+  try {
+    console.log("1");
+    let fuseSearchResults = chercherByName(rechercheName);
+    console.log("2");
+    let result = formatAnimesList(fuseSearchResults);
+    console.log("result : ", result);
+    // Renvoie le tableau result en retours de la requête
+    res.status(200).json({
+      message: "success",
+      animes: result,
+    });
+    console.log("3");
+  } catch (error) {
+    console.log(
+      "Erreur pendant rechercheAnimeByName(" + rechercheName + ") :",
+      error
+    );
+    res.status(500).json({ message: "error" });
+  }
+});
+
+// =======================================================
+//                  Démarrage du serveur
+// =======================================================
 const port = 3080;
 app.listen(port, () => {
   console.log(`Le serveur est en marche sur le port ${port}`);

@@ -1,11 +1,23 @@
 <div class="d-flex" style="align-items: center; justify-self: center">
-  <app-search-bar class="search-bar" style="width: 100%"></app-search-bar>
-  <button class="search buton"><i>search</i></button>
+  <div id="search">
+    <form class="flex">
+      <input
+        class="form-control me-sm-2"
+        type="text"
+        placeholder="Cherchez le nom d'un Animé"
+        name="search"
+        [(ngModel)]="search"
+      />
+    </form>
+  </div>
+  <button class="search buton" (click)="validateSearch()"><i>search</i></button>
 </div>
 <div style="background-color: white; border-radius: 7px; width: 94%">
   <ul>
-    <ng-container *ngFor="let anime of animesResults">
-      <li style="font-size: 10px">{{ anime.title }} ( {{ anime.year }} )</li>
+    <ng-container *ngFor="let anime of resultsAnimes">
+      <li style="font-size: 10px">
+        {{ anime.title[0] }} ( {{ anime.startDate }} )
+      </li>
     </ng-container>
   </ul>
 </div>

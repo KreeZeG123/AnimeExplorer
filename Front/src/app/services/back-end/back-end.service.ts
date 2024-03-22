@@ -15,6 +15,26 @@ interface LoginResponse extends httpPostResponse {
   email: string;
 }
 
+interface AnimeInfoResonse extends httpPostResponse {
+  id: string;
+  title: string[];
+  episodes: string;
+  studio: string[];
+  genres: string[];
+  tags: string[];
+  startDate: string;
+  season: string;
+  format: string;
+  image: string;
+  poupularity: string;
+  score: string;
+  description: string;
+}
+
+interface AnimesListResponse extends httpPostResponse {
+  animes: AnimeInfoResonse[];
+}
+
 @Injectable({
   providedIn: 'root',
 })
@@ -116,10 +136,8 @@ export class BackEndService {
           this.email = response.email;
           return 'success';
         } else if (response.message === 'wrongEmail') {
-          alert('Wrong email');
           return 'wrongEmail';
         } else {
-          alert('Wrong password');
           return 'wrongPassword';
         }
       } else {
@@ -138,6 +156,30 @@ export class BackEndService {
       return true;
     } else {
       return false;
+    }
+  }
+
+  async searchAnimeByName(nomAnime: string): Promise<any> {
+    try {
+      const response = await firstValueFrom(
+        this.httpClient.post<AnimesListResponse>(
+          this.serverURL + 'searchAnimeByName',
+          {
+            name: nomAnime,
+          }
+        )
+      );
+
+      if (response && response.message === 'success') {
+        return response.animes;
+      } else {
+        alert('Error occurred else');
+        return null;
+      }
+    } catch (error) {
+      alert('Error occurred catch');
+      console.error('Error occurred with', nomAnime, ':', error);
+      return null;
     }
   }
 }
