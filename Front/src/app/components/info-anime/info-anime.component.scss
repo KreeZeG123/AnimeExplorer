@@ -1,19 +1,23 @@
-#titre_decouverte{
-    text-align: center;
+.info{
+    background-color: var(--bs-primary);
+    width: 80vw;
+    height: 80vh;
+    position: fixed;
+    z-index: 9999999999;
+    transform: translate(0%, 0%);
+    opacity: 95%;
 }
 
-.search_button_div{
-    position: absolute;
-}
 
 .search_button{
-    margin-top: 30px;
     width: 3.5rem;
     height: 3rem;
     background-color: var (--bs-secondary);
     border: 0;
     border-bottom: 0.2rem solid var (--bs-secondary);
     border-radius: 2rem;
+    position: absolute;
+    right: 10px;
     cursor: pointer;
 }
 

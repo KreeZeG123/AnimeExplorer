@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ZoneVignetteComponent } from './zone-vignette.component';
+import { InfoAnimeComponent } from './info-anime.component';
 
-describe('ZoneVignetteComponent', () => {
-  let component: ZoneVignetteComponent;
-  let fixture: ComponentFixture<ZoneVignetteComponent>;
+describe('InfoAnimeComponent', () => {
+  let component: InfoAnimeComponent;
+  let fixture: ComponentFixture<InfoAnimeComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ZoneVignetteComponent]
+      imports: [InfoAnimeComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(ZoneVignetteComponent);
+    fixture = TestBed.createComponent(InfoAnimeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

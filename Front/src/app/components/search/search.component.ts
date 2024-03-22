@@ -1,18 +1,21 @@
 import { Component, Output, EventEmitter } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-search',
   standalone: true,
-  imports: [],
+  imports: [CommonModule,FormsModule],
   templateUrl: './search.component.html',
   styleUrl: './search.component.scss'
 })
 export class SearchComponent {
-  search: string = "";
+  @Output() inputChange = new EventEmitter<string>()
 
-  @Output() searchChange = new EventEmitter<string>()
+  input: string = "";
 
-  onSearchSelectionneeChange() {
-    this.searchChange.emit(this.search);
+
+  onInputChange() {
+    this.inputChange.emit(this.input);
   }
 }

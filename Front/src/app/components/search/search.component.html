@@ -1,6 +1,3 @@
-<main id="filtre">
-  <form class="form-group">
+
     <label for="exampleSelect1" class="form-label">Rechercher</label>
-    <input class="form-control me-sm-2" type="search" placeholder="Rechercher" [(ngModel)]="search" (change)="searchChange()">
-  </form>
-</main>
+    <input class="form-control me-sm-2" [(ngModel)]="input" (change)="onInputChange()" type="text" placeholder="Rechercher" >

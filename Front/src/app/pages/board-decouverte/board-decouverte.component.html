@@ -2,21 +2,20 @@
 <html lang="fr">
   <app-nav-bar></app-nav-bar>
   <main>
+    <app-info-anime (buttonClicked)="handleButtonClick()" *ngIf="display" [info]="infoAnime"></app-info-anime>
     <h1 id="titre_decouverte">Découvrir</h1>
-    
-    <div class="d-flex justify-content-center align-items-center stylesheet" >
-      <app-search></app-search>
+    <div class="d-flex justify-content-center align-items-center stylesheet">
+      <app-search (inputChange)="appliquerRecherche($event)"></app-search>
       <app-filtre [typeFiltre]="filtreAnnee" (optionSelectionneeChange)="recupererOptionSelectionnee($event, 'FiltreAnnee')"></app-filtre>
       <app-filtre [typeFiltre]="filtreGenre" (optionSelectionneeChange)="recupererOptionSelectionnee($event, 'FiltreGenre')" ></app-filtre>
       <app-filtre [typeFiltre]="filtreFormat" (optionSelectionneeChange)="recupererOptionSelectionnee($event, 'FiltreFormat')"></app-filtre>
-      <button class="search_button" (click)="appliquerFiltres()"> <i class="material-symbols-outlined">search</i></button>
-    </div>
-    <div>
+      <app-filtre [typeFiltre]="filtreAiring" (optionSelectionneeChange)="recupererOptionSelectionnee($event, 'FiltreAiring')"></app-filtre>
+      <button class="search_button" (click)="appliquerFiltres()"><i class="material-symbols-outlined">search</i></button>
     </div>
     <div class="d-flex flex-wrap justify-content-center">
-        <ng-container *ngFor="let vignette of vignettes">
-          <app-vignette [vignette]="vignette"></app-vignette>      
-        </ng-container>
+        <ng-container  *ngFor="let vignette of vignettes.slice(0, 50)">
+          <app-vignette (click)="displayInfo(vignette[2])" [vignette]="vignette"></app-vignette>  
+        </ng-container>     
     </div>
   </main>
 </html>

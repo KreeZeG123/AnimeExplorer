@@ -14,7 +14,6 @@ export class FiltreComponent {
 
   nom: string = "";
   value: string[]=[];
-  idx: number=-1;
 
   optionSelectionne: string = "";
 
@@ -25,10 +24,9 @@ export class FiltreComponent {
   }
 
   ngOnInit(): void {
-    if (this.typeFiltre && this.typeFiltre.length >= 3) {
+    if (this.typeFiltre && this.typeFiltre.length >= 2) {
       this.nom = this.typeFiltre[0];
       this.value = this.typeFiltre[1];
-      this.idx = this.typeFiltre[2];
     }
   }
   
