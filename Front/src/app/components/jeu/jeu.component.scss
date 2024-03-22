@@ -1,0 +1,37 @@
+.container {
+    display: flex; /* Utilisation de flexbox */
+  }
+  
+.filtre{
+    margin-top:20px; 
+    margin-left: 30%;
+}
+.container span {
+    margin-top: auto;
+
+    margin-right: 50px; /* Espace entre les spans (ajustez selon vos besoins) */
+  }
+
+
+.horizontal-scroll-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    max-width: 500px; /* Ajustez selon vos besoins */
+}
+
+.horizontal-scroll-container::-webkit-scrollbar {
+    height: 5px; /* Hauteur de la barre de défilement */
+}
+
+.horizontal-scroll-container::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Couleur de l'arrière-plan de la barre de défilement */
+}
+
+.horizontal-scroll-container::-webkit-scrollbar-thumb {
+    background: #888; /* Couleur de la poignée de la barre de défilement */
+}
+
+.horizontal-scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Couleur de la poignée de la barre de défilement au survol */
+}

@@ -9,5 +9,5 @@ import { ClassementComponent } from '../../components/classement/classement.comp
   styleUrl: './board-classement.component.scss',
 })
 export class BoardClassementComponent {
-  score={sc:"23"};
+  
 }

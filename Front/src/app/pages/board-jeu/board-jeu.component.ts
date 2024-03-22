@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { NavBarComponent } from '../../components/nav-bar/nav-bar.component';
+import { JeuComponent } from '../../components/jeu/jeu.component';
+
 
 @Component({
   selector: 'app-board-jeu',
   standalone: true,
-  imports: [NavBarComponent],
+  imports: [NavBarComponent,JeuComponent],
   templateUrl: './board-jeu.component.html',
   styleUrl: './board-jeu.component.scss',
 })

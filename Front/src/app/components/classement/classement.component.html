@@ -1,52 +1,42 @@
-<div id="maindiv" class="d-flex align-items-center mx-auto justify-content-center">
+
+<div id="screenshoot" >
+  <div id="score" class="d-flex align-items-center flex-column mx-auto justify-content-center">
+    <h2>Meilleur score personnel</h2>
+
+    <h2 class="rouge">{{score.sc}}</h2>
+  </div>
+  <div id="maindiv" class="d-flex align-items-center mx-auto justify-content-center">
+
     <div id="header">
-      <h1>Ranking</h1>
-      <button class="share" onclick="doCapture();">
-        <i class="material-symbols-outlined">share</i>
-      </button>
+        <h1>Ranking</h1>
+        <!-- Appel de doCapture() dans l'attribut onclick -->
+        <button class="share" (click)="doCapture()">
+            <i class="material-symbols-outlined">share</i>
+        </button>
+        
     </div>
     <div id="leaderboard">
-      <div class="ribbon"></div>
-      <table>
-        
-        <ng-container *ngFor="let classement of classementResult; let i = index ">
-            <tr *ngIf="i+1 === 1">
-                <td class="number">{{i+1}}</td>
-                <td class="name">{{classement.name}}</td>
-                <td class="points">
-                  {{classement.point}} <img class="gold-medal" src="https://github.com/malunaridev/Challenges-iCodeThis/blob/master/4-leaderboard/assets/gold-medal.png?raw=true" alt="gold medal"/>
-                </td>
-            </tr>
-            <tr *ngIf="i+1 >= 2">
-                <td class="number">{{i+1}}</td>
-                <td class="name">{{classement.name}}</td>
-                <td class="points">{{classement.point}}</td>
-              </tr>
-        </ng-container>
-    </table>
-        
-        <!-- <tr>
-          <td class="number">2</td>
-          <td class="name">MARCCCCCCCCCCCCC</td>
-          <td class="points">258.242</td>
-        </tr>
-        <tr>
-          <td class="number">3</td>
-          <td class="name">Jean</td>
-          <td class="points">258.223</td>
-        </tr>
-        <tr>
-          <td class="number">4</td>
-          <td class="name">Nathan La grosse touf</td>
-          <td class="points">258.212</td>
-        </tr>
-        <tr>
-          <td class="number">5</td>
-          <td class="name">Yamis MANFALOOOOOOOOOOOOOTI</td>
-          <td class="points">258.208</td>
-        </tr> -->
-       
-      
+        <div class="ribbon"></div>
+        <table>
+            <ng-container *ngFor="let classement of classementResult; let i = index ">
+                <tr *ngIf="i+1 === 1">
+                    <td class="number">{{i+1}}</td>
+                    <td class="name">{{classement.name}}</td>
+                    <td class="points">
+                        {{classement.point}} <img class="gold-medal"
+                            src="https://github.com/malunaridev/Challenges-iCodeThis/blob/master/4-leaderboard/assets/gold-medal.png?raw=true"
+                            alt="gold medal" />
+                    </td>
+                </tr>
+                <tr *ngIf="i+1 >= 2">
+                    <td class="number">{{i+1}}</td>
+                    <td class="name">{{classement.name}}</td>
+                    <td class="points">{{classement.point}}</td>
+                </tr>
+            </ng-container>
+        </table>
     </div>
 
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+  </div>
+</div>
