@@ -39,4 +39,24 @@
             </ng-container>
         </div>
     </div>
+
+    
+</div>
+<div>
+    <div class="horizontal-line-container">
+        <div class="horizontal-line"></div>
+    </div>
+    <h5 style="text-align: center; margin-top: 20px;">Historique des essais</h5>
+    <ng-container *ngFor="let anime of animes; let i = index ">
+        <div class="card" style="display: flex; flex-direction: row; align-items: center; margin: 20px; width: 60%; margin-left: 20%;">
+            <img class="card-img-top" src="{{anime.cover}}" alt="Card image cap" style="width: 200px; height: auto;">
+            <div class="card-body" style="margin-left: 20px;">
+                <h5 class="card-title">{{anime.title}}</h5>
+                <p class="card-text">{{anime.synopsis}}</p>
+            </div>
+        </div>
+        <br> <!-- Ajout d'une balise <br> pour sauter une ligne après chaque animé -->
+    </ng-container>
+    
+    
 </div>

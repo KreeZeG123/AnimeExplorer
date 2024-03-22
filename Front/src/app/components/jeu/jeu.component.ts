@@ -52,5 +52,9 @@ export class JeuComponent {
   ]
 
 
-  
+  animes=[
+    { cover : "https://cdn.myanimelist.net/images/anime/10/47347.jpg", title: "??", synopsis: "??", studio: "??"},
+    { cover : "https://cdn.myanimelist.net/images/anime/10/47347.jpg", title: "??", synopsis: "??", studio: "??"},
+    { cover : "https://cdn.myanimelist.net/images/anime/10/47347.jpg", title: "??", synopsis: "??", studio: "??"}
+  ]
 }
