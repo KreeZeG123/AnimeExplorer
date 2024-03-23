@@ -46,7 +46,7 @@ async function connectDatabase() {
 }
 
 // Appel de la fonction de connexion à la base de données au démarrage du serveur
-// connectDatabase().catch(console.error);
+connectDatabase().catch(console.error);
 
 // =======================================================
 //            Requêtes Gestions des utilisateurs
@@ -96,8 +96,11 @@ app.post("/signup", async (req, res) => {
       password: passwordUser,
       scores: scoresUser,
     });
+    // Récupère l'id attribué par la base de données a l'utilisateur
     console.log(
       "Inscription réussie pour (" +
+        result.insertedId +
+        " : " +
         usernameUser +
         " :" +
         emailUser +
@@ -105,6 +108,12 @@ app.post("/signup", async (req, res) => {
         passwordUser +
         ")"
     );
+    res.status(200).json({
+      message: "success",
+      id: result.insertedId,
+      username: usernameUser,
+      email: emailUser,
+    });
   } catch (error) {
     console.error(
       "Erreur pendant inscription(" +
@@ -178,7 +187,7 @@ const animeData = require("../tempStorage/animes.json");
 // Configuration des options pour Fuse.js
 const options = {
   keys: ["title.english", "title.romaji"], // Propriétés à rechercher
-  threshold: 0.4, // Seuil de correspondance (ajustez selon vos besoins)
+  threshold: 0.3, // Seuil de correspondance (ajustez selon vos besoins)
 };
 
 // Créez une instance de Fuse avec vos données et options

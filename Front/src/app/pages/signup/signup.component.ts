@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms'; // Importez FormsModule
 import { RouterLink } from '@angular/router';
 import { NavBarComponent } from '../../components/nav-bar/nav-bar.component';
-import { BackEndService } from '../../services/back-end/back-end.service'; // Importez le service BackEndService
+import { AuthService } from '../../services/auth/auth.service';
 
 @Component({
   selector: 'app-signup',
@@ -13,33 +13,35 @@ import { BackEndService } from '../../services/back-end/back-end.service'; // Im
   styleUrl: './signup.component.scss',
 })
 export class SignupComponent {
-  username: string = '';
-  usernameValid: boolean | null = null;
+  // Variables pour les valeurs tapées dans les champs du formulaire
+  usernameFormValue: string = '';
+  emailFormValue: string = '';
+  passwordMainFormValue: string = '';
+  passwordSecondaryFormValue: string = '';
 
-  email: string = '';
-  emailValid: boolean | null = null;
-
-  passwordMain: string = '';
+  // Variables qui indiquent si les valeurs tapées dans les champs du formulaire respectent les contraintes
   passwordGreaterThanEight: boolean = false;
   passwordWithNumber: boolean = false;
   passwordWithMaj: boolean = false;
+
+  // Variables qui indiquent si les valeurs tapées dans les champs du formulaire sont valides
+  usernameValid: boolean | null = null;
+  emailValid: boolean | null = null;
   passwordValid: boolean | null = null;
 
-  passwordSecondary: string = '';
+  // Variable qui indique si les deux mots de passe tapés sont identiques
   passwordMatched: boolean | null = null;
 
-  alertMessage: string = '';
-
-  constructor(private backEndService: BackEndService) {}
+  constructor(private authService: AuthService) {}
 
   checkUsernameValid(): void {
-    this.usernameValid = this.username.length >= 3;
+    this.usernameValid = this.usernameFormValue.length >= 3;
   }
 
   checkEmailValid(): void {
-    if (this.email === '') {
+    if (this.emailFormValue === '') {
       this.emailValid = null;
-    } else if (/\S+@\S+\.\S+/.test(this.email)) {
+    } else if (/\S+@\S+\.\S+/.test(this.emailFormValue)) {
       this.emailValid = true;
     } else {
       this.emailValid = false;
@@ -47,12 +49,12 @@ export class SignupComponent {
   }
 
   checkPasswordValid(): void {
-    this.passwordGreaterThanEight = this.passwordMain.length >= 8;
-    this.passwordWithNumber = /\d/.test(this.passwordMain);
-    this.passwordWithMaj = /[A-Z]/.test(this.passwordMain);
+    this.passwordGreaterThanEight = this.passwordMainFormValue.length >= 8;
+    this.passwordWithNumber = /\d/.test(this.passwordMainFormValue);
+    this.passwordWithMaj = /[A-Z]/.test(this.passwordMainFormValue);
 
     this.passwordValid =
-      this.passwordMain === ''
+      this.passwordMainFormValue === ''
         ? null
         : this.passwordGreaterThanEight &&
           this.passwordWithNumber &&
@@ -62,10 +64,10 @@ export class SignupComponent {
   }
 
   checkPasswordMatch(): void {
-    if (this.passwordSecondary === '') {
+    if (this.passwordSecondaryFormValue === '') {
       this.passwordMatched = null;
     } else if (
-      this.passwordMain === this.passwordSecondary &&
+      this.passwordMainFormValue === this.passwordSecondaryFormValue &&
       this.passwordValid === true
     ) {
       this.passwordMatched = true;
@@ -75,15 +77,15 @@ export class SignupComponent {
   }
 
   async checkEmailDisponible(): Promise<void> {
-    await this.backEndService
-      .emailDisponible(this.email)
+    await this.authService
+      .emailDisponible(this.emailFormValue)
       .then((result) => {
         const res = result == true;
         if (result == true) {
           this.emailValid = true;
         } else {
           this.emailValid = false;
-          this.alertMessage += 'Email déjà utilisé\n';
+          this.emailFormValue = 'Email déjà utilisé !';
         }
       })
       .catch((error) => {
@@ -91,12 +93,36 @@ export class SignupComponent {
       });
   }
 
+  estComplet(): boolean {
+    // Verifie les champs du formulaire
+    this.checkEmailValid();
+    this.checkPasswordValid();
+    this.checkUsernameValid();
+    this.checkPasswordMatch();
+
+    if (
+      this.usernameValid &&
+      this.emailValid &&
+      this.passwordValid &&
+      this.passwordMatched
+    ) {
+      return true;
+    }
+
+    // Si les champs sont encore vide on les mets a false
+    this.usernameValid ??= false;
+    this.emailValid ??= false;
+    this.passwordValid ??= false;
+    this.passwordMatched ??= false;
+
+    return false;
+  }
+
   async validateSignup(): Promise<void> {
-    if (this.email === '') {
+    if (!this.estComplet()) {
       return;
     }
 
-    this.alertMessage = '';
     await this.checkEmailDisponible();
 
     if (
@@ -105,16 +131,17 @@ export class SignupComponent {
       this.passwordValid &&
       this.passwordMatched
     ) {
-      this.backEndService
-        .signup(this.username, this.email, this.passwordMain)
+      this.authService
+        .signup(
+          this.usernameFormValue,
+          this.emailFormValue,
+          this.passwordMainFormValue
+        )
         .then((result) => {
           if (result) {
-            this.alertMessage += 'Inscription validée';
-            alert(this.alertMessage);
-            alert('4');
-            if (this.backEndService.userIsConnected()) {
-              alert('Bienvenue ' + this.backEndService.getUsername());
-            }
+            setTimeout(() => {
+              this.authService.redirectToConnected();
+            }, 1000);
           } else {
             console.error('Erreur lors de linscription');
           }
@@ -122,9 +149,13 @@ export class SignupComponent {
         .catch((error) => {
           console.error('Erreur lors de linscription : ', error);
         });
-    } else {
-      alert(this.alertMessage);
-      this.alertMessage += 'Veillez a completer le formulaire correctement';
+    }
+  }
+
+  // Quand on arrive sur la page /signup on verifier si l'utilisateur est deja connecter
+  ngOnInit(): void {
+    if (this.authService.userIsConnected()) {
+      this.authService.redirectToConnected();
     }
   }
 }

@@ -15,7 +15,9 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarColor01">
-      <ul class="navbar-nav mx-auto justify-content-center me-auto">
+      <ul
+        class="navbar-nav mx-auto justify-content-center me-auto position-absolute start-50 end-50"
+      >
         <li class="nav-item">
           <a
             class="nav-link fs-5 text-center"
@@ -41,12 +43,27 @@
           >
         </li>
       </ul>
-      <form class="d-flex justify-content-center">
+      <form
+        class="d-flex justify-content-center position-absolute end-15px"
+        *ngIf="!userIsConnected()"
+      >
         <a routerLink="/login">
           <button class="btn btn-secondary my-2 my-sm-0 fs-6" type="submit">
             Connexion
           </button>
         </a>
+      </form>
+      <form
+        class="d-flex justify-content-center position-absolute end-15px"
+        *ngIf="userIsConnected()"
+      >
+        <button
+          class="btn btn-outline-light my-2 my-sm-0 fs-6"
+          type="submit"
+          (click)="logout()"
+        >
+          Deconnexion
+        </button>
       </form>
     </div>
   </div>

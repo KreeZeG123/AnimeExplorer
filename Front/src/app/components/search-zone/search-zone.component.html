@@ -1,16 +1,19 @@
-<div class="d-flex" style="align-items: center; justify-self: center">
-  <div id="search">
-    <form class="flex">
+<div
+  class="d-flex"
+  style="align-items: center; justify-self: center; width: 100%"
+>
+  <div class="d-flex w-100 justify-content-center">
+    <form class="w-75">
       <input
         class="form-control me-sm-2"
         type="text"
-        placeholder="Cherchez le nom d'un Animé"
+        placeholder="Bienvenue {{ username }} ! Cherchez le nom d'un Animé"
         name="search"
         [(ngModel)]="search"
+        (input)="onSearchChange()"
       />
     </form>
   </div>
-  <button class="search buton" (click)="validateSearch()"><i>search</i></button>
 </div>
 <div style="background-color: white; border-radius: 7px; width: 94%">
   <ul>

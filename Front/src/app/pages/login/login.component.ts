@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import { NavBarComponent } from '../../components/nav-bar/nav-bar.component';
-import { BackEndService } from '../../services/back-end/back-end.service';
+import { AuthService } from '../../services/auth/auth.service';
 
 @Component({
   selector: 'app-login',
@@ -21,16 +21,19 @@ export class LoginComponent {
 
   private expectedPassword: string = '';
 
-  constructor(private backEndService: BackEndService) {}
+  constructor(private authService: AuthService) {}
 
   async validateLogin(): Promise<void> {
-    await this.backEndService
+    await this.authService
       .login(this.email, this.password)
       .then((result) => {
         switch (result) {
           case 'success':
             this.passwordValid = true;
             this.emailValid = true;
+            setTimeout(() => {
+              this.authService.redirectToConnected();
+            }, 1000);
             break;
           case 'wrongEmail':
             this.passwordValid = false;
@@ -41,11 +44,18 @@ export class LoginComponent {
             this.emailValid = true;
             break;
           default:
-            alert('Erreur ');
+            alert('Error occurred');
         }
       })
       .catch((error) => {
         console.error('Erreur lors de la connexion : ', error);
       });
+  }
+
+  // Quand on arrive sur la page /login on verifier si l'utilisateur est deja connecter
+  ngOnInit(): void {
+    if (this.authService.userIsConnected()) {
+      this.authService.redirectToConnected();
+    }
   }
 }

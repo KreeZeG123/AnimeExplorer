@@ -16,7 +16,7 @@
               aria-describedby="usernameHelp"
               placeholder="Entrer votre nom d'utilisateur"
               name="username"
-              [(ngModel)]="username"
+              [(ngModel)]="usernameFormValue"
               (input)="checkUsernameValid()"
               [ngClass]="{
                 'is-valid': usernameValid === true,
@@ -32,7 +32,7 @@
               aria-describedby="emailHelp"
               placeholder="Entrer votre adresse e-mail"
               name="email"
-              [(ngModel)]="email"
+              [(ngModel)]="emailFormValue"
               (input)="checkEmailValid()"
               [ngClass]="{
                 'is-valid': emailValid === true,
@@ -52,7 +52,7 @@
                 placeholder="Mot de passe"
                 autocomplete="off"
                 name="passwordMain"
-                [(ngModel)]="passwordMain"
+                [(ngModel)]="passwordMainFormValue"
                 (input)="checkPasswordValid()"
                 [ngClass]="{
                   'is-valid': passwordValid === true,
@@ -106,7 +106,7 @@
                 placeholder="Confirmer votre mot de passe"
                 autocomplete="off"
                 name="passwordSecondary"
-                [(ngModel)]="passwordSecondary"
+                [(ngModel)]="passwordSecondaryFormValue"
                 (input)="checkPasswordMatch()"
                 [ngClass]="{
                   'is-valid': passwordMatched === true,

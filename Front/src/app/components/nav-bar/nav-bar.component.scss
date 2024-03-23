@@ -1,0 +1,11 @@
+// Right side position classes
+@for $i from 5 through 50 {
+  .end-#{$i}px {
+    right: #{$i}px;
+  }
+}
+
+// Nav Link color
+.nav-item {
+  --bs-nav-link-color: white;
+}
