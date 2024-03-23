@@ -1,11 +1,15 @@
-.info{
-    background-color: var(--bs-primary);
-    width: 80vw;
-    height: 80vh;
-    position: fixed;
-    z-index: 9999999999;
-    transform: translate(0%, 0%);
-    opacity: 95%;
+.info {
+  background-color: var(--bs-primary);
+  width: 80%; 
+  height: 80%; 
+  position: fixed;
+  top: 10%; 
+  left: 10%; 
+  z-index: 9999999999;
+  opacity: 0.95; 
+  overflow-y: auto;
+  scrollbar-width: none;
+  overflow-x: hidden;
 }
 
 
@@ -31,3 +35,33 @@
     margin-top: 5px;
     font-size: 2rem;
   }
+
+  .banner_container {
+    height: 100%; /* Largeur souhaitée de la bannière */
+    overflow: hidden; /* Cache les parties de l'image qui dépassent de la div */
+  }
+  
+  .banner_container img {
+    width: 100%; /* Prend la largeur totale de son conteneur */
+    height: 100%; /* Prend la hauteur totale de son conteneur */
+    object-fit: cover; /* Redimensionne l'image pour couvrir totalement le conteneur en conservant son ratio d'aspect */
+}
+
+  .genre-container {
+    display: inline; /* Affiche les éléments sur une seule ligne */
+  }
+  
+  .genre-container p {
+    display: inline; /* Affiche chaque paragraphe sur la même ligne */
+    margin: 0; /* Supprime les marges entre les éléments */
+    white-space: nowrap; /* Empêche le passage à la ligne automatique */
+  }
+
+  .genre p{
+    margin: 0 5px;;
+  }
+  
+
+
+
+

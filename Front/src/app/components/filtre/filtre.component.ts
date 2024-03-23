@@ -26,7 +26,7 @@ export class FiltreComponent {
   ngOnInit(): void {
     if (this.typeFiltre && this.typeFiltre.length >= 2) {
       this.nom = this.typeFiltre[0];
-      this.value = this.typeFiltre[1];
+      this.value = this.typeFiltre[1].map((element: string) => element.replace(/_/g, ' '));
     }
   }
   

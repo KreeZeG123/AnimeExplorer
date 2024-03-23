@@ -22,7 +22,7 @@ export class BoardDecouverteComponent{
   filtreGenre = ["Genre",["Action","Adventure","Drama","Fantasy","Mystery","Supernatural"]]
   filtreAnnee = ["Annee",["2024","2023","2022","2021","2020","2019","2018","2017","2016","2015","2014","2013","2012","2011","2010","2009","2008","2007","2006","2005","2004","2003","2002","2001","2000","1999","1998","1997","1996","1995","1994","1993","1992","1991","1990","1989","1988","1987","1986","1985","1984","1983","1982","1981","1980","1979","1978","1977","1976","1975","1974","1973","1972","1971",]]
   filtreFormat = ["Format",["TV","MOVIE"]]
-  filtreAiring = ["Airing Status",["FINISHED","RELEASING","NOT_YET_RELEASED","CANCELLED","HIATUS"]]
+  filtreAiring = ["Statut de diffusion",["FINISHED","RELEASING","NOT_YET_RELEASED","CANCELLED","HIATUS"]]
   
   vignettes : any []= []
 
@@ -79,7 +79,7 @@ export class BoardDecouverteComponent{
           listeAnime.push(anime);
       }
     }
-      
+
       return listeAnime;
     }
 
@@ -118,13 +118,30 @@ export class BoardDecouverteComponent{
     const animeData = require("../../../assets/output.json");
     let lenData = animeData.data.Page.media.length;
     this.infoAnime=[];
-    for (let i = 0; i < lenData; i++) {
+    for (var i = 0; i < lenData; i++) {
       if(animeData.data.Page.media[i].id==id){
         this.infoAnime.push(animeData.data.Page.media[i].title.english);
         this.infoAnime.push(animeData.data.Page.media[i].title.romanji);
         this.infoAnime.push(animeData.data.Page.media[i].episodes);
         this.infoAnime.push(animeData.data.Page.media[i].description);
         this.infoAnime.push(animeData.data.Page.media[i].status);
+        this.infoAnime.push(animeData.data.Page.media[i].coverImage.large);
+        this.infoAnime.push(animeData.data.Page.media[i].bannerImage);
+        this.infoAnime.push(animeData.data.Page.media[i].meanScore);
+        let lenStudios=animeData.data.Page.media[i].studios.nodes.length;
+        let tabStudios=[]
+        for(let j=0;j<lenStudios;j++){
+          tabStudios.push(animeData.data.Page.media[i].studios.nodes[j].name)
+        }
+        this.infoAnime.push(tabStudios);
+        this.infoAnime.push(animeData.data.Page.media[i].genres);
+        this.infoAnime.push(animeData.data.Page.media[i].startDate.year);
+        let lenTags=animeData.data.Page.media[i].tags.length;
+        let tabTags=[]
+        for(let j=0;j<lenTags;j++){
+          tabTags.push(animeData.data.Page.media[i].tags[j].name)
+        }
+        this.infoAnime.push(tabTags);
       }
     }
     this.display=true;

@@ -4,14 +4,27 @@
   <main>
     <app-info-anime (buttonClicked)="handleButtonClick()" *ngIf="display" [info]="infoAnime"></app-info-anime>
     <h1 id="titre_decouverte">Découvrir</h1>
-    <div class="d-flex justify-content-center align-items-center stylesheet">
-      <app-search (inputChange)="appliquerRecherche($event)"></app-search>
-      <app-filtre [typeFiltre]="filtreAnnee" (optionSelectionneeChange)="recupererOptionSelectionnee($event, 'FiltreAnnee')"></app-filtre>
-      <app-filtre [typeFiltre]="filtreGenre" (optionSelectionneeChange)="recupererOptionSelectionnee($event, 'FiltreGenre')" ></app-filtre>
-      <app-filtre [typeFiltre]="filtreFormat" (optionSelectionneeChange)="recupererOptionSelectionnee($event, 'FiltreFormat')"></app-filtre>
-      <app-filtre [typeFiltre]="filtreAiring" (optionSelectionneeChange)="recupererOptionSelectionnee($event, 'FiltreAiring')"></app-filtre>
-      <button class="search_button" (click)="appliquerFiltres()"><i class="material-symbols-outlined">search</i></button>
+    <div class="d-flex flex-wrap justify-content-center align-items-center stylesheet">
+      <div class="me-2 mb-2"> <!-- Ajoute des marges entre les éléments -->
+        <app-search (inputChange)="appliquerRecherche($event)"></app-search>
+      </div>
+      <div class="me-2 mb-2">
+        <app-filtre [typeFiltre]="filtreAnnee" (optionSelectionneeChange)="recupererOptionSelectionnee($event, 'FiltreAnnee')"></app-filtre>
+      </div>
+      <div class="me-2 mb-2">
+        <app-filtre [typeFiltre]="filtreGenre" (optionSelectionneeChange)="recupererOptionSelectionnee($event, 'FiltreGenre')" ></app-filtre>
+      </div>
+      <div class="me-2 mb-2">
+        <app-filtre [typeFiltre]="filtreFormat" (optionSelectionneeChange)="recupererOptionSelectionnee($event, 'FiltreFormat')"></app-filtre>
+      </div>
+      <div class="me-2 mb-2">
+        <app-filtre [typeFiltre]="filtreAiring" (optionSelectionneeChange)="recupererOptionSelectionnee($event, 'FiltreAiring')"></app-filtre>
+      </div>
+      <div class="me-2 mb-2 div_button">
+        <button class="search_button" (click)="appliquerFiltres()"><i class="material-symbols-outlined">search</i></button>
+      </div>
     </div>
+    
     <div class="d-flex flex-wrap justify-content-center">
         <ng-container  *ngFor="let vignette of vignettes.slice(0, 50)">
           <app-vignette (click)="displayInfo(vignette[2])" [vignette]="vignette"></app-vignette>  

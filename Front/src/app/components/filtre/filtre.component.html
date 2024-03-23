@@ -1,6 +1,6 @@
 
 <div class="form-group filtre">
-    <label for="exampleSelect1" class="form-label">{{nom}}</label>
+    <label class="form-label">{{nom}}</label>
     <select class="form-select" id="exampleSelect1" [(ngModel)]="optionSelectionne" (change)="onOptionSelectionneeChange()">
         <option value="Any" selected>Any</option>
         <option *ngFor="let val of value" [value]="val">{{val}}</option>
