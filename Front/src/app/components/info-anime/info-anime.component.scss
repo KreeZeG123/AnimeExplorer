@@ -7,9 +7,9 @@
   left: 10%; 
   z-index: 9999999999;
   opacity: 0.95; 
-  overflow-y: auto;
+  overflow-y: scroll;
   scrollbar-width: none;
-  overflow-x: hidden;
+  
 }
 
 
@@ -37,31 +37,27 @@
   }
 
   .banner_container {
-    height: 100%; /* Largeur souhaitée de la bannière */
+    height: 20%; /* Largeur souhaitée de la bannière */
     overflow: hidden; /* Cache les parties de l'image qui dépassent de la div */
+    
   }
   
   .banner_container img {
     width: 100%; /* Prend la largeur totale de son conteneur */
-    height: 100%; /* Prend la hauteur totale de son conteneur */
-    object-fit: cover; /* Redimensionne l'image pour couvrir totalement le conteneur en conservant son ratio d'aspect */
+    transform: translateY(-25%); /* Remonte l'image de moitié de sa hauteur */
 }
-
-  .genre-container {
-    display: inline; /* Affiche les éléments sur une seule ligne */
-  }
-  
+ 
   .genre-container p {
     display: inline; /* Affiche chaque paragraphe sur la même ligne */
-    margin: 0; /* Supprime les marges entre les éléments */
+    text-align: left;
     white-space: nowrap; /* Empêche le passage à la ligne automatique */
   }
 
-  .genre p{
-    margin: 0 5px;;
+  .studio{
+    margin-top: 15px;
   }
   
-
+  
 
 
 

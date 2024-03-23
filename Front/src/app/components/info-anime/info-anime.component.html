@@ -5,28 +5,29 @@
             Informations
         </h2>
     </div>
-    <div class="banner_container">
-      <img src="{{banner}}" alt="banniere {{nom_english}}">
-    </div>
-    <div class="card-body text-secondary" >
-      <h2 class="card-title text-light">{{nom_english}}</h2>
-      <h4 class="card-title text-light">Description</h4>
-      <p class="card-text text-light">{{desc}}</p>
-      <p class="card-text text-light"><span style="font-weight :bold">Année de sortie : </span>{{annee}}</p>
-      <p class="card-text text-light"><span style="font-weight :bold">Episodes : </span>{{episodes}}</p>
-      <div class="genre-container ">
-        <p class="card-text text-light"><span style="font-weight :bold">Studios : </span></p>
-        <p class="genre card-text text-light" *ngFor="let studio of studios"> {{studio}}</p>
+    <div>
+      <div class="banner_container">
+        <img src="{{banner}}" alt="banniere {{nom_english}}">
       </div>
-      <p class="card-text text-light"><span style="font-weight :bold">Score : </span>{{score}}</p>
-      <div class="genre-container ">
-        <p class="card-text text-light"><span style="font-weight :bold">Genres : </span></p>
-        <p class="genre card-text text-light" *ngFor="let genre of genres"> {{genre}}</p>
-      </div>
-      <br>
-      <div class="genre-container ">
-        <p class="card-text text-light"><span style="font-weight :bold">Tags : </span></p>
-        <p class="genre card-text text-light" *ngFor="let tag of tags"> {{tag}}</p>
+      <div class="card-body text-secondary" >
+        <h2 class="card-title text-light">{{nom_english}}</h2>
+        <h4 class="card-title text-light">Description</h4>
+        <p class="card-text text-light">{{desc}}</p>
+        <p class="card-text text-light"><span style="font-weight :bold">Année de sortie : </span>{{annee}}</p>
+        <p class="card-text text-light"><span style="font-weight :bold">Episodes : </span>{{episodes}}</p>
+        <div class="genre-container">
+          <p class="card-text text-light"><span style="font-weight :bold">Studios : </span></p>
+          <p class="genre card-text text-light" *ngFor="let studio of studios"> {{studio}}</p>
+        </div>
+        <p class="mt-sm-2 card-text text-light"><span style="font-weight :bold">Score : </span>{{score}}</p>
+        <div class="genre-container">
+          <p class="card-text text-light"><span style="font-weight :bold">Genres : </span></p>
+          <p class="  genre card-text text-light" *ngFor="let genre of genres"> {{genre}}</p>
+        </div>
+        <p class="mt-sm-2"></p>
+        <div class="genre-container">
+          <p class="card-text text-light"><span style="font-weight :bold">Tags : </span></p>
+          <p class="genre card-text text-light" *ngFor="let tag of tags"> {{tag}}</p>
       </div>
     </div>
   </div>

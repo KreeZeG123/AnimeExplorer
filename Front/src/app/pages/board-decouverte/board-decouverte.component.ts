@@ -19,10 +19,10 @@ declare var require: any
 export class BoardDecouverteComponent{
   
   
-  filtreGenre = ["Genre",["Action","Adventure","Drama","Fantasy","Mystery","Supernatural"]]
-  filtreAnnee = ["Annee",["2024","2023","2022","2021","2020","2019","2018","2017","2016","2015","2014","2013","2012","2011","2010","2009","2008","2007","2006","2005","2004","2003","2002","2001","2000","1999","1998","1997","1996","1995","1994","1993","1992","1991","1990","1989","1988","1987","1986","1985","1984","1983","1982","1981","1980","1979","1978","1977","1976","1975","1974","1973","1972","1971",]]
-  filtreFormat = ["Format",["TV","MOVIE"]]
-  filtreAiring = ["Statut de diffusion",["FINISHED","RELEASING","NOT_YET_RELEASED","CANCELLED","HIATUS"]]
+  filtreGenre = ["Genre",["Action","Aventure","Drame","Fantaisie","Mystère","Supernaturel"],["Action","Adventure","Drama","Fantasy","Mystery","Supernatural"]]
+  filtreAnnee = ["Annee",["2024","2023","2022","2021","2020","2019","2018","2017","2016","2015","2014","2013","2012","2011","2010","2009","2008","2007","2006","2005","2004","2003","2002","2001","2000","1999","1998","1997","1996","1995","1994","1993","1992","1991","1990","1989","1988","1987","1986","1985","1984","1983","1982","1981","1980","1979","1978","1977","1976","1975","1974","1973","1972","1971"]]
+  filtreFormat = ["Format",["TV","Film"],["TV","MOVIE"]]
+  filtreAiring = ["Statut de diffusion",["Terminé","En diffusion","Pas encore sorti","Annulé","Abandonné"],["FINISHED","RELEASING","NOT_YET_RELEASED","CANCELLED","HIATUS"]]
   
   vignettes : any []= []
 
@@ -90,13 +90,40 @@ export class BoardDecouverteComponent{
 
   recupererOptionSelectionnee(optionSelectionnee: string, typeFiltre: string): void {
     if (typeFiltre === "FiltreGenre") {
-      this.optionGenre = optionSelectionnee;
+      if(optionSelectionnee==="Any" || optionSelectionnee===""){
+        this.optionGenre=optionSelectionnee
+      }
+      else{
+        for(let i=0;i<this.filtreGenre[1].length;i++){
+          if(this.filtreGenre[1][i]==optionSelectionnee){
+            this.optionGenre=this.filtreGenre[2][i];
+          }
+        }
+      }
     } else if (typeFiltre === "FiltreAnnee") {
-      this.optionAnnee = optionSelectionnee;
+      this.optionAnnee=optionSelectionnee;
     } else if (typeFiltre === "FiltreFormat") {
-      this.optionFormat = optionSelectionnee;
+      if(optionSelectionnee==="Any" || optionSelectionnee===""){
+        this.optionFormat=optionSelectionnee
+      }
+      else{
+        for(let i=0;i<this.filtreFormat[1].length;i++){
+          if(this.filtreFormat[1][i]==optionSelectionnee){
+            this.optionFormat=this.filtreFormat[2][i];
+          }
+        }
+      }
     } else if (typeFiltre === "FiltreAiring"){
-      this.optionAiring = optionSelectionnee;
+      if(optionSelectionnee==="Any" || optionSelectionnee===""){
+        this.optionAiring=optionSelectionnee
+      }
+      else{
+        for(let i=0;i<this.filtreAiring[1].length;i++){
+          if(this.filtreAiring[1][i]==optionSelectionnee){
+            this.optionAiring=this.filtreAiring[2][i];
+          }
+        }
+      }
     }
   }
 
