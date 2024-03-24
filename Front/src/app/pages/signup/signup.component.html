@@ -16,6 +16,7 @@
               aria-describedby="usernameHelp"
               placeholder="Entrer votre nom d'utilisateur"
               name="username"
+              autocomplete="off"
               [(ngModel)]="usernameFormValue"
               (input)="checkUsernameValid()"
               [ngClass]="{
@@ -32,6 +33,7 @@
               aria-describedby="emailHelp"
               placeholder="Entrer votre adresse e-mail"
               name="email"
+              autocomplete="off"
               [(ngModel)]="emailFormValue"
               (input)="checkEmailValid()"
               [ngClass]="{

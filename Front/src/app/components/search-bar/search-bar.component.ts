@@ -40,14 +40,11 @@ export class SearchBarComponent {
       return;
     }
 
-    console.log('searchAnimeByName : ' + this.search);
-
     await this.searchService
 
       .searchAnimeByName(this.search)
       .then((response) => {
         if (response == null) {
-          console.log(response);
           console.error('Erreur lors de la recherche');
         } else {
           this.newChange.emit(true);

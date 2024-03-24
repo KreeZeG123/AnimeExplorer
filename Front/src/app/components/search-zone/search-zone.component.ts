@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { SearchService } from '../../services/search/search.service';
 import { SearchBarComponent } from '../search-bar/search-bar.component';
@@ -51,5 +51,29 @@ export class SearchZoneComponent {
 
   getResultsAnimes() {
     return this.searchService.getResultsAnimes();
+  }
+
+  @Output() buttonClicked = new EventEmitter<number>();
+
+  confirmGuess(idx: number): void {
+    this.search = '';
+    this.buttonClicked.emit(idx);
+  }
+
+  checkNameIsUndefined(title: string): boolean {
+    if (title == null || title == '' || title == undefined) {
+      return true;
+    }
+    return false;
+  }
+
+  checkAnimeName(anime: any): number {
+    if (this.checkNameIsUndefined(anime.title.english)) {
+      return -1;
+    }
+    if (this.checkNameIsUndefined(anime.title.romaji)) {
+      return 1;
+    }
+    return 0;
   }
 }

@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { SearchService } from './services/search/search.service';
 
 @Component({
   selector: 'app-root',
@@ -11,4 +12,6 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'AnimeExplorer';
+  // Initialisation du service de recherche
+  constructor(private searchService: SearchService) {}
 }

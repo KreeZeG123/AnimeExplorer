@@ -102,6 +102,43 @@ $colors: (
   }
 }
 
+// For each de 100 a 900 avec un oas de 100
+.text-gray100 {
+  color: $gray-100;
+}
+
+.text-gray200 {
+  color: $gray-200;
+}
+
+.text-gray300 {
+  color: $gray-300;
+}
+
+.text-gray400 {
+  color: $gray-400;
+}
+
+.text-gray500 {
+  color: $gray-500;
+}
+
+.text-gray600 {
+  color: $gray-600;
+}
+
+.text-gray700 {
+  color: $gray-700;
+}
+
+.text-gray800 {
+  color: $gray-800;
+}
+
+.text-gray900 {
+  color: $gray-900;
+}
+
 // Texte en $secondary pour les elements du menu déroulant primary en survol
 .btn.btn-primary + .dropdown-menu a:hover {
   color: $secondary;

@@ -1,0 +1,67 @@
+
+
+main {
+    margin: 0;
+    width: 100%; /* Utiliser toute la largeur de la fenêtre */
+}
+
+.containerr {
+    display: flex;
+    height: 90vh; /* Utilise toute la hauteur de la fenêtre */
+    width: 100vw; /* Utiliser toute la largeur de la fenêtre */
+}
+
+.left {
+    background-color: var(--bs-primary); /* Couleur à gauche */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%; /* Utilise toute la hauteur du conteneur parent */
+    border-bottom-right-radius: 45% 70%;
+}
+
+.right {
+    padding: 50px;
+    height: 100%;
+    box-sizing: border-box; /* Pour inclure le padding dans la largeur */
+    background-color: #f8f8ff; /* Couleur à droite */
+    border-top-left-radius: 30% 40%; /* Arrondi en haut à gauche */
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+}
+
+.right h3{
+    white-space: preline;
+}
+
+
+.decalage{
+    margin-top: 50px;;
+}
+.blanc {
+    color: white;
+    font-size: 700%;
+    margin: 0;
+}
+
+.orange {
+    color: var(--bs-secondary);
+    font-size: 700%;
+    margin-bottom: -0.4em;
+}
+
+.contours{
+    background-color: var(--bs-primary);
+    max-height: 500px;
+}
+.titre{
+    margin-left: 20px;
+}
+.titre h1{
+    font-size: 7vw
+}
+
+.description{
+    margin-top: 18px;
+}

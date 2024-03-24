@@ -25,6 +25,7 @@ declare var require: any;
 export class DecouvrirComponent {
   @ViewChild('childComponent') childComponent!: SearchBarComponent;
 
+  // Les options des filtres
   public filtreGenre = [
     'Genre',
     ['Action', 'Aventure', 'Drame', 'Fantaisie', 'Mystère', 'Supernaturel'],
@@ -43,178 +44,152 @@ export class DecouvrirComponent {
     ['FINISHED', 'RELEASING', 'NOT_YET_RELEASED', 'CANCELLED', 'HIATUS'],
   ];
 
+  // Les vignettes affichées sur la page
   public vignettes: any[] = [];
 
-  constructor(private searchService: SearchService) {}
-
-  displayAnime(): Array<any> {
-    const animeData = require('../../../assets/output.json');
-    let listeAnime = [];
-    let lenData = animeData.data.Page.media.length;
-    for (let i = 0; i < lenData; i++) {
-      let anime = [
-        animeData.data.Page.media[i].title.english,
-        animeData.data.Page.media[i].coverImage.large,
-        animeData.data.Page.media[i].id,
-      ];
-      listeAnime.push(anime);
-    }
-    return listeAnime;
-  }
-
-  filtrerAnime(
-    status: String,
-    annee: string,
-    format: string,
-    genre: string
-  ): Array<any> {
-    const animeData = require('../../../assets/output.json');
-    let listeAnime = [];
-    let lenData = animeData.data.Page.media.length;
-    for (let i = 0; i < lenData; i++) {
-      if (
-        (annee === '' ||
-          annee === 'Any' ||
-          animeData.data.Page.media[i].startDate.year == annee) &&
-        (format === '' ||
-          format === 'Any' ||
-          animeData.data.Page.media[i].format == format) &&
-        (status === '' ||
-          status === 'Any' ||
-          animeData.data.Page.media[i].status == status)
-      ) {
-        if (
-          genre === '' ||
-          genre === 'Any' ||
-          animeData.data.Page.media[i].genres.includes(genre)
-        ) {
-          let anime = [
-            animeData.data.Page.media[i].title.english,
-            animeData.data.Page.media[i].coverImage.large,
-            animeData.data.Page.media[i].id,
-          ];
-          listeAnime.push(anime);
-        }
-      }
-    }
-    return listeAnime;
-  }
-
-  chercherAnime(recherche: string): Array<any> {
-    const animeData = require('../../../assets/output.json');
-    let listeAnime = [];
-    let lenData = animeData.data.Page.media.length;
-    for (let i = 0; i < lenData; i++) {
-      let animeTitle = animeData.data.Page.media[i].title;
-      if (
-        animeTitle.english.toLowerCase().includes(recherche.toLowerCase()) ||
-        animeTitle.romaji.toLowerCase().includes(recherche.toLowerCase())
-      ) {
-        let anime = [
-          animeData.data.Page.media[i].title.english,
-          animeData.data.Page.media[i].coverImage.large,
-          animeData.data.Page.media[i].id,
-        ];
-        listeAnime.push(anime);
-      }
-    }
-
-    return listeAnime;
-  }
-
+  // Les options selectionnées des filtres
   optionGenre: string = '';
   optionAnnee: string = '';
   optionFormat: string = '';
   optionAiring: string = '';
 
+  // Les informations d'un anime
+  infoAnime: any[] = [];
+
+  // Affichage de la fenêtre d'information
+  display: Boolean = false;
+
+  constructor(private searchService: SearchService) {}
+
+  // Fonction pour modifier l'option d'un filtre
+  public modifierOptionFiltre(filtre: string, option: string) {
+    switch (filtre) {
+      case 'FiltreGenre':
+        this.optionGenre = option;
+        break;
+      case 'FiltreFormat':
+        this.optionFormat = option;
+        break;
+      case 'FiltreAiring':
+        this.optionAiring = option;
+        break;
+      default:
+    }
+  }
+
+  // Fonction pour récupérer l'option selectionnée dans un filtre
   recupererOptionSelectionnee(
     optionSelectionnee: string,
     typeFiltre: string
   ): void {
-    if (typeFiltre === 'FiltreGenre') {
-      if (optionSelectionnee === 'Any' || optionSelectionnee === '') {
-        this.optionGenre = optionSelectionnee;
-      } else {
-        for (let i = 0; i < this.filtreGenre[1].length; i++) {
-          if (this.filtreGenre[1][i] == optionSelectionnee) {
-            this.optionGenre = this.filtreGenre[2][i];
-          }
-        }
-      }
-    } else if (typeFiltre === 'FiltreAnnee') {
+    if (optionSelectionnee == 'Any') {
+    }
+    // Si filtre année, on change l'option année en l'options selectionnée
+    if (typeFiltre === 'FiltreAnnee') {
       this.optionAnnee = optionSelectionnee;
-    } else if (typeFiltre === 'FiltreFormat') {
-      if (optionSelectionnee === 'Any' || optionSelectionnee === '') {
-        this.optionFormat = optionSelectionnee;
-      } else {
-        for (let i = 0; i < this.filtreFormat[1].length; i++) {
-          if (this.filtreFormat[1][i] == optionSelectionnee) {
-            this.optionFormat = this.filtreFormat[2][i];
-          }
-        }
-      }
-    } else if (typeFiltre === 'FiltreAiring') {
-      if (optionSelectionnee === 'Any' || optionSelectionnee === '') {
-        this.optionAiring = optionSelectionnee;
-      } else {
-        for (let i = 0; i < this.filtreAiring[1].length; i++) {
-          if (this.filtreAiring[1][i] == optionSelectionnee) {
-            this.optionAiring = this.filtreAiring[2][i];
-          }
+      return;
+    }
+    // Création d'un dictionnaire pour simplifier la gestion des filtres
+    let dict: any = {
+      FiltreGenre: this.filtreGenre,
+      FiltreFormat: this.filtreFormat,
+      FiltreAiring: this.filtreAiring,
+    };
+
+    // Si l'option selectionnée est 'Any' ou vide, on change l'option du filtre en 'Any'
+    if (optionSelectionnee == 'Any' || optionSelectionnee == '') {
+      this.modifierOptionFiltre(typeFiltre, optionSelectionnee);
+    } else {
+      // Sinon, on cherche l'index de l'option selectionnée dans le filtre
+      for (let i = 0; i < dict[typeFiltre][1].length; i++) {
+        // On change l'option du filtre en l'option selectionnée dans le format correspondante
+        if (dict[typeFiltre][1][i] == optionSelectionnee) {
+          this.modifierOptionFiltre(typeFiltre, dict[typeFiltre][2][i]);
         }
       }
     }
   }
 
-  appliquerFiltres(): void {
-    this.vignettes = this.filtrerAnime(
-      this.optionAiring,
-      this.optionAnnee,
-      this.optionFormat,
-      this.optionGenre
+  // Fonction pour rechercher les animes par filtre
+  async searchAnimeByFilter(
+    status: String,
+    startDate: string,
+    format: string,
+    genres: string
+  ) {
+    await this.searchService.searchAnimeByFilter(
+      status,
+      startDate,
+      format,
+      genres
+    );
+    this.vignettes = this.searchService.searchResultToVignette(
+      this.searchService.getResultsAnimes()
     );
   }
 
-  input: string = '';
-
-  appliquerRecherche(input: string): void {
-    this.input = input;
-    this.vignettes = this.chercherAnime(input);
+  // Fonction pour détecter si un filtre est vide
+  detectionFiltreVide(filtre: string) {
+    if (filtre == '' || filtre == 'Any') {
+      return true;
+    } else {
+      return false;
+    }
   }
 
-  infoAnime: any[] = [];
-  display: Boolean = false;
-
-  displayInfo(id: number) {
-    const animeData = require('../../../assets/output.json');
-    let lenData = animeData.data.Page.media.length;
-    this.infoAnime = [];
-    for (var i = 0; i < lenData; i++) {
-      if (animeData.data.Page.media[i].id == id) {
-        this.infoAnime.push(animeData.data.Page.media[i].title.english);
-        this.infoAnime.push(animeData.data.Page.media[i].title.romanji);
-        this.infoAnime.push(animeData.data.Page.media[i].episodes);
-        this.infoAnime.push(animeData.data.Page.media[i].description);
-        this.infoAnime.push(animeData.data.Page.media[i].status);
-        this.infoAnime.push(animeData.data.Page.media[i].coverImage.large);
-        this.infoAnime.push(animeData.data.Page.media[i].bannerImage);
-        this.infoAnime.push(animeData.data.Page.media[i].meanScore);
-        let lenStudios = animeData.data.Page.media[i].studios.nodes.length;
-        let tabStudios = [];
-        for (let j = 0; j < lenStudios; j++) {
-          tabStudios.push(animeData.data.Page.media[i].studios.nodes[j].name);
-        }
-        this.infoAnime.push(tabStudios);
-        this.infoAnime.push(animeData.data.Page.media[i].genres);
-        this.infoAnime.push(animeData.data.Page.media[i].startDate.year);
-        let lenTags = animeData.data.Page.media[i].tags.length;
-        let tabTags = [];
-        for (let j = 0; j < lenTags; j++) {
-          tabTags.push(animeData.data.Page.media[i].tags[j].name);
-        }
-        this.infoAnime.push(tabTags);
-      }
+  // Fonction pour détecter si tous les filtres sont vides
+  detectionFiltresVide(): boolean {
+    if (
+      this.detectionFiltreVide(this.optionAiring) &&
+      this.detectionFiltreVide(this.optionAnnee) &&
+      this.detectionFiltreVide(this.optionFormat) &&
+      this.detectionFiltreVide(this.optionGenre)
+    ) {
+      return true;
+    } else {
+      return false;
     }
+  }
+
+  afficherDefaultAnimes() {
+    this.vignettes = this.searchService.getTopAnimesList();
+  }
+
+  // Fonction pour appliquer les filtres et lancer la recherche d'animes
+  appliquerFiltres(): void {
+    if (!this.detectionFiltresVide()) {
+      this.searchAnimeByFilter(
+        this.optionAiring,
+        this.optionAnnee,
+        this.optionFormat,
+        this.optionGenre
+      );
+    }
+    if (this.vignettes.length == 0) {
+      this.vignettes = this.searchService.getTopAnimesList();
+    }
+  }
+
+  displayInfo(idx: number) {
+    let animeData = this.searchService.getResultsAnimes();
+
+    this.infoAnime = [];
+    this.infoAnime.push(animeData[idx].title.english || 'N/A');
+    this.infoAnime.push(animeData[idx].title.romaji || 'N/A');
+    this.infoAnime.push(animeData[idx].episodes || 'N/A');
+    this.infoAnime.push(animeData[idx].studios || 'N/A');
+    this.infoAnime.push(animeData[idx].genres || 'N/A');
+    this.infoAnime.push(animeData[idx].tags || 'N/A');
+    this.infoAnime.push(animeData[idx].startDate || 'N/A');
+    this.infoAnime.push(animeData[idx].season || 'N/A');
+    this.infoAnime.push(animeData[idx].format || 'N/A');
+    this.infoAnime.push(animeData[idx].coverImage.large || 'N/A');
+    this.infoAnime.push(animeData[idx].meanScore || 'N/A');
+    let description = animeData[idx].description || 'N/A';
+    this.infoAnime.push(description.replace('<br>', '').replace('<i>', ''));
+    this.infoAnime.push(animeData[idx].status || 'N/A');
+    this.infoAnime.push(animeData[idx].bannerImage || 'N/A');
+
     this.display = true;
   }
 
@@ -222,24 +197,32 @@ export class DecouvrirComponent {
     this.display = false;
   }
 
-  ngOnInit(): void {
-    this.vignettes = this.displayAnime();
+  getTopAnimesList(): any {
+    this.vignettes = this.searchService.getTopAnimesList();
   }
 
   updateVignettes(etatUpdate: boolean): any {
-    console.log('updateVignettes');
     if (etatUpdate) {
-      this.vignettes = [];
-      let result = this.searchService.getResultsAnimes();
-      for (let i = 0; i < result.length; i++) {
-        this.vignettes.push([
-          result[i].title.english,
-          result[i].coverImage.large,
-          result[i].id,
-        ]);
-      }
+      this.vignettes = this.searchService.searchResultToVignette(
+        this.searchService.getResultsAnimes()
+      );
     } else {
-      this.vignettes = this.displayAnime();
+      this.vignettes = this.searchService.getTopAnimesList();
+    }
+  }
+
+  ngOnInit(): void {
+    let result = this.searchService.getTopAnimesList();
+    if (result.length == 0) {
+      let interval = setInterval(() => {
+        result = this.searchService.getTopAnimesList();
+        if (result.length != 0) {
+          this.vignettes = result;
+          clearInterval(interval);
+        }
+      }, 150);
+    } else {
+      this.vignettes = result;
     }
   }
 }

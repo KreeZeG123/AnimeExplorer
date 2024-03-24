@@ -22,6 +22,8 @@ const client = new MongoClient(uri);
 
 // Configuration du system de recherche ( Fuzzy Search )
 const Fuse = require("fuse.js");
+const { start } = require("repl");
+const { format } = require("path");
 
 // =======================================================
 //               Gestion de la base de données
@@ -221,12 +223,16 @@ function formatAnimeInfo(anime) {
     popularity: anime.poupularity,
     meanScore: anime.meanScore,
     description: anime.description,
+    status: anime.status,
+    bannerImage: anime.bannerImage,
   };
 }
 
 // Fonction pour formater une liste d'animes
 function formatAnimesList(animes) {
-  return animes.map((anime) => formatAnimeInfo(anime));
+  let formatedAbimesList = animes.map((anime) => formatAnimeInfo(anime));
+  formatedAbimesList.sort((a, b) => b.popularity - a.popularity);
+  return formatedAbimesList.slice(0, 150);
 }
 
 // Fonction pour faire une recherche floue d'un anime
@@ -246,6 +252,8 @@ app.post("/searchAnimeByName", async (req, res) => {
       message: "success",
       animes: result,
     });
+
+    console.log("Recherche par nom : " + rechercheName + " => ", result.length);
   } catch (error) {
     console.log(
       "Erreur pendant rechercheAnimeByName(" + rechercheName + ") :",
@@ -254,6 +262,103 @@ app.post("/searchAnimeByName", async (req, res) => {
     res.status(500).json({ message: "error" });
   }
 });
+
+// Route pour gérer les demandes de recherche d'animes par filtre
+/*  status: String,
+    startDate.year: string,
+    format: string,
+    genre in genres: string
+*/
+app.post("/searchAnimeByFilter", async (req, res) => {
+  let filters = {};
+
+  // Formatage des donnés pour la recherche
+  [
+    ["status", req.body.status],
+    ["format", req.body.format],
+    ["genres", req.body.genres],
+  ].forEach((filter) => {
+    if (filter[1] != undefined && filter[1] != "" && filter[1] != "Any") {
+      filters[filter[0]] = filter[1];
+    }
+  });
+  if (
+    req.body.startDate != undefined &&
+    req.body.startDate != "" &&
+    req.body.startDate != "Any"
+  ) {
+    filters.startDate = { year: parseInt(req.body.startDate) };
+  }
+
+  try {
+    const result = await Animes.find(filters).toArray();
+
+    res.status(200).json({
+      message: "success",
+      animes: formatAnimesList(result),
+    });
+
+    console.log(
+      "Recherche par filtre : ",
+      filters,
+      " => ",
+      result.length,
+      " résultats"
+    );
+  } catch (error) {
+    console.error("Erreur pendant searchAnimeByFilter() :", error);
+    res.status(500).json({ message: "error" });
+  }
+});
+
+// Get /getTopAnimesList pour obtenir la liste des animes les plus populaires
+app.get("/getTopAnimesList", async (req, res) => {
+  try {
+    const topAnimes = await Animes.find()
+      .sort({ popularity: -1 })
+      .limit(50)
+      .toArray();
+    const result = formatAnimesList(topAnimes);
+    res.status(200).json({
+      message: "success",
+      animes: result,
+    });
+  } catch (error) {
+    console.error("Erreur pendant getTopAnimesList() :", error);
+    res.status(500).json({ message: "error" });
+  }
+});
+
+// =======================================================
+//            Requêtes Section Jeu
+// =======================================================
+
+// Route pour gérer la demande de d'anime a guess
+app.get("/askAnimeATrouver", async (req, res) => {
+  try {
+    // Chercher les 100 anime les plus populaires
+    const topAnimes = await Animes.find()
+      .sort({ popularity: -1 })
+      .limit(100)
+      .toArray();
+    console.log(topAnimes.length);
+
+    // Choisir un anime aléatoire parmi les 100
+    const randomIndex = Math.floor(Math.random() * topAnimes.length);
+    const animeToGuess = topAnimes[randomIndex];
+
+    // Renvoyer les informations de l'anime à deviner
+    res.status(200).json({
+      message: "success",
+      anime: formatAnimeInfo(animeToGuess),
+    });
+  } catch (error) {
+    console.error("Erreur pendant getAnimeToGuess() :", error);
+    res.status(500).json({ message: "error" });
+  }
+});
+
+// Route pour gérer la demande d'ajout de points (50 pts)
 
 // =======================================================
 //            Requêtes Classement Joueurs

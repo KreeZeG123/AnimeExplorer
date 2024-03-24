@@ -43,8 +43,8 @@
   transform: translateY(-25%); /* Remonte l'image de moitié de sa hauteur */
 }
 
-.genre-container p {
-  display: inline; /* Affiche chaque paragraphe sur la même ligne */
+.sequence-container p {
+  display: inline-block; /* Affiche chaque paragraphe sur la même ligne */
   text-align: left;
   white-space: nowrap; /* Empêche le passage à la ligne automatique */
 }
