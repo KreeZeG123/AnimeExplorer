@@ -52,7 +52,7 @@ export class LoginComponent {
       });
   }
 
-  // Quand on arrive sur la page /login on verifier si l'utilisateur est deja connecter
+  // Quand on arrive sur la page /connexion on verifier si l'utilisateur est deja connecter
   ngOnInit(): void {
     if (this.authService.userIsConnected()) {
       this.authService.redirectToConnected();

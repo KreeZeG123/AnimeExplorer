@@ -14,10 +14,6 @@ import { SearchBarComponent } from '../search-bar/search-bar.component';
 export class SearchZoneComponent {
   search: string = '';
 
-  resultsAnimes: any = [];
-
-  username: string = 'default';
-
   private debounceDelay: number = 500; // Délai de debounce en millisecondes
   private debounceTimeoutId: any; // Identifiant du délai de debounce
 
@@ -38,22 +34,22 @@ export class SearchZoneComponent {
 
   async validateSearch() {
     if (this.search === '' || this.search.trim() == '') {
-      this.resultsAnimes = [];
+      this.searchService.resetResultsAnimes();
       return;
     }
-
-    this.resultsAnimes = [];
     await this.searchService
       .searchAnimeByName(this.search)
       .then((response) => {
         if (response == null) {
           console.error('Erreur lors de la recherche');
-        } else {
-          this.resultsAnimes = response;
         }
       })
       .catch((error) => {
         console.error('Erreur lors de la connexion : ', error);
       });
+  }
+
+  getResultsAnimes() {
+    return this.searchService.getResultsAnimes();
   }
 }

@@ -1,0 +1,60 @@
+<div id="screenshoot" class="pb-3">
+  <div
+    id="score"
+    class="d-flex align-items-center flex-column mx-auto justify-content-center mb-2"
+    *ngIf="userIsConnected()"
+  >
+    <h2>Score personnel</h2>
+    <h2 class="rouge">{{ personalScore }} points</h2>
+    <h2 class="rouge">
+      Rang
+      {{ personalRank }}
+    </h2>
+  </div>
+  <div
+    id="score"
+    class="d-flex align-items-center flex-column mx-auto justify-content-center mb-2"
+    *ngIf="!userIsConnected()"
+  >
+    <h2 style="max-width: 30rem; text-align: center">
+      Connectez-vous pour voir votre meilleur score
+    </h2>
+  </div>
+  <div
+    id="maindiv"
+    class="d-flex align-items-center mx-auto justify-content-center"
+  >
+    <div id="header">
+      <h1>Classement</h1>
+      <button class="share" (click)="doCapture()">
+        <i class="material-symbols-outlined">share</i>
+      </button>
+    </div>
+    <div id="leaderboard">
+      <div class="ribbon"></div>
+      <table class="classement-table">
+        <ng-container
+          *ngFor="let classement of classementResult; let i = index"
+        >
+          <tr *ngIf="i + 1 === 1">
+            <td class="number">{{ i + 1 }}</td>
+            <td class="name">{{ classement.username }}</td>
+            <td class="points">
+              {{ classement.score }}
+              <!-- met un espace -->
+              &nbsp;
+              <span class="material-symbols-outlined medal">
+                workspace_premium
+              </span>
+            </td>
+          </tr>
+          <tr *ngIf="i + 1 >= 2">
+            <td class="number">{{ i + 1 }}</td>
+            <td class="name">{{ classement.username }}</td>
+            <td class="points">{{ classement.score }}</td>
+          </tr>
+        </ng-container>
+      </table>
+    </div>
+  </div>
+</div>

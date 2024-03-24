@@ -33,7 +33,7 @@ let Animes; // Déclaration de la collection animes
 async function connectDatabase() {
   try {
     await client.connect();
-    console.log("Connected to the database");
+    console.log("Connexion à la base de données réussie");
 
     // Assignation des collections
     const database = client.db("AnimeExplorer");
@@ -44,9 +44,6 @@ async function connectDatabase() {
     throw error;
   }
 }
-
-// Appel de la fonction de connexion à la base de données au démarrage du serveur
-connectDatabase().catch(console.error);
 
 // =======================================================
 //            Requêtes Gestions des utilisateurs
@@ -86,7 +83,6 @@ app.post("/signup", async (req, res) => {
   const usernameUser = req.body.username;
   const emailUser = req.body.email;
   const passwordUser = req.body.password;
-  const scoresUser = [];
 
   try {
     // Ajouter l'utilisateur à la base de données
@@ -94,7 +90,7 @@ app.post("/signup", async (req, res) => {
       username: usernameUser,
       email: emailUser,
       password: passwordUser,
-      scores: scoresUser,
+      score: 0,
     });
     // Récupère l'id attribué par la base de données a l'utilisateur
     console.log(
@@ -108,9 +104,10 @@ app.post("/signup", async (req, res) => {
         passwordUser +
         ")"
     );
+
     res.status(200).json({
       message: "success",
-      id: result.insertedId,
+      userID: result.insertedId,
       username: usernameUser,
       email: emailUser,
     });
@@ -140,7 +137,7 @@ app.post("/login", async (req, res) => {
 
     // Si l'utilisateur n'est pas trouvé, renvoyer une réponse d'erreur au client
     if (!user) {
-      console.log("email invalide");
+      console.log("email invalide pour " + emailUser);
       res.status(200).json({
         message: "wrongEmail",
       });
@@ -150,21 +147,21 @@ app.post("/login", async (req, res) => {
     // Obtention du username, email, et id de l'utilisateur
     const username = user.username;
     const email = user.email;
-    const id = user._id;
+    const id = user._id.toString();
 
     // Vérification du mot de passe
     if (user.password !== passwordUser) {
-      console.log("mot de passe invalide");
+      console.log("mot de passe invalide pour " + emailUser);
       res.status(200).json({
         message: "wrongPassword",
       });
       return;
     }
 
-    console.log("success:" + id + ":" + username + ":" + email);
+    console.log("Connection de : " + id + ":" + username + ":" + email);
     res.status(200).json({
       message: "success",
-      id: id,
+      userID: id,
       username: username,
       email: email,
     });
@@ -178,68 +175,77 @@ app.post("/login", async (req, res) => {
 });
 
 // =======================================================
-//            Requêtes Gestions des animes
+//            Requêtes Recherche Animes
 // =======================================================
 
-// Temp
-const animeData = require("../tempStorage/animes.json");
+// Variables pour la recherche floue
+let animeData;
+let fuse;
 
-// Configuration des options pour Fuse.js
-const options = {
-  keys: ["title.english", "title.romaji"], // Propriétés à rechercher
-  threshold: 0.3, // Seuil de correspondance (ajustez selon vos besoins)
-};
-
-// Créez une instance de Fuse avec vos données et options
-const fuse = new Fuse(animeData, options);
-
-// Méthode chercherByName
-function chercherByName(name) {
-  const results = fuse.search(name);
-  return results.map((result) => result.item);
+// Fonction pour charger les données de la collection Animes et configurer Fuse.js
+async function loadFuzzySearch() {
+  // Configuration des options pour Fuse.js
+  const options = {
+    keys: ["title.english", "title.romaji"], // Propriétés à rechercher
+    threshold: 0.3, // Seuil de correspondance (ajustez selon vos besoins)
+    includeScore: true, // Inclure le score dans les résultats
+  };
+  // Récupération des données de la collection Animes
+  animeData = await Animes.find({}).toArray();
+  // Création de l'instance Fuse pour la recherche floue
+  fuse = new Fuse(animeData, options);
+  console.log("Recherche floue prête");
 }
 
+// Fonction pour formater les informations d'un anime
 function formatAnimeInfo(anime) {
   return {
     id: anime.id,
-    title: [anime.title.english, anime.title.romaji],
+    title: {
+      english: anime.title.english,
+      romaji: anime.title.romaji,
+    },
     episodes: anime.episodes,
-    studio: anime.studio,
+    studios: anime.studios.nodes.map((node) => node.name),
     genres: anime.genres,
-    tags: anime.tags,
+    tags: anime.tags.map((tag) => tag.name),
     startDate: anime.startDate.year,
     season: anime.season,
     format: anime.format,
-    image: anime.image,
-    poupularity: anime.poupularity,
-    score: anime.score,
+    coverImage: {
+      extraLarge: anime.coverImage.extraLarge,
+      large: anime.coverImage.large,
+      medium: anime.coverImage.medium,
+      color: anime.coverImage.color,
+    },
+    popularity: anime.poupularity,
+    meanScore: anime.meanScore,
     description: anime.description,
   };
 }
 
+// Fonction pour formater une liste d'animes
 function formatAnimesList(animes) {
   return animes.map((anime) => formatAnimeInfo(anime));
+}
+
+// Fonction pour faire une recherche floue d'un anime
+function chercherByName(name) {
+  const results = fuse.search(name);
+  return results.slice(0, 15).map((result) => result.item);
 }
 
 // Route pour gérer les demande de rechercher d'animes par nom avec Fuze.js
 app.post("/searchAnimeByName", async (req, res) => {
   let rechercheName = req.body.name;
-  console.log(
-    "==============================================================="
-  );
-  console.log("Recherche d'anime par nom : " + rechercheName);
   try {
-    console.log("1");
     let fuseSearchResults = chercherByName(rechercheName);
-    console.log("2");
     let result = formatAnimesList(fuseSearchResults);
-    console.log("result : ", result);
     // Renvoie le tableau result en retours de la requête
     res.status(200).json({
       message: "success",
       animes: result,
     });
-    console.log("3");
   } catch (error) {
     console.log(
       "Erreur pendant rechercheAnimeByName(" + rechercheName + ") :",
@@ -250,9 +256,86 @@ app.post("/searchAnimeByName", async (req, res) => {
 });
 
 // =======================================================
+//            Requêtes Classement Joueurs
+// =======================================================
+
+// Route pour gérer la demande de récupération du classement
+app.post("/ranking", async (req, res) => {
+  const userID = req.body.userID;
+
+  try {
+    // Verifie si la collection utilisateur est bien chargée
+    if (Utilisateurs == null) {
+      console.error(
+        "Erreur de connexion à la base de données : Utilisateurs ( /ranking )"
+      );
+      res.status(200).json({
+        message: "error",
+        error: "User is null",
+      });
+      return;
+    }
+
+    // Récupération des noms et points de tous les utilisateurs triés par score
+    const classement = await Utilisateurs.find()
+      .sort({ score: -1 })
+      .project({ _id: 1, username: 1, score: 1 })
+      .toArray();
+
+    let userScore = "";
+    let userRank = "";
+
+    if (
+      userID != null &&
+      userID != "" &&
+      userID != undefined &&
+      userID != "undefined" &&
+      userID != "none"
+    ) {
+      const loggedUser = classement.find(
+        (user) => user._id.toString() == userID
+      );
+      if (loggedUser != undefined && loggedUser != null) {
+        userScore = loggedUser.score;
+      }
+
+      const loggedUserRank = classement.findIndex(
+        (user) => user._id.toString() == userID
+      );
+      if (
+        loggedUserRank != -1 &&
+        loggedUserRank != undefined &&
+        loggedUserRank != null
+      ) {
+        userRank = loggedUserRank + 1 + "/" + classement.length;
+      }
+    }
+
+    res.status(200).json({
+      message: "success",
+      classement: classement.slice(0, 5),
+      personalRanking: {
+        point: userScore,
+        ranking: userRank,
+      },
+    });
+  } catch (error) {
+    console.error("Erreur pendant getClassement() :", error);
+    res.status(500).json({ message: "error" });
+  }
+});
+
+// =======================================================
 //                  Démarrage du serveur
 // =======================================================
-const port = 3080;
-app.listen(port, () => {
-  console.log(`Le serveur est en marche sur le port ${port}`);
-});
+async function run() {
+  await connectDatabase().catch(console.error);
+  await loadFuzzySearch().catch(console.error);
+
+  const port = 3080;
+  app.listen(port, () => {
+    console.log(`Le serveur est en marche sur le port ${port}`);
+  });
+}
+
+run();

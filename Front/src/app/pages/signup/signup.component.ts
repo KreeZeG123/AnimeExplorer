@@ -152,7 +152,7 @@ export class SignupComponent {
     }
   }
 
-  // Quand on arrive sur la page /signup on verifier si l'utilisateur est deja connecter
+  // Quand on arrive sur la page /inscription on verifier si l'utilisateur est deja connecter
   ngOnInit(): void {
     if (this.authService.userIsConnected()) {
       this.authService.redirectToConnected();

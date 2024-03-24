@@ -23,9 +23,9 @@ interface LoginResponse extends httpPostResponse {
 })
 export class AuthService {
   constructor(
+    private backEndService: BackEndService,
     private httpClient: HttpClient,
-    private router: Router,
-    private backEndService: BackEndService
+    private router: Router
   ) {}
 
   // Server back end URL
@@ -166,6 +166,6 @@ export class AuthService {
 
   // Rediriger l'utilisateur vers la page connected
   redirectToConnected(): void {
-    this.router.navigateByUrl('/connected');
+    this.router.navigateByUrl('/connecte');
   }
 }

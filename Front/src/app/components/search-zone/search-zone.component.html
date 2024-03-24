@@ -7,7 +7,7 @@
       <input
         class="form-control me-sm-2"
         type="text"
-        placeholder="Bienvenue {{ username }} ! Cherchez le nom d'un Animé"
+        placeholder="Tape le nom d'un Animé"
         name="search"
         [(ngModel)]="search"
         (input)="onSearchChange()"
@@ -17,9 +17,9 @@
 </div>
 <div style="background-color: white; border-radius: 7px; width: 94%">
   <ul>
-    <ng-container *ngFor="let anime of resultsAnimes">
+    <ng-container *ngFor="let anime of getResultsAnimes()">
       <li style="font-size: 10px">
-        {{ anime.title[0] }} ( {{ anime.startDate }} )
+        {{ anime.title.english }} ( {{ anime.startDate }} )
       </li>
     </ng-container>
   </ul>
