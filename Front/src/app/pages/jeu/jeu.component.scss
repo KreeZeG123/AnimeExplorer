@@ -1,0 +1,73 @@
+.container {
+  display: flex; /* Utilisation de flexbox */
+}
+
+.filtre {
+  margin-top: 20px;
+  margin-left: 30%;
+}
+
+.container span {
+  margin-top: auto;
+  margin-right: 50px; /* Espace entre les spans (ajustez selon vos besoins) */
+}
+
+.horizontal-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  max-width: 500px; /* Ajustez selon vos besoins */
+}
+
+.horizontal-scroll-container::-webkit-scrollbar {
+  height: 5px; /* Hauteur de la barre de défilement */
+}
+
+.horizontal-scroll-container::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Couleur de l'arrière-plan de la barre de défilement */
+}
+
+.horizontal-scroll-container::-webkit-scrollbar-thumb {
+  background: #888; /* Couleur de la poignée de la barre de défilement */
+}
+
+.horizontal-scroll-container::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Couleur de la poignée de la barre de défilement au survol */
+}
+
+.horizontal-line-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrage vertical du contenu */
+  justify-content: flex-start; /* Alignement horizontal au début */
+  margin-top: 20px; /* Espace au-dessus de la ligne */
+  margin-bottom: 20px; /* Espace en dessous de la ligne */
+}
+
+.horizontal-line {
+  width: 60%; /* Largeur de la ligne */
+  height: 5px; /* Épaisseur de la ligne */
+  background-color: var(--bs-primary); /* Couleur de la ligne */
+}
+
+.text-and-image {
+  margin-top: 10px; /* Marge au-dessus du texte et de l'image */
+}
+
+.text-below {
+  margin-left: 25%; /* Réinitialisation des marges */
+  text-align: left; /* Alignement du texte à gauche */
+  width: 100%; /* Permet au texte de s'étendre sur toute la largeur */
+}
+
+.image-below {
+  margin-left: 25%;
+  display: block; /* Permet d'éviter tout problème de positionnement */
+  margin-top: 10px; /* Marge au-dessus de l'image */
+  width: 150px; /* Garantit que l'image ne dépasse pas la largeur du conteneur */
+}
+
+.image_style{
+  border-top-left-radius:8px ;
+  border-bottom-left-radius:8px ;
+}

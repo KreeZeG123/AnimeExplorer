@@ -1,0 +1,69 @@
+<app-nav-bar></app-nav-bar>
+<main>
+  <div
+    class="container d-flex align-items-center justify-content-center"
+    style="height: 80dvh"
+  >
+    <div class="card bg-primary mb-3">
+      <div class="card-header text-secondary text-center">Connexion</div>
+      <div class="card-body">
+        <form>
+          <div class="form-group my-3">
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Entrer votre adresse e-mail"
+              autocomplete="off"
+              name="email"
+              [(ngModel)]="email"
+              [ngClass]="{
+                'is-valid': emailValid === true,
+                'is-invalid': emailValid === false
+              }"
+            />
+          </div>
+          <div class="form-group mb-3">
+            <input
+              for="inco"
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+              placeholder="Mot de passe"
+              autocomplete="off"
+              name="password"
+              [(ngModel)]="password"
+              [ngClass]="{
+                'is-valid': passwordValid === true,
+                'is-invalid': passwordValid === false
+              }"
+            />
+          </div>
+          <div
+            class="container d-flex align-items-center justify-content-center my-3"
+          >
+            <button
+              type="button"
+              class="btn btn-secondary"
+              (click)="validateLogin()"
+            >
+              Se connecter
+            </button>
+          </div>
+          <div class="d-flex flex-wrap justify-content-center">
+            <p class="text-white text-center mx-1">Vous n'êtes pas inscrit ?</p>
+            <p class="text-center">
+              <a
+                class="text-secondary hover-color-oranger"
+                routerLink="/inscription"
+              >
+                Créer un compte
+              </a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>

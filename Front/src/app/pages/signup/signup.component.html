@@ -1,0 +1,146 @@
+<app-nav-bar></app-nav-bar>
+<main>
+  <div
+    class="container d-flex align-items-center justify-content-center"
+    style="height: 80dvh"
+  >
+    <div class="card bg-primary mb-3">
+      <div class="card-header text-secondary text-center">Inscription</div>
+      <div class="card-body">
+        <form>
+          <div class="form-group my-3">
+            <input
+              type="username"
+              class="form-control"
+              id="InputUsername"
+              aria-describedby="usernameHelp"
+              placeholder="Entrer votre nom d'utilisateur"
+              name="username"
+              [(ngModel)]="usernameFormValue"
+              (input)="checkUsernameValid()"
+              [ngClass]="{
+                'is-valid': usernameValid === true,
+                'is-invalid': usernameValid === false
+              }"
+            />
+          </div>
+          <div class="form-group my-3">
+            <input
+              type="email"
+              class="form-control"
+              id="InputEmail"
+              aria-describedby="emailHelp"
+              placeholder="Entrer votre adresse e-mail"
+              name="email"
+              [(ngModel)]="emailFormValue"
+              (input)="checkEmailValid()"
+              [ngClass]="{
+                'is-valid': emailValid === true,
+                'is-invalid': emailValid === false
+              }"
+            />
+            <small id="emailHelp" class="card-text form-text text-light">
+              Votre adresse e-mail ne sera jamais communiquée à qui que ce soit.
+            </small>
+          </div>
+          <div>
+            <div class="form-group mt-3 mb-1">
+              <input
+                type="password"
+                class="form-control"
+                id="InputPasswordMain"
+                placeholder="Mot de passe"
+                autocomplete="off"
+                name="passwordMain"
+                [(ngModel)]="passwordMainFormValue"
+                (input)="checkPasswordValid()"
+                [ngClass]="{
+                  'is-valid': passwordValid === true,
+                  'is-invalid': passwordValid === false
+                }"
+              />
+              <div
+                class="card pwdRequierments mb-2 px-2"
+                [ngClass]="{ show: passwordValid !== null }"
+              >
+                <small
+                  id="labelPwdGT8"
+                  class="card-text form-text"
+                  [ngClass]="{
+                    'text-success': passwordGreaterThanEight === true,
+                    'text-danger': passwordGreaterThanEight === false
+                  }"
+                >
+                  Plus de 8 caractères
+                  <br />
+                </small>
+                <small
+                  id="labelPwdMaj"
+                  class="card-text form-text"
+                  [ngClass]="{
+                    'text-success': passwordWithMaj === true,
+                    'text-danger': passwordWithMaj === false
+                  }"
+                >
+                  Au moins une majuscule
+                  <br />
+                </small>
+                <small
+                  id="labelPwdNum"
+                  class="card-text form-text"
+                  [ngClass]="{
+                    'text-success': passwordWithNumber === true,
+                    'text-danger': passwordWithNumber === false
+                  }"
+                >
+                  Au moins un chiffre
+                  <br />
+                </small>
+              </div>
+            </div>
+            <div class="form-group mb-3">
+              <input
+                type="password"
+                class="form-control"
+                id="InputPasswordSecondary"
+                placeholder="Confirmer votre mot de passe"
+                autocomplete="off"
+                name="passwordSecondary"
+                [(ngModel)]="passwordSecondaryFormValue"
+                (input)="checkPasswordMatch()"
+                [ngClass]="{
+                  'is-valid': passwordMatched === true,
+                  'is-invalid': passwordMatched === false
+                }"
+              />
+            </div>
+          </div>
+          <div
+            class="container d-flex align-items-center justify-content-center my-3"
+          >
+            <button
+              type="button"
+              class="btn btn-secondary"
+              (click)="validateSignup()"
+            >
+              Valider l'inscription
+            </button>
+          </div>
+          <div class="d-flex flex-wrap justify-content-center">
+            <p class="text-white text-center mx-1">
+              Vous avez déjà un compte ?
+            </p>
+            <p class="text-center">
+              <a
+                class="text-secondary hover-color-oranger"
+                routerLink="/connexion"
+              >
+                Connectez-vous
+              </a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>

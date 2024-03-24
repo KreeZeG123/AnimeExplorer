@@ -1,0 +1,27 @@
+<div class="w-80" >
+  <div
+    style="align-items: center; justify-self: center; width: 100%"
+  >
+    <div class="d-flex w-100 justify-content-center">
+      <form class="w-75">
+        <input
+          class="form-control me-sm-2"
+          type="text"
+          placeholder="Tape le nom d'un Animé"
+          name="search"
+          [(ngModel)]="search"
+          (input)="onSearchChange()"
+        />
+      </form>
+    </div>
+  </div>
+    <div *ngIf="search!=''" class="resultats_container text-light" >
+        <ng-container *ngFor="let anime of getResultsAnimes(); let idx=index; let last = last">
+          <div (click)="confirmGuess(idx)" class="resultat_container" [class.last]="last" >
+            <img src="{{anime.coverImage.large}}" alt="image {{anime.title.english}}">
+            <p>{{ anime.title.english }}</p>  
+            <p>({{ anime.startDate }})</p>
+          </div>
+        </ng-container>
+  </div>
+</div>

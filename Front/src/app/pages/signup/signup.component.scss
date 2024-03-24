@@ -1,0 +1,14 @@
+.card.pwdRequierments {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-in-out;
+  background-color: #ced4da;
+}
+
+.card.pwdRequierments.show {
+  max-height: 100px;
+}
+
+.text-success {
+  color: #008000 !important;
+}
