@@ -1,10 +1,10 @@
-.container {
-  display: flex; /* Utilisation de flexbox */
-}
+
 
 .filtre {
   margin-top: 20px;
-  margin-left: 30%;
+  max-width: 50%;
+  overflow-x: hidden;
+  margin-left: 25%;
 }
 
 .container span {
@@ -14,7 +14,7 @@
 
 .horizontal-scroll-container {
   display: flex;
-  overflow-x: auto;
+  overflow-x: scroll;
   white-space: nowrap;
   max-width: 500px; /* Ajustez selon vos besoins */
 }
@@ -71,3 +71,16 @@
   border-top-left-radius:8px ;
   border-bottom-left-radius:8px ;
 }
+
+.historique{
+  width: 100%;
+}
+.container_info{
+  overflow-y: scroll;
+  scrollbar-width: none;
+  max-height: 300px;
+}
+.container_info p{
+  white-space: nowrap;
+}
+
