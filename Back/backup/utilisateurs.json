@@ -1,0 +1,37 @@
+[
+  {
+    "_id": { "$oid": "65f471eb6991ec1843298a16" },
+    "email": "test@test.fr",
+    "password": "l3info",
+    "username": "test",
+    "scores": [{ "$numberInt": "100" }, { "$numberInt": "150" }]
+  },
+  {
+    "_id": { "$oid": "65f87e4a897b7421ecb2be1e" },
+    "username": "test1",
+    "email": "test1@test1.fr",
+    "password": "12345678A",
+    "scores": []
+  },
+  {
+    "_id": { "$oid": "65f87f5a897b7421ecb2be1f" },
+    "username": "test1",
+    "email": "test1@test1.frr",
+    "password": "12345678A",
+    "scores": []
+  },
+  {
+    "_id": { "$oid": "65f87fea897b7421ecb2be20" },
+    "username": "test2",
+    "email": "test2@test2.fr",
+    "password": "12345678A",
+    "scores": []
+  },
+  {
+    "_id": { "$oid": "65f8803d897b7421ecb2be21" },
+    "username": "test3",
+    "email": "test3@test3.fr",
+    "password": "12345678A",
+    "scores": []
+  }
+]

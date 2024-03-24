@@ -1,0 +1,26 @@
+<div
+  class="d-flex"
+  style="align-items: center; justify-self: center; width: 100%"
+>
+  <div class="d-flex w-100 justify-content-center">
+    <form class="w-75">
+      <input
+        class="form-control me-sm-2"
+        type="text"
+        placeholder="Tape le nom d'un Animé"
+        name="search"
+        [(ngModel)]="search"
+        (input)="onSearchChange()"
+      />
+    </form>
+  </div>
+</div>
+<div style="background-color: white; border-radius: 7px; width: 94%">
+  <ul>
+    <ng-container *ngFor="let anime of getResultsAnimes()">
+      <li style="font-size: 10px">
+        {{ anime.title.english }} ( {{ anime.startDate }} )
+      </li>
+    </ng-container>
+  </ul>
+</div>

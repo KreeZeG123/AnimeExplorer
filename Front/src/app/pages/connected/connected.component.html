@@ -1,0 +1,15 @@
+<app-nav-bar></app-nav-bar>
+<main>
+  <div class="position-absolute top-50 start-50 translate-middle">
+    <div class="text-center" *ngIf="userIsConnected()">
+      <h1 class="display-1">
+        Hello <span class="text-secondary">{{ currentUserName }}</span>
+      </h1>
+      <p class="display-4">Vous êtes connecté</p>
+    </div>
+    <div class="text-center" *ngIf="!userIsConnected()">
+      <h1 class="display-1">Hey</h1>
+      <p class="display-4">Vous n'êtes pas connecté</p>
+    </div>
+  </div>
+</main>
