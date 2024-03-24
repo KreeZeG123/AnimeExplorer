@@ -1,10 +1,13 @@
-
 <div class="form-group filtre">
-    <label class="form-label">{{nom}}</label>
-    <select class="form-select" id="exampleSelect1" [(ngModel)]="optionSelectionne" (change)="onOptionSelectionneeChange()">
-        <option value="Any" selected>Any</option>
-        <option *ngFor="let val of value" [value]="val">{{val}}</option>
-    </select>
+  <label for="filtre{{ nom }}" class="form-label">{{ nom }}</label>
+  <select
+    class="form-select"
+    id="exampleSelect1"
+    name="filtre{{ nom }}"
+    [(ngModel)]="optionSelectionne"
+    (change)="onOptionSelectionneeChange()"
+  >
+    <option value="Any" selected>Any</option>
+    <option *ngFor="let val of value" [value]="val">{{ val }}</option>
+  </select>
 </div>
-
-

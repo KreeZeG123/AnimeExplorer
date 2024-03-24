@@ -37,6 +37,10 @@ yarn-error.log
 testem.log
 /typings
 
+# Secret
+/Front/secret
+/Back/secret
+
 # System files
 .DS_Store
-Thumbs.dbs
+Thumbs.db

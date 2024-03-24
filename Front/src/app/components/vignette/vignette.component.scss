@@ -1,20 +1,24 @@
-.vignette_container{
-    position: relative;
-    width :200px;
-    height: 300px;
-    margin-right: 50px;
-    margin-bottom: 70px;
-    text-align: center;
-    cursor: pointer;
-  }
-  
-.vignette_image{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    cursor: pointer;
-    border-radius: 10px;
-  }
+.vignette_container {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  margin-right: 50px;
+  margin-bottom: 70px;
+  text-align: center;
+  cursor: pointer;
+}
 
+.vignette_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
 
+@media (max-width: 768px) {
+  .vignette_container {
+    margin-right: 0;
+  }
+}
