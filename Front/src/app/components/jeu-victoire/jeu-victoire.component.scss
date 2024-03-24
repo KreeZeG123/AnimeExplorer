@@ -1,0 +1,46 @@
+.info {
+  background-color: var(--bs-primary);
+  width: 30%;
+  height: 50%;
+  position: fixed;
+  top: 15%;
+  left: 35%;
+  z-index: 9999999999;
+  opacity: 0.95;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  border-radius: 10px;
+}
+
+
+.quit_button {
+  width: 3.5rem;
+  height: 3rem;
+  background-color: var(--bs-secondary);
+  border: 0;
+  border-bottom: 0.2rem solid var(--bs-secondary);
+  border-radius: 2rem;
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.quit_button:active {
+  border-bottom: 0;
+}
+
+.quit_button i {
+  color: #fff;
+  margin-top: 5px;
+  font-size: 2rem;
+}
+
+.image{
+    width: 30%;
+}
+
+
+
+
+
+

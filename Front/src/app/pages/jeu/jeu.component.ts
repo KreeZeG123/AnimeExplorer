@@ -3,11 +3,13 @@ import { Component } from '@angular/core';
 import { NavBarComponent } from '../../components/nav-bar/nav-bar.component';
 import { SearchZoneComponent } from '../../components/search-zone/search-zone.component';
 import { SearchService } from '../../services/search/search.service';
+import { JeuVictoireComponent } from '../../components/jeu-victoire/jeu-victoire.component';
+
 
 @Component({
   selector: 'app-jeu',
   standalone: true,
-  imports: [CommonModule, NavBarComponent, SearchZoneComponent],
+  imports: [CommonModule, NavBarComponent, SearchZoneComponent,JeuVictoireComponent],
   templateUrl: './jeu.component.html',
   styleUrl: './jeu.component.scss',
 })

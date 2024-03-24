@@ -1,7 +1,7 @@
 <nav class="navbar sticky-top navbar-expand-lg bg-primary w-100" data-bs-theme="dark">
   <div class="container-fluid">
-    <a class="navbar-brand" routerLink="">
-      <img width="50" src="../../assets/logo.png" />
+    <a class="navbar-brand" routerLink="" title="Lien vers la page d'accueil">
+      <img width="50" src="../../assets/logo.png" alt="logo animexplorer"/>
     </a>
     <button
       class="navbar-toggler"
@@ -23,6 +23,7 @@
             class="nav-link fs-5 text-center"
             routerLink="/decouvrir"
             routerLinkActive="active"
+            title="Lien vers la page découvrir"
             >Decouvrir</a
           >
         </li>
@@ -31,6 +32,7 @@
             class="nav-link fs-5 text-center"
             routerLink="/jeu"
             routerLinkActive="active"
+            title="Lien vers la page jeu"
             >Jeu
           </a>
         </li>
@@ -39,6 +41,7 @@
             class="nav-link fs-5 text-center"
             routerLink="/classement"
             routerLinkActive="active"
+            title="Lien vers la page classement"
             >Classement</a
           >
         </li>
@@ -47,10 +50,11 @@
         class="d-flex justify-content-center position-absolute end-15px"
         *ngIf="!userIsConnected()"
       >
-        <a routerLink="/connexion">
+        <a routerLink="/connexion" title="Lien vers la page de connexion">
           <button class="btn btn-secondary my-2 my-sm-0 fs-6" type="submit">
             Connexion
           </button>
+          
         </a>
       </form>
       <form
@@ -60,8 +64,7 @@
         <button
           class="btn btn-outline-light my-2 my-sm-0 fs-6"
           type="submit"
-          (click)="logout()"
-        >
+          (click)="logout()">
           Deconnexion
         </button>
       </form>

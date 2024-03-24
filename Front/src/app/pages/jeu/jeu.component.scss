@@ -1,10 +1,10 @@
-
+.container {
+  display: flex; /* Utilisation de flexbox */
+}
 
 .filtre {
   margin-top: 20px;
-  max-width: 50%;
-  overflow-x: hidden;
-  margin-left: 25%;
+  margin-left: 30%;
 }
 
 .container span {
@@ -14,7 +14,7 @@
 
 .horizontal-scroll-container {
   display: flex;
-  overflow-x: scroll;
+  overflow-x: auto;
   white-space: nowrap;
   max-width: 500px; /* Ajustez selon vos besoins */
 }
@@ -67,20 +67,7 @@
   width: 150px; /* Garantit que l'image ne dépasse pas la largeur du conteneur */
 }
 
-.image_style{
-  border-top-left-radius:8px ;
-  border-bottom-left-radius:8px ;
+.image_style {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
-
-.historique{
-  width: 100%;
-}
-.container_info{
-  overflow-y: scroll;
-  scrollbar-width: none;
-  max-height: 300px;
-}
-.container_info p{
-  white-space: nowrap;
-}
-
