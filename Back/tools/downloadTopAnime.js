@@ -70,6 +70,8 @@ query($page: Int) {
       popularity
       meanScore
       description
+      status
+      bannerImage
     }
   }
 }

@@ -2,6 +2,7 @@
 const { MongoClient } = require("mongodb");
 const path = require("path");
 const fs = require("fs");
+const { exit } = require("process");
 
 // Configuration de la base de données
 const keyMongoDB = require("fs").readFileSync("./secret/mongoDB.key", "utf8");
@@ -30,35 +31,35 @@ async function connectDatabase() {
   }
 }
 
-async function uploadToDB() {
+async function deleteCollectionAnimeFromDB() {
   try {
     await connectDatabase();
-    // Récupère les données des animes et les triée par popularité
-    const animeData = await require("../backup/animes.json");
-
-    // Tri des animes par popularité (du plus populaire au moins populaire)
-    await animeData.sort((a, b) => b.popularity - a.popularity);
-
-    // Parcours les 100 premiers animes
-    for (let i = 0; i < animeData.length; i++) {
-      const anime = animeData[i];
-      // Regarde si l'anime existe déjà dans la base de données
-      const animeExists = await Animes.findOne({ id: anime.id });
-      if (!animeExists) {
-        // Si l'anime n'existe pas, on l'ajoute
-        await Animes.insertOne(anime);
-        console.log("Anime ajouté à la base de données:", anime.title.english);
-      } else {
-        console.log(
-          "L'anime existe déjà dans la base de données:",
-          anime.title.english
-        );
-      }
-    }
+    await Animes.deleteMany({});
+    console.log("Collection animes deleted");
   } catch (error) {
-    console.error("Error uploading to the database:", error);
+    console.error("Error deleting collection animes:", error);
     throw error;
   }
 }
 
-uploadToDB();
+// Fonction qui demande confirmation avant de supprimer la collection animes
+function deleteCollectionAnimeFromDBWithConfirmation() {
+  const readline = require("readline").createInterface({
+    input: process.stdin,
+    output: process.stdout,
+  });
+
+  readline.question(
+    "Are you sure you want to delete the collection animes? (yes/no) ",
+    (response) => {
+      if (response === "yes") {
+        deleteCollectionAnimeFromDB();
+      } else {
+        console.log("Collection animes not deleted");
+      }
+      readline.close();
+    }
+  );
+}
+
+deleteCollectionAnimeFromDBWithConfirmation();

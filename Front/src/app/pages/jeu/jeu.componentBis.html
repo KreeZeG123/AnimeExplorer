@@ -1,12 +1,12 @@
 <app-nav-bar></app-nav-bar>
 <main>
-  <h1 class="text-center">Devine l'animé</h1>
   <app-search-zone (buttonClicked)="verifGuess($event)"></app-search-zone>
   <div
     class="d-flex align-items-center flex-column mx-auto justify-content-center"
   >
     <div
       class="w-100 mt-2 justify-content-center align-items-center d-flex flex-wrap"
+      style="margin-top: 20px"
     >
       <span class="badge-genre bg-secondary">
         Année de sortie : {{ getIndices().startDate }}
@@ -29,7 +29,9 @@
         <ng-container
           *ngFor="let studio of getIndices().studios; let i = index"
         >
-          <span class="badge-genre bg-secondary"> {{ studio }}</span>
+          <span class="badge-genre bg-secondary" style="margin-left: 40px">
+            {{ studio }}
+          </span>
         </ng-container>
       </div>
     </div>
@@ -37,8 +39,8 @@
       <h5 class="text-nowrap text-left">Genres :</h5>
       <div class="horizontal-scroll-container" style="margin-left: 50px">
         <ng-container *ngFor="let genre of getIndices().genres; let i = index">
-          <span class="badge-genre bg-secondary" style="margin-left: 40px">
-            {{ genre }}
+          <span class="badge-genre bg-secondary" style="margin-left: 40px"
+            >{{ genre }}
           </span>
         </ng-container>
       </div>
@@ -54,20 +56,31 @@
       </div>
     </div>
   </div>
-  <div class="historique">
+  <div>
     <div class="horizontal-line-container">
       <div class="horizontal-line"></div>
     </div>
     <h5 style="text-align: center; margin-top: 20px">Historique des essais</h5>
     <ng-container *ngFor="let anime of historiqueAnime; let i = index">
-      <div class="justify-content-center align-items-center d-flex">
-        <div class="card" style="flex-direction: row; width: 80%">
-          <img
-            class="image_style"
-            src="{{ anime.coverImage.large }}"
-            alt="Card image cap"
-          />
-          <div class="card-body container_info">
+      <div class="justify-content-center align-items-center d-flex"></div>
+      <div
+        class="card"
+        style="
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          width: 910px;
+          margin-left: 20%;
+        "
+      >
+        <img
+          class="image_style"
+          src="{{ anime.coverImage.large }}"
+          alt="Card image cap"
+          style="width: 100%"
+        />
+        <div class="justify-content-center align-items-center d-flex">
+          <div class="card-body">
             <h5 class="card-title">(EN) {{ anime.title.english }}</h5>
             <h5 class="card-title">(JP) {{ anime.title.romaji }}</h5>
             <h5 class="card-title">Saison : {{ anime.season }}</h5>
@@ -96,8 +109,4 @@
       <!-- Ajout d'une balise <br> pour sauter une ligne après chaque animé -->
     </ng-container>
   </div>
-  <app-jeu-victoire
-    (buttonClicked)="fermerPopUpVictoire()"
-    *ngIf="victoirePopUp"
-  ></app-jeu-victoire>
 </main>

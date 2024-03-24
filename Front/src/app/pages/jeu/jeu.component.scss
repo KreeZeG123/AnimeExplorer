@@ -66,3 +66,8 @@
   margin-top: 10px; /* Marge au-dessus de l'image */
   width: 150px; /* Garantit que l'image ne dépasse pas la largeur du conteneur */
 }
+
+.image_style {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}

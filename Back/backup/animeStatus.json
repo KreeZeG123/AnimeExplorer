@@ -1,0 +1,3829 @@
+[
+  {
+    "id": 16498,
+    "title": {
+      "english": "Attack on Titan",
+      "romaji": "Shingeki no Kyojin"
+    },
+    "episodes": 25,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Wit Studio"
+        },
+        {
+          "name": "Pony Canyon"
+        },
+        {
+          "name": "Kodansha"
+        },
+        {
+          "name": "Production I.G"
+        },
+        {
+          "name": "Dentsu"
+        },
+        {
+          "name": "Pony Canyon Enterprise"
+        },
+        {
+          "name": "Mainichi Broadcasting System"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Drama",
+      "Fantasy",
+      "Mystery"
+    ],
+    "tags": [
+      {
+        "name": "Survival"
+      },
+      {
+        "name": "Kaiju"
+      },
+      {
+        "name": "Tragedy"
+      },
+      {
+        "name": "Shapeshifting"
+      },
+      {
+        "name": "Military"
+      },
+      {
+        "name": "Monster Boy"
+      },
+      {
+        "name": "Post-Apocalyptic"
+      },
+      {
+        "name": "Primarily Teen Cast"
+      },
+      {
+        "name": "Super Power"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "Swordplay"
+      },
+      {
+        "name": "Monster Girl"
+      },
+      {
+        "name": "Gore"
+      },
+      {
+        "name": "Memory Manipulation"
+      },
+      {
+        "name": "Ensemble Cast"
+      },
+      {
+        "name": "Dystopian"
+      },
+      {
+        "name": "Politics"
+      },
+      {
+        "name": "Religion"
+      },
+      {
+        "name": "Espionage"
+      },
+      {
+        "name": "Cannibalism"
+      },
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Coming of Age"
+      },
+      {
+        "name": "Time Skip"
+      },
+      {
+        "name": "Amnesia"
+      },
+      {
+        "name": "Rural"
+      },
+      {
+        "name": "CGI"
+      },
+      {
+        "name": "Primarily Male Cast"
+      },
+      {
+        "name": "Yandere"
+      },
+      {
+        "name": "Class Struggle"
+      },
+      {
+        "name": "Adoption"
+      },
+      {
+        "name": "Suicide"
+      },
+      {
+        "name": "Unrequited Love"
+      }
+    ],
+    "startDate": {
+      "year": 2013
+    },
+    "season": "SPRING",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16498-C6FPmWm59CyP.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx16498-C6FPmWm59CyP.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16498-C6FPmWm59CyP.jpg",
+      "color": "#e4a15d"
+    },
+    "popularity": 753288,
+    "meanScore": 84,
+    "description": "Several hundred years ago, humans were nearly exterminated by titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity survived by walling themselves in a city protected by extremely high walls, even taller than the biggest of titans.<br><br>\r\nFlash forward to the present and the city has not seen a titan in over 100 years. Teenage boy Eren and his foster sister Mikasa witness something horrific as the city walls are destroyed by a colossal titan that appears out of thin air. As the smaller titans flood the city, the two kids watch in horror as their mother is eaten alive. Eren vows that he will murder every single titan and take revenge for all of mankind.<br><br>\r\n(Source: MangaHelpers) ",
+    "status": "FINISHED",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16498-8jpFCOcDmneX.jpg"
+  },
+  {
+    "id": 101922,
+    "title": {
+      "english": "Demon Slayer: Kimetsu no Yaiba",
+      "romaji": "Kimetsu no Yaiba"
+    },
+    "episodes": 26,
+    "studios": {
+      "nodes": [
+        {
+          "name": "ufotable"
+        },
+        {
+          "name": "Aniplex"
+        },
+        {
+          "name": "Shueisha"
+        },
+        {
+          "name": "Aniplex of America"
+        },
+        {
+          "name": "Madman Entertainment"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy",
+      "Supernatural"
+    ],
+    "tags": [
+      {
+        "name": "Demons"
+      },
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Swordplay"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "Primarily Teen Cast"
+      },
+      {
+        "name": "Tragedy"
+      },
+      {
+        "name": "Monster Girl"
+      },
+      {
+        "name": "Travel"
+      },
+      {
+        "name": "Revenge"
+      },
+      {
+        "name": "Gore"
+      },
+      {
+        "name": "CGI"
+      },
+      {
+        "name": "Orphan"
+      },
+      {
+        "name": "Primarily Male Cast"
+      },
+      {
+        "name": "Mythology"
+      },
+      {
+        "name": "Slapstick"
+      },
+      {
+        "name": "Rural"
+      },
+      {
+        "name": "Historical"
+      },
+      {
+        "name": "Rotoscoping"
+      },
+      {
+        "name": "Super Power"
+      },
+      {
+        "name": "Coming of Age"
+      },
+      {
+        "name": "Body Horror"
+      },
+      {
+        "name": "Chibi"
+      },
+      {
+        "name": "Time Skip"
+      }
+    ],
+    "startDate": {
+      "year": 2019
+    },
+    "season": "SPRING",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101922-PEn1CTc93blC.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101922-PEn1CTc93blC.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101922-PEn1CTc93blC.jpg",
+      "color": "#4B4A95"
+    },
+    "popularity": 711713,
+    "meanScore": 83,
+    "description": "It is the Taisho Period in Japan. Tanjiro, a kindhearted boy who sells charcoal for a living, finds his family slaughtered by a demon. To make matters worse, his younger sister Nezuko, the sole survivor, has been transformed into a demon herself. Though devastated by this grim reality, Tanjiro resolves to become a “demon slayer” so that he can turn his sister back into a human, and kill the demon that massacred his family.<br>\n<br>\n(Source: Crunchyroll)",
+    "status": "FINISHED",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101922-YfZhKBUDDS6L.jpg"
+  },
+  {
+    "id": 1535,
+    "title": {
+      "english": "Death Note",
+      "romaji": "DEATH NOTE"
+    },
+    "episodes": 37,
+    "studios": {
+      "nodes": [
+        {
+          "name": "MADHOUSE"
+        },
+        {
+          "name": "VAP"
+        },
+        {
+          "name": "Viz Media"
+        },
+        {
+          "name": "Nippon Television Network"
+        },
+        {
+          "name": "Konami"
+        },
+        {
+          "name": "Ashi Productions"
+        },
+        {
+          "name": "Shueisha"
+        },
+        {
+          "name": "Selecta Visión"
+        }
+      ]
+    },
+    "genres": [
+      "Mystery",
+      "Psychological",
+      "Supernatural",
+      "Thriller"
+    ],
+    "tags": [
+      {
+        "name": "Crime"
+      },
+      {
+        "name": "Detective"
+      },
+      {
+        "name": "Anti-Hero"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "Police"
+      },
+      {
+        "name": "Philosophy"
+      },
+      {
+        "name": "Tragedy"
+      },
+      {
+        "name": "Primarily Adult Cast"
+      },
+      {
+        "name": "Gods"
+      },
+      {
+        "name": "Urban Fantasy"
+      },
+      {
+        "name": "Unrequited Love"
+      },
+      {
+        "name": "Memory Manipulation"
+      },
+      {
+        "name": "Primarily Male Cast"
+      },
+      {
+        "name": "Urban"
+      },
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Amnesia"
+      },
+      {
+        "name": "Espionage"
+      },
+      {
+        "name": "Suicide"
+      },
+      {
+        "name": "Yandere"
+      },
+      {
+        "name": "Acting"
+      },
+      {
+        "name": "Assassins"
+      },
+      {
+        "name": "Time Skip"
+      },
+      {
+        "name": "Achronological Order"
+      },
+      {
+        "name": "Tennis"
+      }
+    ],
+    "startDate": {
+      "year": 2006
+    },
+    "season": "FALL",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1535-lawCwhzhi96X.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1535-lawCwhzhi96X.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1535-lawCwhzhi96X.jpg",
+      "color": null
+    },
+    "popularity": 685311,
+    "meanScore": 84,
+    "description": "Light Yagami is a genius high school student who is about to learn about life through a book of death. When a bored shinigami, a God of Death, named Ryuk drops a black notepad called a <i>Death Note</i>, Light receives power over life and death with the stroke of a pen. Determined to use this dark gift for the best, Light sets out to rid the world of evil… namely, the people he believes to be evil. Should anyone hold such power?<br>\n<br>\nThe consequences of Light’s actions will set the world ablaze.<br>\n<br>\n(Source: Viz Media)",
+    "status": "FINISHED",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1535.jpg"
+  },
+  {
+    "id": 21459,
+    "title": {
+      "english": "My Hero Academia",
+      "romaji": "Boku no Hero Academia"
+    },
+    "episodes": 13,
+    "studios": {
+      "nodes": [
+        {
+          "name": "bones"
+        },
+        {
+          "name": "Dentsu"
+        },
+        {
+          "name": "Mainichi Broadcasting System"
+        },
+        {
+          "name": "Toho"
+        },
+        {
+          "name": "Movic"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "tags": [
+      {
+        "name": "Super Power"
+      },
+      {
+        "name": "Superhero"
+      },
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Primarily Teen Cast"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Urban Fantasy"
+      },
+      {
+        "name": "Ensemble Cast"
+      },
+      {
+        "name": "Coming of Age"
+      },
+      {
+        "name": "Bullying"
+      },
+      {
+        "name": "Primarily Male Cast"
+      },
+      {
+        "name": "Cultivation"
+      },
+      {
+        "name": "Prison"
+      }
+    ],
+    "startDate": {
+      "year": 2016
+    },
+    "season": "SPRING",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21459-DUKLgasrgeNO.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21459-DUKLgasrgeNO.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21459-DUKLgasrgeNO.jpg",
+      "color": "#e4c935"
+    },
+    "popularity": 653550,
+    "meanScore": 77,
+    "description": "What would the world be like if 80 percent of the population manifested extraordinary superpowers called “Quirks” at age four? Heroes and villains would be battling it out everywhere! Becoming a hero would mean learning to use your power, but where would you go to study? U.A. High's Hero Program of course! But what would you do if you were one of the 20 percent who were born Quirkless?<br><br>\n\nMiddle school student Izuku Midoriya wants to be a hero more than anything, but he hasn't got an ounce of power in him. With no chance of ever getting into the prestigious U.A. High School for budding heroes, his life is looking more and more like a dead end. Then an encounter with All Might, the greatest hero of them all gives him a chance to change his destiny…<br><br>\n\n(Source: Viz Media)",
+    "status": "FINISHED",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21459-yeVkolGKdGUV.jpg"
+  },
+  {
+    "id": 113415,
+    "title": {
+      "english": "JUJUTSU KAISEN",
+      "romaji": "Jujutsu Kaisen"
+    },
+    "episodes": 24,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Toho"
+        },
+        {
+          "name": "MAPPA"
+        },
+        {
+          "name": "Shueisha"
+        },
+        {
+          "name": "Sumzap"
+        },
+        {
+          "name": "Mainichi Broadcasting System"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Drama",
+      "Supernatural"
+    ],
+    "tags": [
+      {
+        "name": "Urban Fantasy"
+      },
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Super Power"
+      },
+      {
+        "name": "Youkai"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "Primarily Teen Cast"
+      },
+      {
+        "name": "Dissociative Identities"
+      },
+      {
+        "name": "Body Horror"
+      },
+      {
+        "name": "Demons"
+      },
+      {
+        "name": "Magic"
+      },
+      {
+        "name": "Ensemble Cast"
+      },
+      {
+        "name": "Martial Arts"
+      },
+      {
+        "name": "Gore"
+      },
+      {
+        "name": "Primarily Male Cast"
+      },
+      {
+        "name": "Swordplay"
+      },
+      {
+        "name": "Tragedy"
+      },
+      {
+        "name": "Shapeshifting"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Rotoscoping"
+      },
+      {
+        "name": "Slapstick"
+      },
+      {
+        "name": "Mythology"
+      },
+      {
+        "name": "Anthropomorphism"
+      },
+      {
+        "name": "School Club"
+      },
+      {
+        "name": "Surreal Comedy"
+      },
+      {
+        "name": "Baseball"
+      },
+      {
+        "name": "Rape"
+      },
+      {
+        "name": "Femboy"
+      }
+    ],
+    "startDate": {
+      "year": 2020
+    },
+    "season": "FALL",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113415-bbBWj4pEFseh.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113415-bbBWj4pEFseh.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113415-bbBWj4pEFseh.jpg",
+      "color": "#e45d5d"
+    },
+    "popularity": 648758,
+    "meanScore": 86,
+    "description": "A boy fights... for \"the right death.\"<br>\n<br>\nHardship, regret, shame: the negative feelings that humans feel become Curses that lurk in our everyday lives. The Curses run rampant throughout the world, capable of leading people to terrible misfortune and even death. What's more, the Curses can only be exorcised by another Curse.<br>\n<br>\nItadori Yuji is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a friend who has been attacked by Curses, he eats the finger of the Double-Faced Specter, taking the Curse into his own soul. From then on, he shares one body with the Double-Faced Specter. Guided by the most powerful of sorcerers, Gojou Satoru, Itadori is admitted to the Tokyo Metropolitan Technical High School of Sorcery, an organization that fights the Curses... and thus begins the heroic tale of a boy who became a Curse to exorcise a Curse, a life from which he could never turn back.\n<br><br>\n(Source: Crunchyroll)<br>\n<br>\n<i>Note: The first episode received an early web premiere on September 19th, 2020. The regular TV broadcast started on October 3rd, 2020.</i>",
+    "status": "FINISHED",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113415-jQBSkxWAAk83.jpg"
+  },
+  {
+    "id": 11061,
+    "title": {
+      "english": "Hunter x Hunter (2011)",
+      "romaji": "HUNTER×HUNTER (2011)"
+    },
+    "episodes": 148,
+    "studios": {
+      "nodes": [
+        {
+          "name": "MADHOUSE"
+        },
+        {
+          "name": "VAP"
+        },
+        {
+          "name": "Viz Media"
+        },
+        {
+          "name": "Nippon Television Network"
+        },
+        {
+          "name": "Studio Live"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "tags": [
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Super Power"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "Tragedy"
+      },
+      {
+        "name": "Cultivation"
+      },
+      {
+        "name": "Ensemble Cast"
+      },
+      {
+        "name": "Primarily Male Cast"
+      },
+      {
+        "name": "Travel"
+      },
+      {
+        "name": "Martial Arts"
+      },
+      {
+        "name": "Coming of Age"
+      },
+      {
+        "name": "Revenge"
+      },
+      {
+        "name": "Found Family"
+      },
+      {
+        "name": "Chimera"
+      },
+      {
+        "name": "Philosophy"
+      },
+      {
+        "name": "Primarily Teen Cast"
+      },
+      {
+        "name": "Virtual World"
+      },
+      {
+        "name": "Crime"
+      },
+      {
+        "name": "Assassins"
+      },
+      {
+        "name": "Urban Fantasy"
+      },
+      {
+        "name": "Environmental"
+      },
+      {
+        "name": "Mafia"
+      },
+      {
+        "name": "Anti-Hero"
+      },
+      {
+        "name": "Gore"
+      },
+      {
+        "name": "Card Battle"
+      },
+      {
+        "name": "Gangs"
+      },
+      {
+        "name": "Board Game"
+      },
+      {
+        "name": "Politics"
+      },
+      {
+        "name": "Shogi"
+      },
+      {
+        "name": "Video Games"
+      },
+      {
+        "name": "Body Horror"
+      },
+      {
+        "name": "Vore"
+      },
+      {
+        "name": "Animals"
+      },
+      {
+        "name": "Gender Bending"
+      },
+      {
+        "name": "Yandere"
+      },
+      {
+        "name": "Anthropomorphism"
+      },
+      {
+        "name": "Masturbation"
+      }
+    ],
+    "startDate": {
+      "year": 2011
+    },
+    "season": "FALL",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11061-sIpBprNRfzCe.png",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11061-sIpBprNRfzCe.png",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11061-sIpBprNRfzCe.png",
+      "color": "#f1d65d"
+    },
+    "popularity": 612723,
+    "meanScore": 89,
+    "description": "A new adaption of the manga of the same name by Togashi Yoshihiro.<br><br>\nA Hunter is one who travels the world doing all sorts of dangerous tasks. From capturing criminals to searching deep within uncharted lands for any lost treasures. Gon is a young boy whose father disappeared long ago, being a Hunter. He believes if he could also follow his father's path, he could one day reunite with him.<br><br>\nAfter becoming 12, Gon leaves his home and takes on the task of entering the Hunter exam, notorious for its low success rate and high probability of death to become an official Hunter. He befriends the revenge-driven Kurapika, the doctor-to-be Leorio and the rebellious ex-assassin Killua in the exam, with their friendship prevailing throughout the many trials and threats they come upon taking on the dangerous career of a Hunter.",
+    "status": "FINISHED",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11061-8WkkTZ6duKpq.jpg"
+  },
+  {
+    "id": 21087,
+    "title": {
+      "english": "One-Punch Man",
+      "romaji": "One Punch Man"
+    },
+    "episodes": 12,
+    "studios": {
+      "nodes": [
+        {
+          "name": "MADHOUSE"
+        },
+        {
+          "name": "TV Tokyo"
+        },
+        {
+          "name": "Bandai Visual"
+        },
+        {
+          "name": "Viz Media"
+        },
+        {
+          "name": "Lantis"
+        },
+        {
+          "name": "Shueisha"
+        },
+        {
+          "name": "Banpresto"
+        },
+        {
+          "name": "Asatsu DK"
+        },
+        {
+          "name": "Good Smile Company"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Comedy",
+      "Sci-Fi",
+      "Supernatural"
+    ],
+    "tags": [
+      {
+        "name": "Super Power"
+      },
+      {
+        "name": "Superhero"
+      },
+      {
+        "name": "Parody"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "Satire"
+      },
+      {
+        "name": "Urban Fantasy"
+      },
+      {
+        "name": "Surreal Comedy"
+      },
+      {
+        "name": "Urban"
+      },
+      {
+        "name": "Kaiju"
+      },
+      {
+        "name": "Cyborg"
+      },
+      {
+        "name": "Primarily Adult Cast"
+      },
+      {
+        "name": "Seinen"
+      },
+      {
+        "name": "Cultivation"
+      },
+      {
+        "name": "Aliens"
+      },
+      {
+        "name": "Primarily Male Cast"
+      },
+      {
+        "name": "Gods"
+      },
+      {
+        "name": "Gore"
+      },
+      {
+        "name": "Asexual"
+      },
+      {
+        "name": "Demons"
+      },
+      {
+        "name": "Henshin"
+      },
+      {
+        "name": "Martial Arts"
+      }
+    ],
+    "startDate": {
+      "year": 2015
+    },
+    "season": "FALL",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21087-UV2tu6exrfXz.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21087-UV2tu6exrfXz.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21087-UV2tu6exrfXz.jpg",
+      "color": "#e4ae5d"
+    },
+    "popularity": 570252,
+    "meanScore": 83,
+    "description": "Saitama has a rather peculiar hobby, being a superhero, but despite his heroic deeds and superhuman abilities, a shadow looms over his life. He's become much too powerful, to the point that every opponent ends up defeated with a single punch.\n<br><br>\nThe lack of challenge has driven him into a state of apathy, as he watches his life pass by having lost all enthusiasm, at least until he's unwillingly thrust in the role of being a mentor to the young and revenge-driven Genos.   \n\n",
+    "status": "FINISHED",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21087-sHb9zUZFsHe1.jpg"
+  },
+  {
+    "id": 20605,
+    "title": {
+      "english": "Tokyo Ghoul",
+      "romaji": "Tokyo Ghoul"
+    },
+    "episodes": 12,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Studio Pierrot"
+        },
+        {
+          "name": "Marvelous"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Drama",
+      "Horror",
+      "Mystery",
+      "Psychological",
+      "Supernatural"
+    ],
+    "tags": [
+      {
+        "name": "Gore"
+      },
+      {
+        "name": "Urban Fantasy"
+      },
+      {
+        "name": "Tragedy"
+      },
+      {
+        "name": "Survival"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "Torture"
+      },
+      {
+        "name": "Body Horror"
+      },
+      {
+        "name": "Anti-Hero"
+      },
+      {
+        "name": "Seinen"
+      },
+      {
+        "name": "Coming of Age"
+      },
+      {
+        "name": "Urban"
+      },
+      {
+        "name": "Police"
+      },
+      {
+        "name": "Cannibalism"
+      },
+      {
+        "name": "Detective"
+      },
+      {
+        "name": "Crime"
+      },
+      {
+        "name": "Henshin"
+      },
+      {
+        "name": "Heterosexual"
+      },
+      {
+        "name": "College"
+      }
+    ],
+    "startDate": {
+      "year": 2014
+    },
+    "season": "SUMMER",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx20605-fmnHdfurM7m6.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx20605-fmnHdfurM7m6.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx20605-fmnHdfurM7m6.jpg",
+      "color": "#35DDFF"
+    },
+    "popularity": 546327,
+    "meanScore": 75,
+    "description": "The suspense horror/dark fantasy story is set in Tokyo, which is haunted by mysterious \"ghouls\" who are devouring humans. People are gripped by the fear of these ghouls whose identities are masked in mystery. An ordinary college student named Kaneki encounters Rize, a girl who is an avid reader like him, at the café he frequents. Little does he realize that his fate will change overnight.\n<br><br>\n(Source: Anime News Network)",
+    "status": "FINISHED",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20605-RCJ7M71zLmrh.jpg"
+  },
+  {
+    "id": 20958,
+    "title": {
+      "english": "Attack on Titan Season 2",
+      "romaji": "Shingeki no Kyojin 2"
+    },
+    "episodes": 12,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Wit Studio"
+        },
+        {
+          "name": "Pony Canyon"
+        },
+        {
+          "name": "Kodansha"
+        },
+        {
+          "name": "Production I.G"
+        },
+        {
+          "name": "Dentsu"
+        },
+        {
+          "name": "Pony Canyon Enterprise"
+        },
+        {
+          "name": "Mainichi Broadcasting System"
+        },
+        {
+          "name": "Funimation"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Drama",
+      "Fantasy",
+      "Mystery"
+    ],
+    "tags": [
+      {
+        "name": "Survival"
+      },
+      {
+        "name": "Espionage"
+      },
+      {
+        "name": "Shapeshifting"
+      },
+      {
+        "name": "Post-Apocalyptic"
+      },
+      {
+        "name": "Tragedy"
+      },
+      {
+        "name": "Military"
+      },
+      {
+        "name": "Kaiju"
+      },
+      {
+        "name": "Dystopian"
+      },
+      {
+        "name": "Primarily Teen Cast"
+      },
+      {
+        "name": "Gore"
+      },
+      {
+        "name": "Monster Boy"
+      },
+      {
+        "name": "Super Power"
+      },
+      {
+        "name": "Anti-Hero"
+      },
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "Incest"
+      },
+      {
+        "name": "Coming of Age"
+      },
+      {
+        "name": "Female Protagonist"
+      },
+      {
+        "name": "Cannibalism"
+      },
+      {
+        "name": "Primarily Male Cast"
+      },
+      {
+        "name": "Kuudere"
+      },
+      {
+        "name": "Dissociative Identities"
+      },
+      {
+        "name": "Cult"
+      },
+      {
+        "name": "CGI"
+      },
+      {
+        "name": "Class Struggle"
+      },
+      {
+        "name": "Tanned Skin"
+      },
+      {
+        "name": "Swordplay"
+      },
+      {
+        "name": "Unrequited Love"
+      },
+      {
+        "name": "Primarily Adult Cast"
+      }
+    ],
+    "startDate": {
+      "year": 2017
+    },
+    "season": "SPRING",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20958-HuFJyr54Mmir.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20958-HuFJyr54Mmir.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20958-HuFJyr54Mmir.jpg",
+      "color": "#6AA66F"
+    },
+    "popularity": 538834,
+    "meanScore": 84,
+    "description": "Eren Jaeger swore to wipe out every last Titan, but in a battle for his life he wound up becoming the thing he hates most. With his new powers, he fights for humanity's freedom facing the monsters that threaten his home. After a bittersweet victory against the Female Titan, Eren finds no time to rest—a horde of Titans is approaching Wall Rose and the battle for humanity continues!<br><br>\n\n(Source: Funimation)",
+    "status": "FINISHED",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20958-Y7eQdz9VENBD.jpg"
+  },
+  {
+    "id": 11757,
+    "title": {
+      "english": "Sword Art Online",
+      "romaji": "Sword Art Online"
+    },
+    "episodes": 25,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Aniplex"
+        },
+        {
+          "name": "A-1 Pictures"
+        },
+        {
+          "name": "Genco"
+        },
+        {
+          "name": "DAX Production"
+        },
+        {
+          "name": "Aniplex of America"
+        },
+        {
+          "name": "ASCII Media Works"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Romance"
+    ],
+    "tags": [
+      {
+        "name": "Virtual World"
+      },
+      {
+        "name": "Death Game"
+      },
+      {
+        "name": "Video Games"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "Swordplay"
+      },
+      {
+        "name": "Primarily Teen Cast"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Time Skip"
+      },
+      {
+        "name": "Female Harem"
+      },
+      {
+        "name": "Unrequited Love"
+      },
+      {
+        "name": "Heterosexual"
+      },
+      {
+        "name": "Primarily Female Cast"
+      },
+      {
+        "name": "Artificial Intelligence"
+      },
+      {
+        "name": "Fairy"
+      },
+      {
+        "name": "Tragedy"
+      },
+      {
+        "name": "Prison"
+      },
+      {
+        "name": "Travel"
+      },
+      {
+        "name": "Fishing"
+      },
+      {
+        "name": "Amnesia"
+      },
+      {
+        "name": "Found Family"
+      },
+      {
+        "name": "Incest"
+      },
+      {
+        "name": "Primarily Male Cast"
+      }
+    ],
+    "startDate": {
+      "year": 2012
+    },
+    "season": "SUMMER",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx11757-Q9P2zjCPICq5.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx11757-Q9P2zjCPICq5.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx11757-Q9P2zjCPICq5.jpg",
+      "color": "#5DC0E4"
+    },
+    "popularity": 535036,
+    "meanScore": 69,
+    "description": "In the near future, a Virtual Reality Massive Multiplayer Online Role-Playing Game (VRMMORPG) called Sword Art Online has been released where players control their avatars with their bodies using a piece of technology called Nerve Gear. One day, players discover they cannot log out, as the game creator is holding them captive unless they reach the 100th floor of the game's tower and defeat the final boss. However, if they die in the game, they die in real life. Their struggle for survival starts now...<br><br>\n(Source: Crunchyroll)",
+    "status": "FINISHED",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11757-TlEEV9weG4Ag.jpg"
+  },
+  {
+    "id": 21,
+    "title": {
+      "english": "ONE PIECE",
+      "romaji": "ONE PIECE"
+    },
+    "episodes": null,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Toei Animation"
+        },
+        {
+          "name": "Funimation"
+        },
+        {
+          "name": "Fuji TV"
+        },
+        {
+          "name": "4Kids Entertainment"
+        },
+        {
+          "name": "TAP"
+        },
+        {
+          "name": "Asatsu DK"
+        },
+        {
+          "name": "Magic Bus"
+        },
+        {
+          "name": "Mushi Production"
+        },
+        {
+          "name": "Studio Guts"
+        },
+        {
+          "name": "Asahi Production"
+        },
+        {
+          "name": "Avex Pictures"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Drama",
+      "Fantasy"
+    ],
+    "tags": [
+      {
+        "name": "Pirates"
+      },
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Ensemble Cast"
+      },
+      {
+        "name": "Travel"
+      },
+      {
+        "name": "Super Power"
+      },
+      {
+        "name": "Tragedy"
+      },
+      {
+        "name": "Found Family"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "Slapstick"
+      },
+      {
+        "name": "Ships"
+      },
+      {
+        "name": "Conspiracy"
+      },
+      {
+        "name": "Time Skip"
+      },
+      {
+        "name": "Slavery"
+      },
+      {
+        "name": "Fugitive"
+      },
+      {
+        "name": "Politics"
+      },
+      {
+        "name": "War"
+      },
+      {
+        "name": "Crime"
+      },
+      {
+        "name": "Dystopian"
+      },
+      {
+        "name": "Gods"
+      },
+      {
+        "name": "Monster Boy"
+      },
+      {
+        "name": "Lost Civilization"
+      },
+      {
+        "name": "Swordplay"
+      },
+      {
+        "name": "Medicine"
+      },
+      {
+        "name": "Samurai"
+      },
+      {
+        "name": "Prison"
+      },
+      {
+        "name": "Food"
+      },
+      {
+        "name": "Henshin"
+      },
+      {
+        "name": "Shapeshifting"
+      },
+      {
+        "name": "Robots"
+      },
+      {
+        "name": "Primarily Adult Cast"
+      },
+      {
+        "name": "Cyborg"
+      },
+      {
+        "name": "Artificial Intelligence"
+      },
+      {
+        "name": "Animals"
+      },
+      {
+        "name": "Guns"
+      },
+      {
+        "name": "Anti-Hero"
+      },
+      {
+        "name": "Coming of Age"
+      },
+      {
+        "name": "Trains"
+      },
+      {
+        "name": "Skeleton"
+      },
+      {
+        "name": "Desert"
+      },
+      {
+        "name": "Anachronism"
+      },
+      {
+        "name": "Dragons"
+      },
+      {
+        "name": "Monster Girl"
+      },
+      {
+        "name": "Fairy"
+      },
+      {
+        "name": "Marriage"
+      },
+      {
+        "name": "Post-Apocalyptic"
+      },
+      {
+        "name": "Espionage"
+      },
+      {
+        "name": "Drugs"
+      },
+      {
+        "name": "Assassins"
+      },
+      {
+        "name": "Clone"
+      },
+      {
+        "name": "Kuudere"
+      },
+      {
+        "name": "Ninja"
+      },
+      {
+        "name": "Asexual"
+      },
+      {
+        "name": "Adoption"
+      },
+      {
+        "name": "Angels"
+      },
+      {
+        "name": "Mermaid"
+      },
+      {
+        "name": "Female Harem"
+      },
+      {
+        "name": "Gender Bending"
+      },
+      {
+        "name": "Battle Royale"
+      },
+      {
+        "name": "CGI"
+      },
+      {
+        "name": "Time Manipulation"
+      },
+      {
+        "name": "Musical"
+      },
+      {
+        "name": "Body Swapping"
+      },
+      {
+        "name": "Zombie"
+      },
+      {
+        "name": "Unrequited Love"
+      },
+      {
+        "name": "Revenge"
+      },
+      {
+        "name": "Achromatic"
+      },
+      {
+        "name": "Acting"
+      },
+      {
+        "name": "Female Protagonist"
+      },
+      {
+        "name": "Philosophy"
+      }
+    ],
+    "startDate": {
+      "year": 1999
+    },
+    "season": "FALL",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21-tXMN3Y20PIL9.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21-tXMN3Y20PIL9.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx21-tXMN3Y20PIL9.jpg",
+      "color": "#e4a15d"
+    },
+    "popularity": 507107,
+    "meanScore": 88,
+    "description": "Gold Roger was known as the Pirate King, the strongest and most infamous being to have sailed the Grand Line. The capture and death of Roger by the World Government brought a change throughout the world. His last words before his death revealed the location of the greatest treasure in the world, One Piece. It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece (which promises an unlimited amount of riches and fame), and quite possibly the most coveted of titles for the person who found it, the title of the Pirate King.<br><br>\nEnter Monkey D. Luffy, a 17-year-old boy that defies your standard definition of a pirate. Rather than the popular persona of a wicked, hardened, toothless pirate who ransacks villages for fun, Luffy’s reason for being a pirate is one of pure wonder; the thought of an exciting adventure and meeting new and intriguing people, along with finding One Piece, are his reasons of becoming a pirate. Following in the footsteps of his childhood hero, Luffy and his crew travel across the Grand Line, experiencing crazy adventures, unveiling dark mysteries and battling strong enemies, all in order to reach One Piece.<br><br>\n<b>*This includes following special episodes:</b><br>\n- Chopperman to the Rescue! Protect the TV Station by the Shore! (Episode 336)<br>\n- The Strongest Tag-Team! Luffy and Toriko's Hard Struggle! (Episode 492)<br>\n- Team Formation! Save Chopper (Episode 542)<br>\n- History's Strongest Collaboration vs. Glutton of the Sea (Episode 590)<br>\n- 20th Anniversary! Special Romance Dawn (Episode 907)",
+    "status": "RELEASING",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21-wf37VakJmZqs.jpg"
+  },
+  {
+    "id": 151807,
+    "title": {
+      "english": "Solo Leveling",
+      "romaji": "Ore dake Level Up na Ken"
+    },
+    "episodes": 12,
+    "studios": {
+      "nodes": [
+        {
+          "name": "A-1 Pictures"
+        },
+        {
+          "name": "Aniplex"
+        },
+        {
+          "name": "Netmarble"
+        },
+        {
+          "name": "D&C MEDIA"
+        },
+        {
+          "name": "Kakao piccoma"
+        },
+        {
+          "name": "Crunchyroll"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "tags": [
+      {
+        "name": "Dungeon"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "Urban Fantasy"
+      },
+      {
+        "name": "Necromancy"
+      },
+      {
+        "name": "Magic"
+      },
+      {
+        "name": "Super Power"
+      },
+      {
+        "name": "Cultivation"
+      },
+      {
+        "name": "Cosmic Horror"
+      },
+      {
+        "name": "War"
+      },
+      {
+        "name": "Anti-Hero"
+      },
+      {
+        "name": "Gore"
+      },
+      {
+        "name": "Tragedy"
+      },
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Alternate Universe"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Angels"
+      },
+      {
+        "name": "Time Manipulation"
+      },
+      {
+        "name": "Swordplay"
+      },
+      {
+        "name": "Dystopian"
+      },
+      {
+        "name": "Post-Apocalyptic"
+      },
+      {
+        "name": "Travel"
+      },
+      {
+        "name": "Age Regression"
+      },
+      {
+        "name": "Heterosexual"
+      },
+      {
+        "name": "Bullying"
+      },
+      {
+        "name": "Dragons"
+      },
+      {
+        "name": "Satire"
+      }
+    ],
+    "startDate": {
+      "year": 2024
+    },
+    "season": "WINTER",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151807-m1gX3iwfIsLu.png",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx151807-m1gX3iwfIsLu.png",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151807-m1gX3iwfIsLu.png",
+      "color": "#28aef1"
+    },
+    "popularity": 171452,
+    "meanScore": 82,
+    "description": "They say whatever doesn’t kill you makes you stronger, but that’s not the case for the world’s weakest hunter Sung Jinwoo. After being brutally slaughtered by monsters in a high-ranking dungeon, Jinwoo came back with the System, a program only he could see, that’s leveling him up in every way. Now, he’s inspired to discover the secrets behind his powers and the dungeon that spawned them.<br>\n<br>\n(Source: Crunchyroll) <br><br>",
+    "status": "RELEASING",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/151807-37yfQA3ym8PA.jpg"
+  },
+  {
+    "id": 146066,
+    "title": {
+      "english": "Classroom of the Elite Season 3",
+      "romaji": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 3rd Season"
+    },
+    "episodes": 13,
+    "studios": {
+      "nodes": [
+        {
+          "name": "KADOKAWA"
+        },
+        {
+          "name": "Lerche"
+        },
+        {
+          "name": "Crunchyroll"
+        },
+        {
+          "name": "Bandai Namco Music Live"
+        },
+        {
+          "name": "AT-X"
+        },
+        {
+          "name": "Sammy"
+        },
+        {
+          "name": "Movic"
+        },
+        {
+          "name": "Kadokawa Media House"
+        },
+        {
+          "name": "Studio Hibari"
+        }
+      ]
+    },
+    "genres": [
+      "Drama",
+      "Psychological"
+    ],
+    "tags": [
+      {
+        "name": "Fugitive"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "Anti-Hero"
+      },
+      {
+        "name": "Denpa"
+      },
+      {
+        "name": "Battle Royale"
+      },
+      {
+        "name": "Ensemble Cast"
+      },
+      {
+        "name": "Politics"
+      },
+      {
+        "name": "Philosophy"
+      },
+      {
+        "name": "Primarily Teen Cast"
+      },
+      {
+        "name": "Conspiracy"
+      },
+      {
+        "name": "Disability"
+      },
+      {
+        "name": "Survival"
+      },
+      {
+        "name": "Coming of Age"
+      },
+      {
+        "name": "Revenge"
+      },
+      {
+        "name": "Bullying"
+      },
+      {
+        "name": "Rehabilitation"
+      },
+      {
+        "name": "School Club"
+      },
+      {
+        "name": "Athletics"
+      },
+      {
+        "name": "Love Triangle"
+      },
+      {
+        "name": "Suicide"
+      },
+      {
+        "name": "Crime"
+      },
+      {
+        "name": "Board Game"
+      },
+      {
+        "name": "Tsundere"
+      },
+      {
+        "name": "Female Harem"
+      },
+      {
+        "name": "Kuudere"
+      },
+      {
+        "name": "Delinquents"
+      },
+      {
+        "name": "Yandere"
+      }
+    ],
+    "startDate": {
+      "year": 2024
+    },
+    "season": "WINTER",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146066-zzKl6P6OeEjy.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx146066-zzKl6P6OeEjy.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx146066-zzKl6P6OeEjy.jpg",
+      "color": "#bbd6f1"
+    },
+    "popularity": 85644,
+    "meanScore": 79,
+    "description": "The third season of <i>Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e</i>.<br>\n<br>\nThe third semester kicks off in high gear with a special boot camp deep in the mountains. Forcibly separated into groups along grade and gender lines, the first, second and third years alike must work together to survive the rugged terrain. Even worse? The leader of the group that comes in last will be expelled. Can Class D make it back to campus intact, or is this where they finally say goodbye to one of their own?<br>\n<br>\n(Source: Seven Seas Entertainment)",
+    "status": "RELEASING",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/146066-gxjPUB1ofAO4.jpg"
+  },
+  {
+    "id": 166610,
+    "title": {
+      "english": "MASHLE: MAGIC AND MUSCLES Season 2",
+      "romaji": "MASHLE: Kami Shinkakusha Kouho Senbatsu Shiken-hen"
+    },
+    "episodes": 12,
+    "studios": {
+      "nodes": [
+        {
+          "name": "A-1 Pictures"
+        },
+        {
+          "name": "Aniplex"
+        },
+        {
+          "name": "Shueisha"
+        },
+        {
+          "name": "ADK Marketing Solutions"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Comedy",
+      "Fantasy"
+    ],
+    "tags": [
+      {
+        "name": "Magic"
+      },
+      {
+        "name": "Parody"
+      },
+      {
+        "name": "Fitness"
+      },
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Primarily Male Cast"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Food"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "Witch"
+      },
+      {
+        "name": "Slapstick"
+      },
+      {
+        "name": "Primarily Teen Cast"
+      },
+      {
+        "name": "Chibi"
+      },
+      {
+        "name": "Battle Royale"
+      },
+      {
+        "name": "Bullying"
+      },
+      {
+        "name": "Time Manipulation"
+      },
+      {
+        "name": "LGBTQ+ Themes"
+      },
+      {
+        "name": "Asexual"
+      }
+    ],
+    "startDate": {
+      "year": 2024
+    },
+    "season": "WINTER",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166610-IjJ8YLOKsua4.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166610-IjJ8YLOKsua4.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166610-IjJ8YLOKsua4.jpg",
+      "color": "#e48643"
+    },
+    "popularity": 75526,
+    "meanScore": 80,
+    "description": "The second season of <i>MASHLE</i>, adapting the Divine Visionary Candidate Exam Arc.",
+    "status": "RELEASING",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/166610-2gA4Vv20MVhv.jpg"
+  },
+  {
+    "id": 151970,
+    "title": {
+      "english": "Shangri-La Frontier",
+      "romaji": "Shangri-La Frontier"
+    },
+    "episodes": 25,
+    "studios": {
+      "nodes": [
+        {
+          "name": "C2C"
+        },
+        {
+          "name": "Kodansha"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "tags": [
+      {
+        "name": "Video Games"
+      },
+      {
+        "name": "Virtual World"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "Otaku Culture"
+      },
+      {
+        "name": "Animals"
+      },
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Swordplay"
+      },
+      {
+        "name": "Primarily Teen Cast"
+      },
+      {
+        "name": "Anthropomorphism"
+      },
+      {
+        "name": "Heterosexual"
+      },
+      {
+        "name": "Travel"
+      },
+      {
+        "name": "POV"
+      },
+      {
+        "name": "Kemonomimi"
+      },
+      {
+        "name": "Hikikomori"
+      },
+      {
+        "name": "Shapeshifting"
+      },
+      {
+        "name": "Super Power"
+      },
+      {
+        "name": "Assassins"
+      },
+      {
+        "name": "Gender Bending"
+      },
+      {
+        "name": "Goblin"
+      },
+      {
+        "name": "Dullahan"
+      }
+    ],
+    "startDate": {
+      "year": 2023
+    },
+    "season": "FALL",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151970-qFKtRhOaSqa0.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx151970-qFKtRhOaSqa0.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151970-qFKtRhOaSqa0.jpg",
+      "color": "#5da1e4"
+    },
+    "popularity": 67307,
+    "meanScore": 79,
+    "description": " \"When was the last time I played a game that wasn't crap?\" This is a world in the near future where games that use display screens are classified as retro. Anything that can't keep up with state-of-the-art VR technology is called a \"crap game,\" and you see a large number of crap games coming out. Those who devote their lives to clearing these games are called \"crap-game hunters,\" and Rakuro Hizutome is one of them. The game he's chosen to tackle next is Shangri-La Frontier, a \"god-tier game\" that has a total of thirty million players. Online friends... An expansive world... Encounters with rivals... These are changing Rakuro and all the other players' fates! The best game adventure tale by the strongest \"crap game\" player begins now!<br>\n<br>\n(Source: Crunchyroll)",
+    "status": "RELEASING",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/151970-Tnnfp0f7NOzj.jpg"
+  },
+  {
+    "id": 153518,
+    "title": {
+      "english": "Delicious in Dungeon",
+      "romaji": "Dungeon Meshi"
+    },
+    "episodes": 24,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Trigger"
+        },
+        {
+          "name": "KADOKAWA"
+        },
+        {
+          "name": "Ultra Super Pictures"
+        },
+        {
+          "name": "Good Smile Company"
+        },
+        {
+          "name": "Tencent"
+        }
+      ]
+    },
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "tags": [
+      {
+        "name": "Food"
+      },
+      {
+        "name": "Dungeon"
+      },
+      {
+        "name": "Magic"
+      },
+      {
+        "name": "Primarily Adult Cast"
+      },
+      {
+        "name": "Ensemble Cast"
+      },
+      {
+        "name": "Elf"
+      },
+      {
+        "name": "Seinen"
+      },
+      {
+        "name": "Environmental"
+      },
+      {
+        "name": "Episodic"
+      },
+      {
+        "name": "Foreign"
+      },
+      {
+        "name": "Dragons"
+      },
+      {
+        "name": "Zombie"
+      },
+      {
+        "name": "Anthropomorphism"
+      },
+      {
+        "name": "Gore"
+      },
+      {
+        "name": "Necromancy"
+      }
+    ],
+    "startDate": {
+      "year": 2024
+    },
+    "season": "WINTER",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx153518-7FNR7zCxO2X5.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx153518-7FNR7zCxO2X5.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx153518-7FNR7zCxO2X5.jpg",
+      "color": "#e48643"
+    },
+    "popularity": 64434,
+    "meanScore": 79,
+    "description": "When young adventurer Laios and his company are attacked and soundly thrashed by a dragon deep in a dungeon, the party loses all its money and provisions...and a member! They're eager to go back and save her, but there is just one problem: If they set out with no food or coin to speak of, they're sure to starve on the way! But Laios comes up with a brilliant idea: \"Let's eat the monsters!\" Slimes, basilisks, and even dragons...none are safe from the appetites of these dungeon-crawling gourmands! <br>\n<br>\n(Source: Yen Press)\n<br><br>\n<i>Note: A world premiere screening of Episode 1 was shown in the Studio TRIGGER panel at Anime Expo on July 1, 2023.</i>",
+    "status": "RELEASING",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/153518-7uRvV7SLqmHV.jpg"
+  },
+  {
+    "id": 235,
+    "title": {
+      "english": "Case Closed",
+      "romaji": "Meitantei Conan"
+    },
+    "episodes": null,
+    "studios": {
+      "nodes": [
+        {
+          "name": "TMS Entertainment"
+        },
+        {
+          "name": "Yomiuri TV"
+        },
+        {
+          "name": "Animax"
+        },
+        {
+          "name": "YTV"
+        },
+        {
+          "name": "TMS-Kyokuchi"
+        }
+      ]
+    },
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Mystery",
+      "Psychological"
+    ],
+    "tags": [
+      {
+        "name": "Detective"
+      },
+      {
+        "name": "Espionage"
+      },
+      {
+        "name": "Tragedy"
+      },
+      {
+        "name": "Crime"
+      },
+      {
+        "name": "Police"
+      },
+      {
+        "name": "Age Regression"
+      },
+      {
+        "name": "Conspiracy"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "Fugitive"
+      },
+      {
+        "name": "Ensemble Cast"
+      },
+      {
+        "name": "Primarily Teen Cast"
+      },
+      {
+        "name": "Episodic"
+      },
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Primarily Adult Cast"
+      },
+      {
+        "name": "Heterosexual"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Educational"
+      },
+      {
+        "name": "Tsundere"
+      },
+      {
+        "name": "Love Triangle"
+      },
+      {
+        "name": "Martial Arts"
+      },
+      {
+        "name": "Crossover"
+      },
+      {
+        "name": "Ojou-sama"
+      },
+      {
+        "name": "Tanned Skin"
+      },
+      {
+        "name": "Female Harem"
+      },
+      {
+        "name": "Karuta"
+      },
+      {
+        "name": "Magic"
+      },
+      {
+        "name": "Idol"
+      },
+      {
+        "name": "CGI"
+      },
+      {
+        "name": "Tomboy"
+      },
+      {
+        "name": "Video Games"
+      }
+    ],
+    "startDate": {
+      "year": 1996
+    },
+    "season": "WINTER",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx235-XucEZpR3CRaV.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx235-XucEZpR3CRaV.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx235-XucEZpR3CRaV.jpg",
+      "color": "#28a1e4"
+    },
+    "popularity": 58095,
+    "meanScore": 81,
+    "description": "Kudo Shinichi is a seventeen year-old high school detective whom people call the \"Modern Sherlock Holmes.\" However, one night after a date with his childhood sweetheart, Ran, Shinichi witnessed an illegal trade and, caught off his guard, was knocked unconscious and fed a drug that was supposed to kill him... but he woke up and found himself shrunken to a seven year-old. In order to track down the men who did this to him, Shinichi hid his identity and lived with Ran, whose father happened to be a hopeless detective, and with that came a series of murders and mysteries that he must solve. <br><br>\n(Source: Anime News Network)\n<br><br>\n<i>Note:<br>\n- Includes Keisatsu Gakkou-hen - Wild Police Story in episodes 1029, 1038, 1042, 1061<br>\n- Episodes 11, 52, 76, 118, 162, 184, 208, 342, 356, 449, 452, 487, 488, 489, 490, 515, 516, 521, 522, 651, 734, 804, 805, 927, 928 aired with a runtime of ~50 minutes as opposed to the standard 25 minute long episode.<br>\n- Episodes 96, 129, 174, 219, 263, 304, 383, 479 aired with a runtime of ~90 minutes as opposed to the standard 25 minute long episode.<br>\n- Episode 345, 425 aired with a runtime of ~115 minutes as opposed to the standard 25 minute long episode.<br>\n</i>",
+    "status": "RELEASING",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/235-MTmiz0uB0fMd.jpg"
+  },
+  {
+    "id": 139518,
+    "title": {
+      "english": "TSUKIMICHI -Moonlit Fantasy- Season 2",
+      "romaji": "Tsuki ga Michibiku Isekai Douchuu 2nd Season"
+    },
+    "episodes": 25,
+    "studios": {
+      "nodes": [
+        {
+          "name": "J.C. Staff"
+        },
+        {
+          "name": "Mainichi Broadcasting System"
+        },
+        {
+          "name": "Nippon Television Network"
+        },
+        {
+          "name": "VAP"
+        },
+        {
+          "name": "NetEase Games"
+        },
+        {
+          "name": "AlphaPolis"
+        },
+        {
+          "name": "DMM.com"
+        },
+        {
+          "name": "TOKYO MX"
+        },
+        {
+          "name": "BS Nittele"
+        },
+        {
+          "name": "Medicos Entertainment"
+        },
+        {
+          "name": "AQUA ARIS"
+        },
+        {
+          "name": "A-Sketch"
+        },
+        {
+          "name": "CTW"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "tags": [
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Magic"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "Female Harem"
+      },
+      {
+        "name": "Language Barrier"
+      },
+      {
+        "name": "Gods"
+      },
+      {
+        "name": "Anthropomorphism"
+      },
+      {
+        "name": "Samurai"
+      },
+      {
+        "name": "Dragons"
+      },
+      {
+        "name": "Meta"
+      },
+      {
+        "name": "Food"
+      }
+    ],
+    "startDate": {
+      "year": 2024
+    },
+    "season": "WINTER",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139518-SyBhWS7bi3z6.png",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx139518-SyBhWS7bi3z6.png",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx139518-SyBhWS7bi3z6.png",
+      "color": "#f1865d"
+    },
+    "popularity": 49082,
+    "meanScore": 77,
+    "description": "The second season of <i>Tsuki ga Michibiku Isekai Douchuu</i>.<br>\n<br>\nAfter Makoto Misumi defeats Mitsurugi and Sofia Bulga, humanity is saved from the attacking demon army—for the time being. The goddess is aware of Makoto’s growing power, and she sees him as less of a nuisance and more of a rival. Makoto continues his journey to further expand his community of outcasts and connect with more hyumans. But will he be strong enough to hold off the coming storm?<br>\n<br>\n(Source: Crunchyroll)",
+    "status": "RELEASING",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/139518-OxLRGjPm9Tms.jpg"
+  },
+  {
+    "id": 146493,
+    "title": {
+      "english": "Ragna Crimson",
+      "romaji": "Ragna Crimson"
+    },
+    "episodes": 24,
+    "studios": {
+      "nodes": [
+        {
+          "name": "SILVER LINK."
+        },
+        {
+          "name": "King Records"
+        },
+        {
+          "name": "GREE Entertainment"
+        },
+        {
+          "name": "Mainichi Broadcasting System"
+        },
+        {
+          "name": "Square Enix"
+        },
+        {
+          "name": "BS11"
+        },
+        {
+          "name": "newgin"
+        },
+        {
+          "name": "Movic"
+        },
+        {
+          "name": "Sentai Filmworks"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Mystery"
+    ],
+    "tags": [
+      {
+        "name": "Dragons"
+      },
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Revenge"
+      },
+      {
+        "name": "Time Manipulation"
+      },
+      {
+        "name": "Magic"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "War"
+      },
+      {
+        "name": "Swordplay"
+      },
+      {
+        "name": "Anti-Hero"
+      },
+      {
+        "name": "Super Power"
+      },
+      {
+        "name": "Gender Bending"
+      },
+      {
+        "name": "Gore"
+      },
+      {
+        "name": "Orphan"
+      },
+      {
+        "name": "Tsundere"
+      },
+      {
+        "name": "Nekomimi"
+      }
+    ],
+    "startDate": {
+      "year": 2023
+    },
+    "season": "FALL",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146493-bThyDJ4ZmbfV.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx146493-bThyDJ4ZmbfV.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx146493-bThyDJ4ZmbfV.jpg",
+      "color": null
+    },
+    "popularity": 47966,
+    "meanScore": 72,
+    "description": "Dragons reign terror over the earth, sea and sky. If sworn dragon hunters like Ragna are to have any hope of dealing death to these seemingly invincible, fire-breathing beasts, they must find a way to level the odds. Ragna teams up with a mysterious man named Crimson who has likewise sworn to stand against the dragons menacing the world. But although Crimson’s motivations may be mysterious, his goal and Ragna’s perfectly align, and together they’ll fight to vanquish the dragons once and for all.<br>\n<br>\n(Source: Sentai Filmworks)<br>\n<br>\n<i>Note: The first episode aired with a runtime of ~47 minutes.</i>",
+    "status": "RELEASING",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/146493-V7hmee4h79hd.jpg"
+  },
+  {
+    "id": 137908,
+    "title": {
+      "english": "The Wrong Way to Use Healing Magic",
+      "romaji": "Chiyu Mahou no Machigatta Tsukaikata"
+    },
+    "episodes": 13,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Shin-Ei Animation"
+        },
+        {
+          "name": "Studio Add"
+        },
+        {
+          "name": "Frontier Works"
+        },
+        {
+          "name": "GREE Entertainment"
+        },
+        {
+          "name": "Crunchyroll"
+        },
+        {
+          "name": "Bandai Namco Music Live"
+        },
+        {
+          "name": "Capybara"
+        },
+        {
+          "name": "Shin-Ei Animation"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "tags": [
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Magic"
+      },
+      {
+        "name": "Demons"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "Heterosexual"
+      },
+      {
+        "name": "Animals"
+      },
+      {
+        "name": "Military"
+      },
+      {
+        "name": "Female Harem"
+      },
+      {
+        "name": "Kemonomimi"
+      },
+      {
+        "name": "Swordplay"
+      },
+      {
+        "name": "War"
+      }
+    ],
+    "startDate": {
+      "year": 2024
+    },
+    "season": "WINTER",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137908-50af3lKVbst2.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx137908-50af3lKVbst2.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx137908-50af3lKVbst2.jpg",
+      "color": "#78e435"
+    },
+    "popularity": 43869,
+    "meanScore": 73,
+    "description": "An ordinary walk home from school turns into an epic journey for Usato. After suddenly being dropped into another world with two fellow students, Usato learns he was summoned there by accident. But things turn around when he discovers a unique aptitude for healing magic! Now, he trains beyond human limitations, using his self-healing abilities to gain absurd strength and unrivaled stamina.<br>\n<br>\n(Source: Crunchyroll)",
+    "status": "RELEASING",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/137908-ZJ0tMykH623Z.jpg"
+  },
+  {
+    "id": 136804,
+    "title": {
+      "english": "KONOSUBA -God's Blessing on This Wonderful World! 3",
+      "romaji": "Kono Subarashii Sekai ni Shukufuku wo! 3"
+    },
+    "episodes": 11,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Drive"
+        },
+        {
+          "name": "KADOKAWA"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "tags": [
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Satire"
+      },
+      {
+        "name": "Parody"
+      },
+      {
+        "name": "Magic"
+      },
+      {
+        "name": "Alternate Universe"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "Gods"
+      },
+      {
+        "name": "Chuunibyou"
+      },
+      {
+        "name": "Afterlife"
+      },
+      {
+        "name": "Artificial Intelligence"
+      },
+      {
+        "name": "Demons"
+      }
+    ],
+    "startDate": {
+      "year": 2024
+    },
+    "season": "SPRING",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136804-Cl5we7gaY8Fd.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx136804-Cl5we7gaY8Fd.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx136804-Cl5we7gaY8Fd.jpg",
+      "color": "#3586e4"
+    },
+    "popularity": 66279,
+    "meanScore": null,
+    "description": "The third season of <i>Kono Subarashii Sekai ni Shukufuku wo! </i><br><br>\nThe dysfunctional party is back, but they may be short a member soon ’cause Kazuma is over it. Disillusioned with adventure, he wants to become a monk, but Aqua, Megumin, and Darkness call bull. However, the career dispute gets put on hold when a princess requests to hear all about their tales. Will the taste of fame at the royal castle keep them together or will this mark their farewell tour?<br><br>\n\n(Source: Crunchyroll)",
+    "status": "NOT_YET_RELEASED",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/136804-vrv1d1NgrfPo.jpg"
+  },
+  {
+    "id": 166240,
+    "title": {
+      "english": "Demon Slayer: Kimetsu no Yaiba Hashira Training Arc",
+      "romaji": "Kimetsu no Yaiba: Hashira Geiko-hen"
+    },
+    "episodes": null,
+    "studios": {
+      "nodes": [
+        {
+          "name": "ufotable"
+        },
+        {
+          "name": "Aniplex"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy",
+      "Supernatural"
+    ],
+    "tags": [
+      {
+        "name": "Demons"
+      },
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Swordplay"
+      },
+      {
+        "name": "Super Power"
+      },
+      {
+        "name": "Cultivation"
+      }
+    ],
+    "startDate": {
+      "year": 2024
+    },
+    "season": "SPRING",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166240-bGHsLoWmJmiL.png",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166240-bGHsLoWmJmiL.png",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166240-bGHsLoWmJmiL.png",
+      "color": "#e4d6ae"
+    },
+    "popularity": 55491,
+    "meanScore": null,
+    "description": "Adaptation of the Hashira Training Arc.<br>\n<br>\nThe Hashira, the Demon Slayer Corps' highest ranking swordsmen and members. The Hashira Training has begun in order to face the forthcoming battle against Muzan Kibutsuji. Each with their own thoughts and hopes held in their hearts, a new story for Tanjiro and the Hashira begins.<br><br>\n(Source: Aniplex USA)\n<i>Notes:<br>\n• The first episode has a runtime of ~1 hour, and received an early premiere in cinemas as part of a special screening alongside the final episode of Kimetsu no Yaiba: Katanakaji no Sato-hen. </i>",
+    "status": "NOT_YET_RELEASED",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/166240-YdxoEhrfwNk0.jpg"
+  },
+  {
+    "id": 166873,
+    "title": {
+      "english": "Mushoku Tensei: Jobless Reincarnation Season 2 Cour 2",
+      "romaji": "Mushoku Tensei II: Isekai Ittara Honki Dasu Part 2"
+    },
+    "episodes": 12,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Studio Bind"
+        },
+        {
+          "name": "Hakuhodo DY Music & Pictures"
+        },
+        {
+          "name": "Toho"
+        },
+        {
+          "name": "KADOKAWA"
+        },
+        {
+          "name": "Frontier Works"
+        },
+        {
+          "name": "BS11"
+        },
+        {
+          "name": "GREE Entertainment"
+        },
+        {
+          "name": "EGG FIRM"
+        }
+      ]
+    },
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Ecchi",
+      "Fantasy"
+    ],
+    "tags": [
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Coming of Age"
+      },
+      {
+        "name": "Reincarnation"
+      },
+      {
+        "name": "Family Life"
+      },
+      {
+        "name": "Elf"
+      },
+      {
+        "name": "Hikikomori"
+      },
+      {
+        "name": "Survival"
+      },
+      {
+        "name": "Magic"
+      },
+      {
+        "name": "Tragedy"
+      },
+      {
+        "name": "Swordplay"
+      },
+      {
+        "name": "Demons"
+      },
+      {
+        "name": "Desert"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "Marriage"
+      },
+      {
+        "name": "Female Harem"
+      },
+      {
+        "name": "Dungeon"
+      },
+      {
+        "name": "Maids"
+      },
+      {
+        "name": "Gods"
+      },
+      {
+        "name": "Heterosexual"
+      },
+      {
+        "name": "Age Gap"
+      },
+      {
+        "name": "Kemonomimi"
+      },
+      {
+        "name": "Language Barrier"
+      },
+      {
+        "name": "Body Horror"
+      },
+      {
+        "name": "Super Power"
+      },
+      {
+        "name": "Delinquents"
+      },
+      {
+        "name": "Love Triangle"
+      },
+      {
+        "name": "Disability"
+      },
+      {
+        "name": "Amnesia"
+      },
+      {
+        "name": "Polyamorous"
+      }
+    ],
+    "startDate": {
+      "year": 2024
+    },
+    "season": "SPRING",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166873-jXjrMEDpMFaC.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166873-jXjrMEDpMFaC.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166873-jXjrMEDpMFaC.jpg",
+      "color": "#e4ae78"
+    },
+    "popularity": 54273,
+    "meanScore": null,
+    "description": "The second cour of <i>Mushoku Tensei II: Isekai Ittara Honki Dasu</i>.",
+    "status": "NOT_YET_RELEASED",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/166873-GTi5imE5skM2.jpg"
+  },
+  {
+    "id": 156822,
+    "title": {
+      "english": null,
+      "romaji": "Tensei Shitara Slime Datta Ken 3rd Season"
+    },
+    "episodes": null,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Kodansha"
+        },
+        {
+          "name": "8-bit"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "tags": [
+      {
+        "name": "Reincarnation"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Magic"
+      },
+      {
+        "name": "War"
+      },
+      {
+        "name": "Demons"
+      },
+      {
+        "name": "Politics"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "Goblin"
+      },
+      {
+        "name": "Ensemble Cast"
+      },
+      {
+        "name": "Agender"
+      }
+    ],
+    "startDate": {
+      "year": 2024
+    },
+    "season": "SPRING",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156822-Jzo2ITWgm4kM.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx156822-Jzo2ITWgm4kM.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx156822-Jzo2ITWgm4kM.jpg",
+      "color": "#e4785d"
+    },
+    "popularity": 50843,
+    "meanScore": null,
+    "description": "The third season of <i>Tensei Shitara Slime Datta Ken</i>.",
+    "status": "NOT_YET_RELEASED",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/156822-y0wPQIl3AHDA.jpg"
+  },
+  {
+    "id": 163139,
+    "title": {
+      "english": null,
+      "romaji": "Boku no Hero Academia 7"
+    },
+    "episodes": null,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Toho"
+        },
+        {
+          "name": "bones"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "tags": [
+      {
+        "name": "Super Power"
+      },
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Primarily Teen Cast"
+      },
+      {
+        "name": "War"
+      }
+    ],
+    "startDate": {
+      "year": 2024
+    },
+    "season": "SPRING",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163139-Gd1ToyzeqsYE.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx163139-Gd1ToyzeqsYE.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163139-Gd1ToyzeqsYE.jpg",
+      "color": "#50a1e4"
+    },
+    "popularity": 43420,
+    "meanScore": null,
+    "description": "The seventh season of <i>Boku no Hero Academia</i>.",
+    "status": "NOT_YET_RELEASED",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/163139-I6UpRghBPVor.jpg"
+  },
+  {
+    "id": 153800,
+    "title": {
+      "english": null,
+      "romaji": "One Punch Man 3"
+    },
+    "episodes": null,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Shueisha"
+        },
+        {
+          "name": "J.C. Staff"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Comedy",
+      "Sci-Fi",
+      "Supernatural"
+    ],
+    "tags": [
+      {
+        "name": "Superhero"
+      },
+      {
+        "name": "Super Power"
+      },
+      {
+        "name": "Parody"
+      },
+      {
+        "name": "Surreal Comedy"
+      },
+      {
+        "name": "Satire"
+      },
+      {
+        "name": "Urban Fantasy"
+      },
+      {
+        "name": "Slapstick"
+      },
+      {
+        "name": "Gods"
+      },
+      {
+        "name": "Cyborg"
+      },
+      {
+        "name": "Kaiju"
+      },
+      {
+        "name": "Cosmic Horror"
+      },
+      {
+        "name": "Martial Arts"
+      },
+      {
+        "name": "Seinen"
+      }
+    ],
+    "startDate": {
+      "year": null
+    },
+    "season": null,
+    "format": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx153800-DoZMzBojzwHz.png",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx153800-DoZMzBojzwHz.png",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx153800-DoZMzBojzwHz.png",
+      "color": "#F4C950"
+    },
+    "popularity": 41816,
+    "meanScore": null,
+    "description": "The third season of <i>One Punch Man</i>.",
+    "status": "NOT_YET_RELEASED",
+    "bannerImage": null
+  },
+  {
+    "id": 166531,
+    "title": {
+      "english": "Oshi no Ko Season 2",
+      "romaji": "[Oshi no Ko] 2nd Season"
+    },
+    "episodes": null,
+    "studios": {
+      "nodes": [
+        {
+          "name": "KADOKAWA"
+        },
+        {
+          "name": "Doga Kobo"
+        }
+      ]
+    },
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Psychological",
+      "Supernatural"
+    ],
+    "tags": [
+      {
+        "name": "Acting"
+      },
+      {
+        "name": "Idol"
+      },
+      {
+        "name": "Revenge"
+      },
+      {
+        "name": "Seinen"
+      },
+      {
+        "name": "Anti-Hero"
+      },
+      {
+        "name": "Twins"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "Tragedy"
+      },
+      {
+        "name": "Musical"
+      },
+      {
+        "name": "Reincarnation"
+      },
+      {
+        "name": "Love Triangle"
+      },
+      {
+        "name": "Female Protagonist"
+      },
+      {
+        "name": "Urban"
+      },
+      {
+        "name": "Swordplay"
+      },
+      {
+        "name": "Age Gap"
+      }
+    ],
+    "startDate": {
+      "year": 2024
+    },
+    "season": "SUMMER",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166531-tiqhIUfG2e2H.png",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166531-tiqhIUfG2e2H.png",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166531-tiqhIUfG2e2H.png",
+      "color": "#d6ae78"
+    },
+    "popularity": 40844,
+    "meanScore": null,
+    "description": "The second season of <i>[Oshi no Ko]</i>.",
+    "status": "NOT_YET_RELEASED",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/166531-vUu7iDwUkC67.jpg"
+  },
+  {
+    "id": 153288,
+    "title": {
+      "english": "Kaiju No.8",
+      "romaji": "Kaijuu 8-gou"
+    },
+    "episodes": null,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Toho"
+        },
+        {
+          "name": "Shueisha"
+        },
+        {
+          "name": "Production I.G"
+        },
+        {
+          "name": "Studio Khara"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "tags": [
+      {
+        "name": "Kaiju"
+      },
+      {
+        "name": "Monster Boy"
+      },
+      {
+        "name": "Heterosexual"
+      },
+      {
+        "name": "Henshin"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Urban Fantasy"
+      },
+      {
+        "name": "Super Power"
+      },
+      {
+        "name": "Body Swapping"
+      },
+      {
+        "name": "LGBTQ+ Themes"
+      }
+    ],
+    "startDate": {
+      "year": 2024
+    },
+    "season": "SPRING",
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx153288-tD2OmKy5CJab.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx153288-tD2OmKy5CJab.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx153288-tD2OmKy5CJab.jpg",
+      "color": "#f1e4c9"
+    },
+    "popularity": 37903,
+    "meanScore": null,
+    "description": "With the highest kaiju-emergence rates in the world, Japan is no stranger to attack by deadly monsters. Enter the Japan Defense Force, a military organization tasked with the neutralization of kaiju. Kafka Hibino, a kaiju-corpse cleanup man, has always dreamed of joining the force. But when he gets another shot at achieving his childhood dream, he undergoes an unexpected transformation. How can he fight kaiju now that he’s become one himself?!<br>\n<br>\n(Source: VIZ Media)",
+    "status": "NOT_YET_RELEASED",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/153288-JNsWuMPMAuJL.jpg"
+  },
+  {
+    "id": 98656,
+    "title": {
+      "english": null,
+      "romaji": "Yuuri!!! on ICE The Movie: ICE ADOLESCENCE"
+    },
+    "episodes": 1,
+    "studios": {
+      "nodes": [
+        {
+          "name": "MAPPA"
+        }
+      ]
+    },
+    "genres": [
+      "Sports"
+    ],
+    "tags": [
+      {
+        "name": "Ice Skating"
+      },
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "Boys' Love"
+      },
+      {
+        "name": "LGBTQ+ Themes"
+      },
+      {
+        "name": "CGI"
+      }
+    ],
+    "startDate": {
+      "year": null
+    },
+    "season": null,
+    "format": "MOVIE",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98656-HRsD7skIzzGq.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx98656-HRsD7skIzzGq.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx98656-HRsD7skIzzGq.jpg",
+      "color": "#1a356b"
+    },
+    "popularity": 31104,
+    "meanScore": null,
+    "description": "Sequel movie to <i>Yuri!!! on Ice</i>.",
+    "status": "NOT_YET_RELEASED",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98656-pP3gO4UhBT9z.jpg"
+  },
+  {
+    "id": 111314,
+    "title": {
+      "english": null,
+      "romaji": "Uzumaki"
+    },
+    "episodes": 4,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Production I.G"
+        },
+        {
+          "name": "Drive"
+        },
+        {
+          "name": "Adult Swim"
+        },
+        {
+          "name": "Akatsuki"
+        }
+      ]
+    },
+    "genres": [
+      "Drama",
+      "Horror",
+      "Mystery",
+      "Supernatural"
+    ],
+    "tags": [
+      {
+        "name": "Cosmic Horror"
+      },
+      {
+        "name": "Achromatic"
+      },
+      {
+        "name": "Gore"
+      },
+      {
+        "name": "Body Horror"
+      },
+      {
+        "name": "Tragedy"
+      },
+      {
+        "name": "Rotoscoping"
+      },
+      {
+        "name": "Seinen"
+      },
+      {
+        "name": "Female Protagonist"
+      },
+      {
+        "name": "Episodic"
+      },
+      {
+        "name": "Augmented Reality"
+      },
+      {
+        "name": "Survival"
+      },
+      {
+        "name": "Lost Civilization"
+      },
+      {
+        "name": "Primarily Child Cast"
+      },
+      {
+        "name": "Detective"
+      }
+    ],
+    "startDate": {
+      "year": null
+    },
+    "season": null,
+    "format": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b111314-vZDqyfXNfsPY.png",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b111314-vZDqyfXNfsPY.png",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b111314-vZDqyfXNfsPY.png",
+      "color": null
+    },
+    "popularity": 30440,
+    "meanScore": null,
+    "description": "Four episode anime adaptation of the Junji Ito manga. \n<br><br>\nKurozu-cho, a small fogbound town on the coast of Japan, is cursed. According to Shuichi Saito, the withdrawn boyfriend of teenager Kirie Goshima, their town is haunted not by a person or being but by a pattern: uzumaki, the spiral, the hypnotic secret shape of the world. It manifests itself in small ways: seashells, ferns, whirlpools in water, whirlwinds in air. And in large ways: the spiral marks on people's bodies, the insane obsessions of Shuichi's father, the voice from the cochlea in your inner ear. As the madness spreads, the inhabitants of Kurouzu-cho are pulled ever deeper, as if into a whirlpool from which there is no return...\n<br><br>\n(Source: Viz Media)",
+    "status": "NOT_YET_RELEASED",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111314-OWfOEbP2ZsSJ.jpg"
+  },
+  {
+    "id": 101387,
+    "title": {
+      "english": null,
+      "romaji": "Ten Count"
+    },
+    "episodes": 1,
+    "studios": {
+      "nodes": [
+        {
+          "name": "East Fish Studio"
+        },
+        {
+          "name": "Pony Canyon"
+        },
+        {
+          "name": "SynergySP"
+        }
+      ]
+    },
+    "genres": [
+      "Drama",
+      "Psychological",
+      "Romance"
+    ],
+    "tags": [
+      {
+        "name": "Boys' Love"
+      },
+      {
+        "name": "Male Protagonist"
+      }
+    ],
+    "startDate": {
+      "year": null
+    },
+    "season": null,
+    "format": "MOVIE",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101387-3AAUEHS6iRSp.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101387-3AAUEHS6iRSp.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101387-3AAUEHS6iRSp.jpg",
+      "color": "#e4ae5d"
+    },
+    "popularity": 9454,
+    "meanScore": 74,
+    "description": "In the story, Shirotani Tadaomi, secretary of a company president, meets Riku Kurose, a counselor. After he gives Shirotani a diagnosis for mysophobia, Shirotani ends up attending his counseling sessions.\n<br><br>\n(Source: Anime News Network)",
+    "status": "CANCELLED",
+    "bannerImage": null
+  },
+  {
+    "id": 1647,
+    "title": {
+      "english": "Apocalypse Zero",
+      "romaji": "Kakugo no Susume"
+    },
+    "episodes": 2,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Victor Entertainment"
+        },
+        {
+          "name": "Media Blasters"
+        },
+        {
+          "name": "Big West"
+        },
+        {
+          "name": "Ashi Productions"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Ecchi",
+      "Horror",
+      "Mecha",
+      "Sci-Fi"
+    ],
+    "tags": [
+      {
+        "name": "Post-Apocalyptic"
+      },
+      {
+        "name": "Martial Arts"
+      },
+      {
+        "name": "Shounen"
+      },
+      {
+        "name": "Gore"
+      },
+      {
+        "name": "Tokusatsu"
+      },
+      {
+        "name": "Dystopian"
+      },
+      {
+        "name": "Demons"
+      },
+      {
+        "name": "Henshin"
+      },
+      {
+        "name": "Body Horror"
+      },
+      {
+        "name": "School"
+      },
+      {
+        "name": "Nudity"
+      }
+    ],
+    "startDate": {
+      "year": 1996
+    },
+    "season": "FALL",
+    "format": "OVA",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1647-gSkYQWsrohSu.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1647-gSkYQWsrohSu.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b1647-gSkYQWsrohSu.jpg",
+      "color": "#f1d650"
+    },
+    "popularity": 3068,
+    "meanScore": 44,
+    "description": "In the post-apocalyptic world that Earth has become in the 21st century, monsters, mutants, and demons all roam the land looking for human prey. Kakugo and Harara have been trained by their father in the ancient Zero fighting technique, to protect the last remnants of humanity, and restore hope and peace on Earth.<br>\n<br>\nPowered by both their superior fighting skills and their secret techniques, as well as special living armor made from the souls of ancient warriors, they are sent into the world to defend the weak from demons and mutants who savagely attack and destroy human life.<br>\n<br>\nYet, with all their training, Harara succumbs to the evil within, killing their father and believing Kakugo is dead as well. But their fates are still intertwined. Kakugo comes to the remnants of a city to help the few human inhabitants. As he saves them from the ravages of cannibalistic monsters and depraved mutants, he once again encounters his psychotic sibling, and the bloodiest battle of the 21st century brings new meaning to Sibling Rivalry!<br>\n<br>\n(Source: Media Blasters)",
+    "status": "CANCELLED",
+    "bannerImage": null
+  },
+  {
+    "id": 125369,
+    "title": {
+      "english": null,
+      "romaji": "Tokyo BABYLON 2021"
+    },
+    "episodes": null,
+    "studios": {
+      "nodes": [
+        {
+          "name": "GoHands"
+        },
+        {
+          "name": "King Records"
+        }
+      ]
+    },
+    "genres": [
+      "Drama",
+      "Psychological",
+      "Supernatural",
+      "Thriller"
+    ],
+    "tags": [
+      {
+        "name": "Shoujo"
+      },
+      {
+        "name": "Twins"
+      },
+      {
+        "name": "Magic"
+      },
+      {
+        "name": "Boys' Love"
+      },
+      {
+        "name": "Age Gap"
+      }
+    ],
+    "startDate": {
+      "year": null
+    },
+    "season": null,
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125369-2pKo000yjoqr.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx125369-2pKo000yjoqr.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx125369-2pKo000yjoqr.jpg",
+      "color": "#e45d5d"
+    },
+    "popularity": 2161,
+    "meanScore": 50,
+    "description": "Subaru Sumeragi is a 16 year old, cheerful and extremely caring Onmyou medium (the head of his family, the Sumeragi clan) who confronts and helps take care of ghosts and spirits with the help of his twin sister, Hokuto, and his gentleman friend, Seishiro. Subaru does his best to help anyone he meets, but the entire atmosphere of the polluted city of Tokyo in the 90s, brings about a feeling of desperation that threatens to drag Subaru's spirit down.<br>\n<br>\n(Source: Anime News Network)<br><br><i>Note: The Tokyo BABYLON 2021 project was cancelled after several cases of plagiarism were discovered which led to a lack of trust in the production company. The project's production will restart from scratch.</i> ",
+    "status": "CANCELLED",
+    "bannerImage": null
+  },
+  {
+    "id": 21263,
+    "title": {
+      "english": null,
+      "romaji": "Mirai Arise"
+    },
+    "episodes": null,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Sunrise"
+        }
+      ]
+    },
+    "genres": [],
+    "tags": [],
+    "startDate": {
+      "year": null
+    },
+    "season": null,
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21263-cyPgV1sunlbO.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21263-cyPgV1sunlbO.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21263-cyPgV1sunlbO.jpg",
+      "color": null
+    },
+    "popularity": 1809,
+    "meanScore": 45,
+    "description": "A new original anime project by Sunrise announced at AnimeJapan 2015.",
+    "status": "CANCELLED",
+    "bannerImage": null
+  },
+  {
+    "id": 21080,
+    "title": {
+      "english": null,
+      "romaji": "Shishou Series"
+    },
+    "episodes": null,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Studio Pierrot"
+        }
+      ]
+    },
+    "genres": [],
+    "tags": [],
+    "startDate": {
+      "year": null
+    },
+    "season": null,
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21080-PERuYhjgmSTn.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21080-PERuYhjgmSTn.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/21080-PERuYhjgmSTn.jpg",
+      "color": "#f1e435"
+    },
+    "popularity": 1353,
+    "meanScore": 51,
+    "description": "The story of the original novels revolves around a protagonist (played by Takasugi in the project) who experiences various spiritual encounters due to his upperclassman at his college's club, the \"shishou\" in the series title that has spiritual sensitivity.\n<br><br>\n(Source: Anime News Network)",
+    "status": "CANCELLED",
+    "bannerImage": null
+  },
+  {
+    "id": 101971,
+    "title": {
+      "english": null,
+      "romaji": "Rang Women Shao Ba!!!"
+    },
+    "episodes": 2,
+    "studios": {
+      "nodes": []
+    },
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Psychological"
+    ],
+    "tags": [],
+    "startDate": {
+      "year": 2018
+    },
+    "season": null,
+    "format": "ONA",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101971-OYs1BxBV3N1X.png",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101971-OYs1BxBV3N1X.png",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101971-OYs1BxBV3N1X.png",
+      "color": "#e4bb43"
+    },
+    "popularity": 1272,
+    "meanScore": 55,
+    "description": "Lovelorn Xiao Yong entered high school in despair. In order to get out of the haze of lovelorn, he joined a school club, FFF. Later he learned that the FFF Club was a heresy inquisition organized by a group of magicians. In the group test, Xiao Yong awakened his own destruction fire magic. From then on, he began his brilliant high school life.\n<br><br>\n(Source: Guodong Subs)\n<br><br>\n<i>Note: Discontinued due to lack of funding.</i>",
+    "status": "CANCELLED",
+    "bannerImage": null
+  },
+  {
+    "id": 12283,
+    "title": {
+      "english": null,
+      "romaji": "Savanna Game"
+    },
+    "episodes": null,
+    "studios": {
+      "nodes": []
+    },
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "tags": [
+      {
+        "name": "Male Protagonist"
+      },
+      {
+        "name": "Battle Royale"
+      },
+      {
+        "name": "War"
+      }
+    ],
+    "startDate": {
+      "year": null
+    },
+    "season": null,
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/12283.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/12283.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/12283.jpg",
+      "color": "#bbe4f1"
+    },
+    "popularity": 1205,
+    "meanScore": 58,
+    "description": "The story follows a young man named Kazuya Shibuya who receives an anonymous email message out of the blue one day: \"Won't you join the Savanna Game?\" The message is an invitation to a state-sanctioned killing game&mdash;a deadly role-playing game designed to motivate the inhibited youth of modern Japan. Shibuya and his two friends Kotegawa and Kudou find themselves in bizarre battles that span the space-time continuum, with everything from dragons to the Shinsengumi force of the shogunate era.<br><br>\n(Source: Anime News Network)\n<br><br>\nOriginally announced in 2011 to be airing in 2012.",
+    "status": "CANCELLED",
+    "bannerImage": null
+  },
+  {
+    "id": 114115,
+    "title": {
+      "english": null,
+      "romaji": "DEVIL GAME"
+    },
+    "episodes": null,
+    "studios": {
+      "nodes": [
+        {
+          "name": "BeDream"
+        },
+        {
+          "name": "Haoliners Animation"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "tags": [],
+    "startDate": {
+      "year": null
+    },
+    "season": null,
+    "format": "ONA",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114115-lctcRg55y02S.png",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx114115-lctcRg55y02S.png",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114115-lctcRg55y02S.png",
+      "color": "#5dc9e4"
+    },
+    "popularity": 1170,
+    "meanScore": 48,
+    "description": "Qi Fei, an intelligent but conceited young man, is selected to participate in the program developed by Al, called \"Jing Hua Fa Ze\" (the law of purification). This game allows you to acquire new powers and aims to choose the future leader of humanity.",
+    "status": "CANCELLED",
+    "bannerImage": null
+  },
+  {
+    "id": 5330,
+    "title": {
+      "english": null,
+      "romaji": "Alice in Cyberland"
+    },
+    "episodes": 2,
+    "studios": {
+      "nodes": [
+        {
+          "name": "TV Tokyo"
+        },
+        {
+          "name": "Vega Entertainment"
+        },
+        {
+          "name": "Glams"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "tags": [
+      {
+        "name": "Virtual World"
+      },
+      {
+        "name": "Female Protagonist"
+      },
+      {
+        "name": "Isekai"
+      },
+      {
+        "name": "Primarily Female Cast"
+      }
+    ],
+    "startDate": {
+      "year": 1996
+    },
+    "season": "FALL",
+    "format": "OVA",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5330-vZhpVWURo85H.png",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx5330-vZhpVWURo85H.png",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5330-vZhpVWURo85H.png",
+      "color": "#e46b50"
+    },
+    "popularity": 1164,
+    "meanScore": 37,
+    "description": "When criminal Cyberanarchists appear in the Cyberland, the vast 21st century computer networks, Alice, Miss Catnick, Leina, and Julie are drawn in by the mysterious Lucia to become a fighting force of young girl soldiers in the Cyberland to combat the criminal element.<br><br>\n<i>Note: A second episode originally broadcast on TV TOKYO alongside the first episode, but never released on home video despite an announced release date due to low sales of the multimedia franchise and the bankruptcy of the production company. This also halted the continuation of the multimedia franchise, although a sequel game scenario script exists <a href=\"http://www.konaka.com/alice6/cyberland2/cyberland2.html\" target=\"_blank\">on Chiaki Konaka's website</a>.</i>",
+    "status": "CANCELLED",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5330-4K0fSoJgaqiJ.jpg"
+  },
+  {
+    "id": 101744,
+    "title": {
+      "english": null,
+      "romaji": "Nidome no Jinsei wo Isekai de"
+    },
+    "episodes": null,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Seven Arcs"
+        }
+      ]
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "tags": [
+      {
+        "name": "Isekai"
+      }
+    ],
+    "startDate": {
+      "year": null
+    },
+    "season": null,
+    "format": "TV",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101744-XE8CVXim9LX3.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx101744-XE8CVXim9LX3.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx101744-XE8CVXim9LX3.jpg",
+      "color": null
+    },
+    "popularity": 1129,
+    "meanScore": 52,
+    "description": "When death tapped Renya Kunugi on the shoulder, he smiled and went willingly. After enjoying a nice, long life of 94 years, he was looking forward to shutting his eyes for the last time. He was, therefore, understandably upset when he woke up again in an empty space, devoid of memories, with a young girl in a tunic rambling on and on about how she's God. So, he did what any reasonable person would have done under those circumstances: he sent the girl flying with a kick to the face. It turned out that the girl was indeed God, and she was in a pinch. She urgently needed someone to do some interdimensional Resource smuggling, and Renya fit the bill. His mission: cross the boundary into another world, then chill for a few decades. God would handle the rest. To sweeten the deal, she offered him an eighteen-year-old body and a whole laundry list of ludicrously powerful skills, yet he remained hesitant. Then, she mentioned the food — an exotic world comes with exotic delicacies — and this sealed the deal. The next thing he knew, he was standing in a foreign land, younger, stronger, and more clueless than ever. Will he survive this world? And more importantly, will the world survive him?<br><br>\n\n(Source: J-Novel Club)<br><br>\n\n<i>Note: Cancelled due to fan backlash on content in source material.</i>",
+    "status": "CANCELLED",
+    "bannerImage": null
+  }
+]

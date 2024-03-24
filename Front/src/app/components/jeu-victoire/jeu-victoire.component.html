@@ -1,0 +1,14 @@
+<div class="cadre border-secondary mb-3">
+  <div
+    class="info div_2 card border-secondary mb-3 d-flex justify-content-center align-items-center"
+  >
+    <button class="quit_button" (click)="onClick()">
+      <span class="material-symbols-outlined">close</span>
+    </button>
+    <h2 class="text-light text-center mx-2 mt-3">
+      Bravo vous avez deviné l'animé
+    </h2>
+    <img class="image" src="{{ getImage() }}" alt="image {{ getNom() }}" />
+    <h2 class="text-light text-center mx-2 mt-2">{{ getNom() }}</h2>
+  </div>
+</div>

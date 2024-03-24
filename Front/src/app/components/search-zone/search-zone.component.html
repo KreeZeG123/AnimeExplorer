@@ -1,26 +1,42 @@
-<div
-  class="d-flex"
-  style="align-items: center; justify-self: center; width: 100%"
->
-  <div class="d-flex w-100 justify-content-center">
-    <form class="w-75">
-      <input
-        class="form-control me-sm-2"
-        type="text"
-        placeholder="Tape le nom d'un Animé"
-        name="search"
-        [(ngModel)]="search"
-        (input)="onSearchChange()"
-      />
-    </form>
+<div class="w-80">
+  <div style="align-items: center; justify-self: center; width: 100%">
+    <div class="d-flex w-100 justify-content-center">
+      <form class="w-75">
+        <input
+          class="form-control me-sm-2"
+          type="text"
+          placeholder="Tape le nom d'un Animé"
+          autocomplete="off"
+          name="text"
+          [(ngModel)]="search"
+          (input)="onSearchChange()"
+        />
+      </form>
+    </div>
   </div>
-</div>
-<div style="background-color: white; border-radius: 7px; width: 94%">
-  <ul>
-    <ng-container *ngFor="let anime of getResultsAnimes()">
-      <li style="font-size: 10px">
-        {{ anime.title.english }} ( {{ anime.startDate }} )
-      </li>
+  <div *ngIf="search != ''" class="resultats_container text-light">
+    <ng-container
+      *ngFor="let anime of getResultsAnimes(); let idx = index; let last = last"
+    >
+      <div
+        (click)="confirmGuess(idx)"
+        class="resultat_container d-flex align-items-center"
+        [class.last]="last"
+      >
+        <img
+          src="{{ anime.coverImage.large }}"
+          alt="image {{ anime.title.english }}"
+        />
+        <div class="d-flex flex-column">
+          <p class="text-secondary" *ngIf="checkAnimeName(anime) >= 0">
+            (EN) {{ anime.title.english }}
+          </p>
+          <p class="text-gray500" *ngIf="checkAnimeName(anime) <= 0">
+            (JP) {{ anime.title.romaji }}
+          </p>
+        </div>
+        <p>({{ anime.startDate }})</p>
+      </div>
     </ng-container>
-  </ul>
+  </div>
 </div>

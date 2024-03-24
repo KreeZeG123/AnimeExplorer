@@ -9,44 +9,74 @@
     <div class="banner_container">
       <img src="{{ banner }}" alt="banniere {{ nom_english }}" />
     </div>
-    <div class="card-body text-secondary">
-      <h2 class="card-title text-light">{{ nom_english }}</h2>
+    <div class="card-body text-light">
+      <div class="d-flex" style="height: 7rem">
+        <img
+          src="{{ image }}"
+          class="position-sticky"
+          style="transform: translateY(-130px)"
+          height="200px"
+          alt="image cover {{ nom_english }}"
+        />
+        <div class="mx-3 d-flex align-items-end">
+          <div class="text-left">
+            <h2 class="card-title text-secondary">{{ nom_english }}</h2>
+            <h3 class="pl-3 card-title text-gray500">{{ nom_jap }}</h3>
+          </div>
+        </div>
+      </div>
       <h4 class="card-title text-light">Description</h4>
       <p class="card-text text-light" style="white-space-collapse: preserve">
         {{ desc }}
       </p>
       <p class="card-text text-light">
-        <span style="font-weight: bold">Année de sortie : </span>{{ annee }}
+        <span style="font-weight: bold">Format: </span>{{ format }}
       </p>
       <p class="card-text text-light">
         <span style="font-weight: bold">Episodes : </span>{{ episodes }}
       </p>
-      <div class="genre-container">
+      <p class="card-text text-light">
+        <span style="font-weight: bold">Statut de diffusion: </span>{{ status }}
+      </p>
+      <p class="card-text text-light">
+        <span style="font-weight: bold">Année de sortie : </span>{{ annee }}
+      </p>
+      <p class="card-text text-light">
+        <span style="font-weight: bold">Season de diffusion: </span>{{ season }}
+      </p>
+      <p class="card-text text-light">
+        <span style="font-weight: bold">Score : </span>{{ score }}
+      </p>
+      <div class="sequence-container">
         <p class="card-text text-light">
           <span style="font-weight: bold">Studios : </span>
         </p>
         <p class="genre card-text text-light" *ngFor="let studio of studios">
-          {{ studio }}
+          <span>
+            {{ studio }}
+            <span *ngIf="studio != studios[studios.length - 1]">, </span>
+          </span>
         </p>
       </div>
-      <p class="mt-sm-2 card-text text-light">
-        <span style="font-weight: bold">Score : </span>{{ score }}
-      </p>
-      <div class="genre-container">
+      <div class="sequence-container">
         <p class="card-text text-light">
           <span style="font-weight: bold">Genres : </span>
         </p>
         <p class="genre card-text text-light" *ngFor="let genre of genres">
-          {{ genre }}
+          <span>
+            {{ genre }}
+            <span *ngIf="genre != genres[genres.length - 1]">, </span>
+          </span>
         </p>
       </div>
-      <p class="mt-sm-2"></p>
-      <div class="genre-container">
+      <div class="sequence-container">
         <p class="card-text text-light">
           <span style="font-weight: bold">Tags : </span>
         </p>
         <p class="genre card-text text-light" *ngFor="let tag of tags">
-          {{ tag }}
+          <span
+            >{{ tag }}<span *ngIf="tag != tags[tags.length - 1]">, </span></span
+          >
         </p>
       </div>
     </div>
